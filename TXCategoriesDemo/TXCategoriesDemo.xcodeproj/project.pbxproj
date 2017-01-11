@@ -1,0 +1,1980 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8ED43F61E25D1C000E77375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED43F51E25D1C000E77375 /* main.m */; };
+		D8ED43F91E25D1C000E77375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED43F81E25D1C000E77375 /* AppDelegate.m */; };
+		D8ED43FC1E25D1C000E77375 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED43FB1E25D1C000E77375 /* ViewController.m */; };
+		D8ED43FF1E25D1C000E77375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ED43FD1E25D1C000E77375 /* Main.storyboard */; };
+		D8ED44011E25D1C000E77375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8ED44001E25D1C000E77375 /* Assets.xcassets */; };
+		D8ED44041E25D1C000E77375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ED44021E25D1C000E77375 /* LaunchScreen.storyboard */; };
+		D8ED51C51E26453C00E77375 /* NSArray+TXBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED4FFA1E26453B00E77375 /* NSArray+TXBlock.m */; };
+		D8ED51C61E26453C00E77375 /* NSArray+TXSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED4FFC1E26453B00E77375 /* NSArray+TXSafeAccess.m */; };
+		D8ED51C71E26453C00E77375 /* NSBundle+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED4FFF1E26453B00E77375 /* NSBundle+TXExtension.m */; };
+		D8ED51C81E26453C00E77375 /* NSData+TXAPNSToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50021E26453B00E77375 /* NSData+TXAPNSToken.m */; };
+		D8ED51C91E26453C00E77375 /* NSData+TXBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50041E26453B00E77375 /* NSData+TXBase64.m */; };
+		D8ED51CA1E26453C00E77375 /* NSData+TXDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50061E26453B00E77375 /* NSData+TXDataCache.m */; };
+		D8ED51CB1E26453C00E77375 /* NSData+TXEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50081E26453B00E77375 /* NSData+TXEncrypt.m */; };
+		D8ED51CC1E26453C00E77375 /* NSData+TXGzip.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED500A1E26453B00E77375 /* NSData+TXGzip.m */; };
+		D8ED51CD1E26453C00E77375 /* NSData+TXHash.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED500C1E26453B00E77375 /* NSData+TXHash.m */; };
+		D8ED51CE1E26453C00E77375 /* NSData+TXPCM.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED500E1E26453B00E77375 /* NSData+TXPCM.m */; };
+		D8ED51CF1E26453C00E77375 /* NSData+TXzlib.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50101E26453B00E77375 /* NSData+TXzlib.m */; };
+		D8ED51D01E26453C00E77375 /* NSDate+TXCupertinoYankee.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50131E26453B00E77375 /* NSDate+TXCupertinoYankee.m */; };
+		D8ED51D11E26453C00E77375 /* NSDate+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50151E26453B00E77375 /* NSDate+TXExtension.m */; };
+		D8ED51D21E26453C00E77375 /* NSDate+TXFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50171E26453B00E77375 /* NSDate+TXFormatter.m */; };
+		D8ED51D31E26453C00E77375 /* NSDate+TXInternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50191E26453B00E77375 /* NSDate+TXInternetDateTime.m */; };
+		D8ED51D41E26453C00E77375 /* NSDate+TXReporting.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED501B1E26453B00E77375 /* NSDate+TXReporting.m */; };
+		D8ED51D51E26453C00E77375 /* NSDate+TXUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED501D1E26453B00E77375 /* NSDate+TXUtilities.m */; };
+		D8ED51D61E26453C00E77375 /* NSDate+TXZeroDate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED501F1E26453B00E77375 /* NSDate+TXZeroDate.m */; };
+		D8ED51D71E26453C00E77375 /* NSDateFormatter+TXMake.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50221E26453B00E77375 /* NSDateFormatter+TXMake.m */; };
+		D8ED51D81E26453C00E77375 /* NSDictionary+TXBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50251E26453B00E77375 /* NSDictionary+TXBlock.m */; };
+		D8ED51D91E26453C00E77375 /* NSDictionary+TXConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50271E26453B00E77375 /* NSDictionary+TXConversion.m */; };
+		D8ED51DA1E26453C00E77375 /* NSDictionary+TXJSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50291E26453B00E77375 /* NSDictionary+TXJSONString.m */; };
+		D8ED51DB1E26453C00E77375 /* NSDictionary+TXMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED502B1E26453B00E77375 /* NSDictionary+TXMerge.m */; };
+		D8ED51DC1E26453C00E77375 /* NSDictionary+TXSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED502D1E26453B00E77375 /* NSDictionary+TXSafeAccess.m */; };
+		D8ED51DD1E26453C00E77375 /* NSDictionary+TXURL.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED502F1E26453B00E77375 /* NSDictionary+TXURL.m */; };
+		D8ED51DE1E26453C00E77375 /* NSDictionary+TXXML.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50311E26453B00E77375 /* NSDictionary+TXXML.m */; };
+		D8ED51DF1E26453C00E77375 /* NSException+TXTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50341E26453B00E77375 /* NSException+TXTrace.m */; };
+		D8ED51E01E26453C00E77375 /* NSFileHandle+TXReadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50371E26453B00E77375 /* NSFileHandle+TXReadLine.m */; };
+		D8ED51E11E26453C00E77375 /* NSFileManager+TXPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED503A1E26453B00E77375 /* NSFileManager+TXPaths.m */; };
+		D8ED51E21E26453C00E77375 /* NSHTTPCookieStorage+TXFreezeDry.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED503D1E26453B00E77375 /* NSHTTPCookieStorage+TXFreezeDry.m */; };
+		D8ED51E31E26453C00E77375 /* NSIndexPath+TXOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50401E26453B00E77375 /* NSIndexPath+TXOffset.m */; };
+		D8ED51E41E26453C00E77375 /* NSInvocation+TXBb.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50431E26453B00E77375 /* NSInvocation+TXBb.m */; };
+		D8ED51E51E26453C00E77375 /* NSInvocation+TXBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50451E26453B00E77375 /* NSInvocation+TXBlock.m */; };
+		D8ED51E61E26453C00E77375 /* NSNotificationCenter+TXMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50481E26453B00E77375 /* NSNotificationCenter+TXMainThread.m */; };
+		D8ED51E71E26453C00E77375 /* NSDecimalNumber+TXCalculatingByString.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED504B1E26453B00E77375 /* NSDecimalNumber+TXCalculatingByString.m */; };
+		D8ED51E81E26453C00E77375 /* NSDecimalNumber+TXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED504D1E26453B00E77375 /* NSDecimalNumber+TXExtensions.m */; };
+		D8ED51E91E26453C00E77375 /* NSNumber+TXCGFloat.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED504F1E26453B00E77375 /* NSNumber+TXCGFloat.m */; };
+		D8ED51EA1E26453C00E77375 /* NSNumber+TXRomanNumerals.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50511E26453B00E77375 /* NSNumber+TXRomanNumerals.m */; };
+		D8ED51EB1E26453C00E77375 /* NSNumber+TXRound.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50531E26453B00E77375 /* NSNumber+TXRound.m */; };
+		D8ED51EC1E26453C00E77375 /* NSObject+TXAddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50561E26453B00E77375 /* NSObject+TXAddProperty.m */; };
+		D8ED51ED1E26453C00E77375 /* NSObject+TXAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50581E26453B00E77375 /* NSObject+TXAppInfo.m */; };
+		D8ED51EE1E26453C00E77375 /* NSObject+TXAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED505A1E26453B00E77375 /* NSObject+TXAssociatedObject.m */; };
+		D8ED51EF1E26453C00E77375 /* NSObject+TXAutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED505C1E26453B00E77375 /* NSObject+TXAutoCoding.m */; };
+		D8ED51F01E26453C00E77375 /* NSObject+TXBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED505E1E26453B00E77375 /* NSObject+TXBlocks.m */; };
+		D8ED51F11E26453C00E77375 /* NSObject+TXBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50601E26453B00E77375 /* NSObject+TXBlockTimer.m */; };
+		D8ED51F21E26453C00E77375 /* NSObject+TXConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50621E26453B00E77375 /* NSObject+TXConversion.m */; };
+		D8ED51F31E26453C00E77375 /* NSObject+TXEasyCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50641E26453B00E77375 /* NSObject+TXEasyCopy.m */; };
+		D8ED51F41E26453C00E77375 /* NSObject+TXGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50661E26453B00E77375 /* NSObject+TXGCD.m */; };
+		D8ED51F51E26453C00E77375 /* NSObject+TXKVOBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50681E26453B00E77375 /* NSObject+TXKVOBlocks.m */; };
+		D8ED51F61E26453C00E77375 /* NSObject+TXReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED506A1E26453B00E77375 /* NSObject+TXReflection.m */; };
+		D8ED51F71E26453C00E77375 /* NSObject+TXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED506C1E26453B00E77375 /* NSObject+TXRuntime.m */; };
+		D8ED51F81E26453C00E77375 /* NSRunLoop+TXPerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED506F1E26453B00E77375 /* NSRunLoop+TXPerformBlock.m */; };
+		D8ED51F91E26453C00E77375 /* NSSet+TXBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50721E26453B00E77375 /* NSSet+TXBlock.m */; };
+		D8ED51FA1E26453C00E77375 /* NSString+TXBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50751E26453B00E77375 /* NSString+TXBase64.m */; };
+		D8ED51FB1E26453C00E77375 /* NSString+TXDictionaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50771E26453B00E77375 /* NSString+TXDictionaryValue.m */; };
+		D8ED51FC1E26453C00E77375 /* NSString+TXEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50791E26453B00E77375 /* NSString+TXEmoji.m */; };
+		D8ED51FD1E26453C00E77375 /* NSString+TXEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED507B1E26453B00E77375 /* NSString+TXEncrypt.m */; };
+		D8ED51FE1E26453C00E77375 /* NSString+TXHash.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED507D1E26453B00E77375 /* NSString+TXHash.m */; };
+		D8ED51FF1E26453C00E77375 /* NSString+TXHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED507F1E26453B00E77375 /* NSString+TXHTML.m */; };
+		D8ED52001E26453C00E77375 /* NSString+TXJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50811E26453B00E77375 /* NSString+TXJudge.m */; };
+		D8ED52011E26453C00E77375 /* NSString+TXMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50831E26453B00E77375 /* NSString+TXMatcher.m */; };
+		D8ED52021E26453C00E77375 /* NSString+TXMIME.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50851E26453B00E77375 /* NSString+TXMIME.m */; };
+		D8ED52031E26453C00E77375 /* NSString+TXNormalRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50871E26453B00E77375 /* NSString+TXNormalRegex.m */; };
+		D8ED52041E26453C00E77375 /* NSString+TXNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50891E26453B00E77375 /* NSString+TXNumber.m */; };
+		D8ED52051E26453C00E77375 /* NSString+TXPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED508B1E26453B00E77375 /* NSString+TXPinyin.m */; };
+		D8ED52061E26453C00E77375 /* NSString+TXRemoveEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED508D1E26453B00E77375 /* NSString+TXRemoveEmoji.m */; };
+		D8ED52071E26453C00E77375 /* NSString+TXScore.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED508F1E26453B00E77375 /* NSString+TXScore.m */; };
+		D8ED52081E26453C00E77375 /* NSString+TXSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50911E26453B00E77375 /* NSString+TXSize.m */; };
+		D8ED52091E26453C00E77375 /* NSString+TXStringPages.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50931E26453B00E77375 /* NSString+TXStringPages.m */; };
+		D8ED520A1E26453C00E77375 /* NSString+TXTrims.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50951E26453B00E77375 /* NSString+TXTrims.m */; };
+		D8ED520B1E26453C00E77375 /* NSString+TXURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50971E26453B00E77375 /* NSString+TXURLEncode.m */; };
+		D8ED520C1E26453C00E77375 /* NSString+TXUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50991E26453B00E77375 /* NSString+TXUUID.m */; };
+		D8ED520D1E26453C00E77375 /* NSString+TXXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED509B1E26453B00E77375 /* NSString+TXXMLDictionary.m */; };
+		D8ED520E1E26453C00E77375 /* NSTimer+TXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED509E1E26453B00E77375 /* NSTimer+TXAddition.m */; };
+		D8ED520F1E26453C00E77375 /* NSTimer+TXBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50A01E26453B00E77375 /* NSTimer+TXBlocks.m */; };
+		D8ED52101E26453C00E77375 /* NSURL+TXParam.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50A31E26453B00E77375 /* NSURL+TXParam.m */; };
+		D8ED52111E26453C00E77375 /* NSURL+TXQueryDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50A51E26453B00E77375 /* NSURL+TXQueryDictionary.m */; };
+		D8ED52121E26453C00E77375 /* NSURLConnection+TXSelfSigned.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50A81E26453B00E77375 /* NSURLConnection+TXSelfSigned.m */; };
+		D8ED52131E26453C00E77375 /* NSMutableURLRequest+TXUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50AB1E26453B00E77375 /* NSMutableURLRequest+TXUpload.m */; };
+		D8ED52141E26453C00E77375 /* NSURLRequest+TXParamsFromDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50AD1E26453B00E77375 /* NSURLRequest+TXParamsFromDictionary.m */; };
+		D8ED52151E26453C00E77375 /* NSURLSession+TXSynchronousTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50B01E26453B00E77375 /* NSURLSession+TXSynchronousTask.m */; };
+		D8ED52161E26453C00E77375 /* NSUserDefaults+TXiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50B31E26453B00E77375 /* NSUserDefaults+TXiCloudSync.m */; };
+		D8ED52171E26453C00E77375 /* NSUserDefaults+TXSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50B51E26453B00E77375 /* NSUserDefaults+TXSafeAccess.m */; };
+		D8ED52181E26453C00E77375 /* UIAlertView+TXBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50BB1E26453B00E77375 /* UIAlertView+TXBlock.m */; };
+		D8ED52191E26453C00E77375 /* UIApplication+TXApplicationSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50BE1E26453B00E77375 /* UIApplication+TXApplicationSize.m */; };
+		D8ED521A1E26453C00E77375 /* UIApplication+TXKeyboardFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50C01E26453B00E77375 /* UIApplication+TXKeyboardFrame.m */; };
+		D8ED521B1E26453C00E77375 /* UIApplication+TXNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50C21E26453B00E77375 /* UIApplication+TXNetworkActivityIndicator.m */; };
+		D8ED521C1E26453C00E77375 /* UIApplication+TXPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50C41E26453B00E77375 /* UIApplication+TXPermissions.m */; };
+		D8ED521D1E26453C00E77375 /* UIBarButtonItem+TXAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50C71E26453B00E77375 /* UIBarButtonItem+TXAction.m */; };
+		D8ED521E1E26453C00E77375 /* UIBarButtonItem+TXBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50C91E26453B00E77375 /* UIBarButtonItem+TXBadge.m */; };
+		D8ED521F1E26453C00E77375 /* UIBezierPath+TXBasicShapes.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50CC1E26453B00E77375 /* UIBezierPath+TXBasicShapes.m */; };
+		D8ED52201E26453C00E77375 /* UIBezierPath+TXLength.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50CE1E26453B00E77375 /* UIBezierPath+TXLength.m */; };
+		D8ED52211E26453C00E77375 /* UIBezierPath+TXSVGString.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50D01E26453B00E77375 /* UIBezierPath+TXSVGString.m */; };
+		D8ED52221E26453C00E77375 /* UIBezierPath+TXSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50D21E26453B00E77375 /* UIBezierPath+TXSymbol.m */; };
+		D8ED52231E26453C00E77375 /* UIBezierPath+TXThroughPointsBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50D41E26453B00E77375 /* UIBezierPath+TXThroughPointsBezier.m */; };
+		D8ED52241E26453C00E77375 /* UIButton+TXBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50D71E26453B00E77375 /* UIButton+TXBackgroundColor.m */; };
+		D8ED52251E26453C00E77375 /* UIButton+TXBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50D91E26453B00E77375 /* UIButton+TXBadge.m */; };
+		D8ED52261E26453C00E77375 /* UIButton+TXBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50DB1E26453B00E77375 /* UIButton+TXBlock.m */; };
+		D8ED52271E26453C00E77375 /* UIButton+TXCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50DD1E26453B00E77375 /* UIButton+TXCountDown.m */; };
+		D8ED52281E26453C00E77375 /* UIButton+TXImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50DF1E26453B00E77375 /* UIButton+TXImagePosition.m */; };
+		D8ED52291E26453C00E77375 /* UIButton+TXIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50E11E26453B00E77375 /* UIButton+TXIndicator.m */; };
+		D8ED522A1E26453C00E77375 /* UIButton+TXMiddleAligning.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50E31E26453B00E77375 /* UIButton+TXMiddleAligning.m */; };
+		D8ED522B1E26453C00E77375 /* UIButton+TXSubmitting.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50E51E26453B00E77375 /* UIButton+TXSubmitting.m */; };
+		D8ED522C1E26453C00E77375 /* UIButton+TXTouchAreaInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50E71E26453B00E77375 /* UIButton+TXTouchAreaInsets.m */; };
+		D8ED522D1E26453C00E77375 /* UIColor+TXGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50EA1E26453B00E77375 /* UIColor+TXGradient.m */; };
+		D8ED522E1E26453C00E77375 /* UIColor+TXHEX.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50EC1E26453B00E77375 /* UIColor+TXHEX.m */; };
+		D8ED522F1E26453C00E77375 /* UIColor+TXModify.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50EE1E26453B00E77375 /* UIColor+TXModify.m */; };
+		D8ED52301E26453C00E77375 /* UIColor+TXRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50F01E26453B00E77375 /* UIColor+TXRandom.m */; };
+		D8ED52311E26453C00E77375 /* UIColor+TXWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50F21E26453B00E77375 /* UIColor+TXWeb.m */; };
+		D8ED52321E26453C00E77375 /* UIControl+TXActionBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50F51E26453B00E77375 /* UIControl+TXActionBlocks.m */; };
+		D8ED52331E26453C00E77375 /* UIControl+TXBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50F71E26453B00E77375 /* UIControl+TXBlock.m */; };
+		D8ED52341E26453C00E77375 /* UIControl+TXSound.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50F91E26453B00E77375 /* UIControl+TXSound.m */; };
+		D8ED52351E26453C00E77375 /* UIDevice+TXHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50FC1E26453B00E77375 /* UIDevice+TXHardware.m */; };
+		D8ED52361E26453C00E77375 /* UIDevice+TXPasscodeStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED50FE1E26453B00E77375 /* UIDevice+TXPasscodeStatus.m */; };
+		D8ED52371E26453C00E77375 /* UIFont+TXCustomLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51011E26453B00E77375 /* UIFont+TXCustomLoader.m */; };
+		D8ED52381E26453C00E77375 /* UIFont+TXDynamicFontControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51031E26453B00E77375 /* UIFont+TXDynamicFontControl.m */; };
+		D8ED52391E26453C00E77375 /* UIFont+TXTTF.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51051E26453B00E77375 /* UIFont+TXTTF.m */; };
+		D8ED523A1E26453C00E77375 /* UIImage+TXAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51081E26453B00E77375 /* UIImage+TXAlpha.m */; };
+		D8ED523B1E26453C00E77375 /* UIImage+TXAnimatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED510A1E26453B00E77375 /* UIImage+TXAnimatedGIF.m */; };
+		D8ED523C1E26453C00E77375 /* UIImage+TXApp.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED510C1E26453B00E77375 /* UIImage+TXApp.m */; };
+		D8ED523D1E26453C00E77375 /* UIImage+TXAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED510E1E26453B00E77375 /* UIImage+TXAsset.m */; };
+		D8ED523E1E26453C00E77375 /* UIImage+TXBetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51101E26453B00E77375 /* UIImage+TXBetterFace.m */; };
+		D8ED523F1E26453C00E77375 /* UIImage+TXBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51121E26453B00E77375 /* UIImage+TXBlur.m */; };
+		D8ED52401E26453C00E77375 /* UIImage+TXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51141E26453B00E77375 /* UIImage+TXCapture.m */; };
+		D8ED52411E26453C00E77375 /* UIImage+TXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51161E26453B00E77375 /* UIImage+TXColor.m */; };
+		D8ED52421E26453C00E77375 /* UIImage+TXFileName.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51181E26453B00E77375 /* UIImage+TXFileName.m */; };
+		D8ED52431E26453C00E77375 /* UIImage+TXFXImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED511A1E26453B00E77375 /* UIImage+TXFXImage.m */; };
+		D8ED52441E26453C00E77375 /* UIImage+TXGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED511C1E26453B00E77375 /* UIImage+TXGIF.m */; };
+		D8ED52451E26453C00E77375 /* UIImage+TXMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED511E1E26453B00E77375 /* UIImage+TXMerge.m */; };
+		D8ED52461E26453C00E77375 /* UIImage+TXOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51201E26453B00E77375 /* UIImage+TXOrientation.m */; };
+		D8ED52471E26453C00E77375 /* UIImage+TXRemoteSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51221E26453B00E77375 /* UIImage+TXRemoteSize.m */; };
+		D8ED52481E26453C00E77375 /* UIImage+TXResize.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51241E26453B00E77375 /* UIImage+TXResize.m */; };
+		D8ED52491E26453C00E77375 /* UIImage+TXRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51261E26453B00E77375 /* UIImage+TXRoundedCorner.m */; };
+		D8ED524A1E26453C00E77375 /* UIImage+TXSuperCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51281E26453B00E77375 /* UIImage+TXSuperCompress.m */; };
+		D8ED524B1E26453C00E77375 /* UIImage+TXTempFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED512A1E26453B00E77375 /* UIImage+TXTempFolder.m */; };
+		D8ED524C1E26453C00E77375 /* UIImage+TXVector.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED512C1E26453B00E77375 /* UIImage+TXVector.m */; };
+		D8ED524D1E26453C00E77375 /* UIImageView+TXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED512F1E26453B00E77375 /* UIImageView+TXAddition.m */; };
+		D8ED524E1E26453C00E77375 /* UIImageView+TXBetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51311E26453B00E77375 /* UIImageView+TXBetterFace.m */; };
+		D8ED524F1E26453C00E77375 /* UIImageView+TXFaceAwareFill.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51331E26453B00E77375 /* UIImageView+TXFaceAwareFill.m */; };
+		D8ED52501E26453C00E77375 /* UIImageView+TXGeometryConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51351E26453B00E77375 /* UIImageView+TXGeometryConversion.m */; };
+		D8ED52511E26453C00E77375 /* UIImageView+TXLetters.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51371E26453B00E77375 /* UIImageView+TXLetters.m */; };
+		D8ED52521E26453C00E77375 /* UIImageView+TXReflect.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51391E26453B00E77375 /* UIImageView+TXReflect.m */; };
+		D8ED52531E26453C00E77375 /* UILabel+TXAdjustableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED513C1E26453B00E77375 /* UILabel+TXAdjustableLabel.m */; };
+		D8ED52541E26453C00E77375 /* UILabel+TXAutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED513E1E26453B00E77375 /* UILabel+TXAutomaticWriting.m */; };
+		D8ED52551E26453C00E77375 /* UILabel+TXAutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51401E26453B00E77375 /* UILabel+TXAutoSize.m */; };
+		D8ED52561E26453C00E77375 /* UILabel+TXEstimate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51421E26453B00E77375 /* UILabel+TXEstimate.m */; };
+		D8ED52571E26453C00E77375 /* UINavigationBar+TXAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51451E26453B00E77375 /* UINavigationBar+TXAwesome.m */; };
+		D8ED52581E26453C00E77375 /* UINavigationController+TXKeyboardFix.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51481E26453B00E77375 /* UINavigationController+TXKeyboardFix.m */; };
+		D8ED52591E26453C00E77375 /* UINavigationController+TXStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED514A1E26453B00E77375 /* UINavigationController+TXStackManager.m */; };
+		D8ED525A1E26453C00E77375 /* UINavigationController+TXTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED514C1E26453B00E77375 /* UINavigationController+TXTransitions.m */; };
+		D8ED525B1E26453C00E77375 /* UINavigationItem+TXLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED514F1E26453B00E77375 /* UINavigationItem+TXLoading.m */; };
+		D8ED525C1E26453C00E77375 /* UINavigationItem+TXLock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51511E26453B00E77375 /* UINavigationItem+TXLock.m */; };
+		D8ED525D1E26453C00E77375 /* UINavigationItem+TXMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51531E26453B00E77375 /* UINavigationItem+TXMargin.m */; };
+		D8ED525E1E26453C00E77375 /* UIResponder+TXChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51561E26453B00E77375 /* UIResponder+TXChain.m */; };
+		D8ED525F1E26453C00E77375 /* UIResponder+TXFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51581E26453B00E77375 /* UIResponder+TXFirstResponder.m */; };
+		D8ED52601E26453C00E77375 /* UIScreen+TXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED515B1E26453B00E77375 /* UIScreen+TXFrame.m */; };
+		D8ED52611E26453C00E77375 /* UIScrollView+TXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED515E1E26453B00E77375 /* UIScrollView+TXAddition.m */; };
+		D8ED52621E26453C00E77375 /* UIScrollView+TXPages.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51601E26453B00E77375 /* UIScrollView+TXPages.m */; };
+		D8ED52631E26453C00E77375 /* UISearchBar+TXBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51631E26453B00E77375 /* UISearchBar+TXBlocks.m */; };
+		D8ED52641E26453C00E77375 /* UISplitViewController+TXQuickAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51661E26453B00E77375 /* UISplitViewController+TXQuickAccess.m */; };
+		D8ED52651E26453C00E77375 /* UITableView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51691E26453B00E77375 /* UITableView+PlaceHolder.m */; };
+		D8ED52661E26453C00E77375 /* UITableViewCell+TXDelaysContentTouches.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED516C1E26453B00E77375 /* UITableViewCell+TXDelaysContentTouches.m */; };
+		D8ED52671E26453C00E77375 /* UITableViewCell+TXNIB.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED516E1E26453B00E77375 /* UITableViewCell+TXNIB.m */; };
+		D8ED52681E26453C00E77375 /* UITextField+TXBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51711E26453B00E77375 /* UITextField+TXBlocks.m */; };
+		D8ED52691E26453C00E77375 /* UITextField+TXHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51731E26453B00E77375 /* UITextField+TXHistory.m */; };
+		D8ED526A1E26453C00E77375 /* UITextField+TXInputLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51751E26453B00E77375 /* UITextField+TXInputLimit.m */; };
+		D8ED526B1E26453C00E77375 /* UITextField+TXSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51771E26453B00E77375 /* UITextField+TXSelect.m */; };
+		D8ED526C1E26453C00E77375 /* UITextField+TXShake.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51791E26453B00E77375 /* UITextField+TXShake.m */; };
+		D8ED526D1E26453C00E77375 /* UITextView+TXInputLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED517C1E26453B00E77375 /* UITextView+TXInputLimit.m */; };
+		D8ED526E1E26453C00E77375 /* UITextView+TXPinchZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED517E1E26453B00E77375 /* UITextView+TXPinchZoom.m */; };
+		D8ED526F1E26453C00E77375 /* UITextView+TXPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51801E26453B00E77375 /* UITextView+TXPlaceHolder.m */; };
+		D8ED52701E26453C00E77375 /* UITextView+TXSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51821E26453B00E77375 /* UITextView+TXSelect.m */; };
+		D8ED52711E26453C00E77375 /* UIView+TXAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51851E26453B00E77375 /* UIView+TXAnimation.m */; };
+		D8ED52721E26453C00E77375 /* UIView+TXBlockGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51871E26453B00E77375 /* UIView+TXBlockGesture.m */; };
+		D8ED52731E26453C00E77375 /* UIView+TXConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51891E26453B00E77375 /* UIView+TXConstraints.m */; };
+		D8ED52741E26453C00E77375 /* UIView+TXCustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED518B1E26453B00E77375 /* UIView+TXCustomBorder.m */; };
+		D8ED52751E26453C00E77375 /* UIView+TXDraggable.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED518D1E26453B00E77375 /* UIView+TXDraggable.m */; };
+		D8ED52761E26453C00E77375 /* UIView+TXFind.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED518F1E26453B00E77375 /* UIView+TXFind.m */; };
+		D8ED52771E26453C00E77375 /* UIView+TXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51911E26453B00E77375 /* UIView+TXFrame.m */; };
+		D8ED52781E26453C00E77375 /* UIView+TXLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51931E26453B00E77375 /* UIView+TXLayer.m */; };
+		D8ED52791E26453C00E77375 /* UIView+TXNib.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51951E26453B00E77375 /* UIView+TXNib.m */; };
+		D8ED527A1E26453C00E77375 /* UIView+TXRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51971E26453B00E77375 /* UIView+TXRecursion.m */; };
+		D8ED527B1E26453C00E77375 /* UIView+TXRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51991E26453B00E77375 /* UIView+TXRemove.m */; };
+		D8ED527C1E26453C00E77375 /* UIView+TXScreenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED519B1E26453B00E77375 /* UIView+TXScreenshot.m */; };
+		D8ED527D1E26453C00E77375 /* UIView+TXShake.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED519D1E26453B00E77375 /* UIView+TXShake.m */; };
+		D8ED527E1E26453C00E77375 /* UIView+TXToast.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED519F1E26453B00E77375 /* UIView+TXToast.m */; };
+		D8ED527F1E26453C00E77375 /* UIView+TXVisuals.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51A11E26453B00E77375 /* UIView+TXVisuals.m */; };
+		D8ED52801E26453C00E77375 /* UIViewController+TXBackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51A41E26453B00E77375 /* UIViewController+TXBackButtonItemTitle.m */; };
+		D8ED52811E26453C00E77375 /* UIViewController+TXBackButtonTouched.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51A61E26453B00E77375 /* UIViewController+TXBackButtonTouched.m */; };
+		D8ED52821E26453C00E77375 /* UIViewController+TXBlockSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51A81E26453B00E77375 /* UIViewController+TXBlockSegue.m */; };
+		D8ED52831E26453C00E77375 /* UIViewController+TXRecursiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51AA1E26453B00E77375 /* UIViewController+TXRecursiveDescription.m */; };
+		D8ED52841E26453C00E77375 /* UIViewController+TXStoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51AC1E26453B00E77375 /* UIViewController+TXStoreKit.m */; };
+		D8ED52851E26453C00E77375 /* UIViewController+TXVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51AE1E26453B00E77375 /* UIViewController+TXVisible.m */; };
+		D8ED52861E26453C00E77375 /* UIWebView+TXBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51B11E26453B00E77375 /* UIWebView+TXBlocks.m */; };
+		D8ED52871E26453C00E77375 /* UIWebView+TXCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51B31E26453B00E77375 /* UIWebView+TXCanvas.m */; };
+		D8ED52881E26453C00E77375 /* UIWebView+TXJavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51B51E26453B00E77375 /* UIWebView+TXJavaScript.m */; };
+		D8ED52891E26453C00E77375 /* UIWebView+TXLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51B71E26453B00E77375 /* UIWebView+TXLoad.m */; };
+		D8ED528A1E26453C00E77375 /* UIWebView+TXLoadInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51B91E26453B00E77375 /* UIWebView+TXLoadInfo.m */; };
+		D8ED528B1E26453C00E77375 /* UIWebView+TXMetaParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51BB1E26453B00E77375 /* UIWebView+TXMetaParser.m */; };
+		D8ED528C1E26453C00E77375 /* UIWebView+TXStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51BD1E26453B00E77375 /* UIWebView+TXStyle.m */; };
+		D8ED528D1E26453C00E77375 /* UIWebVIew+TXSwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51BF1E26453B00E77375 /* UIWebVIew+TXSwipeGesture.m */; };
+		D8ED528E1E26453C00E77375 /* UIWebView+TXWebStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51C11E26453B00E77375 /* UIWebView+TXWebStorage.m */; };
+		D8ED528F1E26453C00E77375 /* UIWindow+TXHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED51C41E26453B00E77375 /* UIWindow+TXHierarchy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8ED43F11E25D1C000E77375 /* TXCategoriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXCategoriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8ED43F51E25D1C000E77375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8ED43F71E25D1C000E77375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8ED43F81E25D1C000E77375 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8ED43FA1E25D1C000E77375 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8ED43FB1E25D1C000E77375 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8ED43FE1E25D1C000E77375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8ED44001E25D1C000E77375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8ED44031E25D1C000E77375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8ED44051E25D1C000E77375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8ED4E0D1E263FD400E77375 /* TXCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCategories.h; sourceTree = "<group>"; };
+		D8ED4FF91E26453B00E77375 /* NSArray+TXBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TXBlock.h"; sourceTree = "<group>"; };
+		D8ED4FFA1E26453B00E77375 /* NSArray+TXBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TXBlock.m"; sourceTree = "<group>"; };
+		D8ED4FFB1E26453B00E77375 /* NSArray+TXSafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TXSafeAccess.h"; sourceTree = "<group>"; };
+		D8ED4FFC1E26453B00E77375 /* NSArray+TXSafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TXSafeAccess.m"; sourceTree = "<group>"; };
+		D8ED4FFE1E26453B00E77375 /* NSBundle+TXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TXExtension.h"; sourceTree = "<group>"; };
+		D8ED4FFF1E26453B00E77375 /* NSBundle+TXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TXExtension.m"; sourceTree = "<group>"; };
+		D8ED50011E26453B00E77375 /* NSData+TXAPNSToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXAPNSToken.h"; sourceTree = "<group>"; };
+		D8ED50021E26453B00E77375 /* NSData+TXAPNSToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXAPNSToken.m"; sourceTree = "<group>"; };
+		D8ED50031E26453B00E77375 /* NSData+TXBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXBase64.h"; sourceTree = "<group>"; };
+		D8ED50041E26453B00E77375 /* NSData+TXBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXBase64.m"; sourceTree = "<group>"; };
+		D8ED50051E26453B00E77375 /* NSData+TXDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXDataCache.h"; sourceTree = "<group>"; };
+		D8ED50061E26453B00E77375 /* NSData+TXDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXDataCache.m"; sourceTree = "<group>"; };
+		D8ED50071E26453B00E77375 /* NSData+TXEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXEncrypt.h"; sourceTree = "<group>"; };
+		D8ED50081E26453B00E77375 /* NSData+TXEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXEncrypt.m"; sourceTree = "<group>"; };
+		D8ED50091E26453B00E77375 /* NSData+TXGzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXGzip.h"; sourceTree = "<group>"; };
+		D8ED500A1E26453B00E77375 /* NSData+TXGzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXGzip.m"; sourceTree = "<group>"; };
+		D8ED500B1E26453B00E77375 /* NSData+TXHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXHash.h"; sourceTree = "<group>"; };
+		D8ED500C1E26453B00E77375 /* NSData+TXHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXHash.m"; sourceTree = "<group>"; };
+		D8ED500D1E26453B00E77375 /* NSData+TXPCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXPCM.h"; sourceTree = "<group>"; };
+		D8ED500E1E26453B00E77375 /* NSData+TXPCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXPCM.m"; sourceTree = "<group>"; };
+		D8ED500F1E26453B00E77375 /* NSData+TXzlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXzlib.h"; sourceTree = "<group>"; };
+		D8ED50101E26453B00E77375 /* NSData+TXzlib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXzlib.m"; sourceTree = "<group>"; };
+		D8ED50121E26453B00E77375 /* NSDate+TXCupertinoYankee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TXCupertinoYankee.h"; sourceTree = "<group>"; };
+		D8ED50131E26453B00E77375 /* NSDate+TXCupertinoYankee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TXCupertinoYankee.m"; sourceTree = "<group>"; };
+		D8ED50141E26453B00E77375 /* NSDate+TXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TXExtension.h"; sourceTree = "<group>"; };
+		D8ED50151E26453B00E77375 /* NSDate+TXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TXExtension.m"; sourceTree = "<group>"; };
+		D8ED50161E26453B00E77375 /* NSDate+TXFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TXFormatter.h"; sourceTree = "<group>"; };
+		D8ED50171E26453B00E77375 /* NSDate+TXFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TXFormatter.m"; sourceTree = "<group>"; };
+		D8ED50181E26453B00E77375 /* NSDate+TXInternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TXInternetDateTime.h"; sourceTree = "<group>"; };
+		D8ED50191E26453B00E77375 /* NSDate+TXInternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TXInternetDateTime.m"; sourceTree = "<group>"; };
+		D8ED501A1E26453B00E77375 /* NSDate+TXReporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TXReporting.h"; sourceTree = "<group>"; };
+		D8ED501B1E26453B00E77375 /* NSDate+TXReporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TXReporting.m"; sourceTree = "<group>"; };
+		D8ED501C1E26453B00E77375 /* NSDate+TXUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TXUtilities.h"; sourceTree = "<group>"; };
+		D8ED501D1E26453B00E77375 /* NSDate+TXUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TXUtilities.m"; sourceTree = "<group>"; };
+		D8ED501E1E26453B00E77375 /* NSDate+TXZeroDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TXZeroDate.h"; sourceTree = "<group>"; };
+		D8ED501F1E26453B00E77375 /* NSDate+TXZeroDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TXZeroDate.m"; sourceTree = "<group>"; };
+		D8ED50211E26453B00E77375 /* NSDateFormatter+TXMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+TXMake.h"; sourceTree = "<group>"; };
+		D8ED50221E26453B00E77375 /* NSDateFormatter+TXMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+TXMake.m"; sourceTree = "<group>"; };
+		D8ED50241E26453B00E77375 /* NSDictionary+TXBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TXBlock.h"; sourceTree = "<group>"; };
+		D8ED50251E26453B00E77375 /* NSDictionary+TXBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TXBlock.m"; sourceTree = "<group>"; };
+		D8ED50261E26453B00E77375 /* NSDictionary+TXConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TXConversion.h"; sourceTree = "<group>"; };
+		D8ED50271E26453B00E77375 /* NSDictionary+TXConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TXConversion.m"; sourceTree = "<group>"; };
+		D8ED50281E26453B00E77375 /* NSDictionary+TXJSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TXJSONString.h"; sourceTree = "<group>"; };
+		D8ED50291E26453B00E77375 /* NSDictionary+TXJSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TXJSONString.m"; sourceTree = "<group>"; };
+		D8ED502A1E26453B00E77375 /* NSDictionary+TXMerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TXMerge.h"; sourceTree = "<group>"; };
+		D8ED502B1E26453B00E77375 /* NSDictionary+TXMerge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TXMerge.m"; sourceTree = "<group>"; };
+		D8ED502C1E26453B00E77375 /* NSDictionary+TXSafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TXSafeAccess.h"; sourceTree = "<group>"; };
+		D8ED502D1E26453B00E77375 /* NSDictionary+TXSafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TXSafeAccess.m"; sourceTree = "<group>"; };
+		D8ED502E1E26453B00E77375 /* NSDictionary+TXURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TXURL.h"; sourceTree = "<group>"; };
+		D8ED502F1E26453B00E77375 /* NSDictionary+TXURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TXURL.m"; sourceTree = "<group>"; };
+		D8ED50301E26453B00E77375 /* NSDictionary+TXXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TXXML.h"; sourceTree = "<group>"; };
+		D8ED50311E26453B00E77375 /* NSDictionary+TXXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TXXML.m"; sourceTree = "<group>"; };
+		D8ED50331E26453B00E77375 /* NSException+TXTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+TXTrace.h"; sourceTree = "<group>"; };
+		D8ED50341E26453B00E77375 /* NSException+TXTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+TXTrace.m"; sourceTree = "<group>"; };
+		D8ED50361E26453B00E77375 /* NSFileHandle+TXReadLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileHandle+TXReadLine.h"; sourceTree = "<group>"; };
+		D8ED50371E26453B00E77375 /* NSFileHandle+TXReadLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileHandle+TXReadLine.m"; sourceTree = "<group>"; };
+		D8ED50391E26453B00E77375 /* NSFileManager+TXPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TXPaths.h"; sourceTree = "<group>"; };
+		D8ED503A1E26453B00E77375 /* NSFileManager+TXPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TXPaths.m"; sourceTree = "<group>"; };
+		D8ED503C1E26453B00E77375 /* NSHTTPCookieStorage+TXFreezeDry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSHTTPCookieStorage+TXFreezeDry.h"; sourceTree = "<group>"; };
+		D8ED503D1E26453B00E77375 /* NSHTTPCookieStorage+TXFreezeDry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPCookieStorage+TXFreezeDry.m"; sourceTree = "<group>"; };
+		D8ED503F1E26453B00E77375 /* NSIndexPath+TXOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+TXOffset.h"; sourceTree = "<group>"; };
+		D8ED50401E26453B00E77375 /* NSIndexPath+TXOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+TXOffset.m"; sourceTree = "<group>"; };
+		D8ED50421E26453B00E77375 /* NSInvocation+TXBb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+TXBb.h"; sourceTree = "<group>"; };
+		D8ED50431E26453B00E77375 /* NSInvocation+TXBb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+TXBb.m"; sourceTree = "<group>"; };
+		D8ED50441E26453B00E77375 /* NSInvocation+TXBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+TXBlock.h"; sourceTree = "<group>"; };
+		D8ED50451E26453B00E77375 /* NSInvocation+TXBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+TXBlock.m"; sourceTree = "<group>"; };
+		D8ED50471E26453B00E77375 /* NSNotificationCenter+TXMainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+TXMainThread.h"; sourceTree = "<group>"; };
+		D8ED50481E26453B00E77375 /* NSNotificationCenter+TXMainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+TXMainThread.m"; sourceTree = "<group>"; };
+		D8ED504A1E26453B00E77375 /* NSDecimalNumber+TXCalculatingByString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+TXCalculatingByString.h"; sourceTree = "<group>"; };
+		D8ED504B1E26453B00E77375 /* NSDecimalNumber+TXCalculatingByString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+TXCalculatingByString.m"; sourceTree = "<group>"; };
+		D8ED504C1E26453B00E77375 /* NSDecimalNumber+TXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+TXExtensions.h"; sourceTree = "<group>"; };
+		D8ED504D1E26453B00E77375 /* NSDecimalNumber+TXExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+TXExtensions.m"; sourceTree = "<group>"; };
+		D8ED504E1E26453B00E77375 /* NSNumber+TXCGFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+TXCGFloat.h"; sourceTree = "<group>"; };
+		D8ED504F1E26453B00E77375 /* NSNumber+TXCGFloat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+TXCGFloat.m"; sourceTree = "<group>"; };
+		D8ED50501E26453B00E77375 /* NSNumber+TXRomanNumerals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+TXRomanNumerals.h"; sourceTree = "<group>"; };
+		D8ED50511E26453B00E77375 /* NSNumber+TXRomanNumerals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+TXRomanNumerals.m"; sourceTree = "<group>"; };
+		D8ED50521E26453B00E77375 /* NSNumber+TXRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+TXRound.h"; sourceTree = "<group>"; };
+		D8ED50531E26453B00E77375 /* NSNumber+TXRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+TXRound.m"; sourceTree = "<group>"; };
+		D8ED50551E26453B00E77375 /* NSObject+TXAddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXAddProperty.h"; sourceTree = "<group>"; };
+		D8ED50561E26453B00E77375 /* NSObject+TXAddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXAddProperty.m"; sourceTree = "<group>"; };
+		D8ED50571E26453B00E77375 /* NSObject+TXAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXAppInfo.h"; sourceTree = "<group>"; };
+		D8ED50581E26453B00E77375 /* NSObject+TXAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXAppInfo.m"; sourceTree = "<group>"; };
+		D8ED50591E26453B00E77375 /* NSObject+TXAssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXAssociatedObject.h"; sourceTree = "<group>"; };
+		D8ED505A1E26453B00E77375 /* NSObject+TXAssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXAssociatedObject.m"; sourceTree = "<group>"; };
+		D8ED505B1E26453B00E77375 /* NSObject+TXAutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXAutoCoding.h"; sourceTree = "<group>"; };
+		D8ED505C1E26453B00E77375 /* NSObject+TXAutoCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXAutoCoding.m"; sourceTree = "<group>"; };
+		D8ED505D1E26453B00E77375 /* NSObject+TXBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXBlocks.h"; sourceTree = "<group>"; };
+		D8ED505E1E26453B00E77375 /* NSObject+TXBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXBlocks.m"; sourceTree = "<group>"; };
+		D8ED505F1E26453B00E77375 /* NSObject+TXBlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXBlockTimer.h"; sourceTree = "<group>"; };
+		D8ED50601E26453B00E77375 /* NSObject+TXBlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXBlockTimer.m"; sourceTree = "<group>"; };
+		D8ED50611E26453B00E77375 /* NSObject+TXConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXConversion.h"; sourceTree = "<group>"; };
+		D8ED50621E26453B00E77375 /* NSObject+TXConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXConversion.m"; sourceTree = "<group>"; };
+		D8ED50631E26453B00E77375 /* NSObject+TXEasyCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXEasyCopy.h"; sourceTree = "<group>"; };
+		D8ED50641E26453B00E77375 /* NSObject+TXEasyCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXEasyCopy.m"; sourceTree = "<group>"; };
+		D8ED50651E26453B00E77375 /* NSObject+TXGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXGCD.h"; sourceTree = "<group>"; };
+		D8ED50661E26453B00E77375 /* NSObject+TXGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXGCD.m"; sourceTree = "<group>"; };
+		D8ED50671E26453B00E77375 /* NSObject+TXKVOBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXKVOBlocks.h"; sourceTree = "<group>"; };
+		D8ED50681E26453B00E77375 /* NSObject+TXKVOBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXKVOBlocks.m"; sourceTree = "<group>"; };
+		D8ED50691E26453B00E77375 /* NSObject+TXReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXReflection.h"; sourceTree = "<group>"; };
+		D8ED506A1E26453B00E77375 /* NSObject+TXReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXReflection.m"; sourceTree = "<group>"; };
+		D8ED506B1E26453B00E77375 /* NSObject+TXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXRuntime.h"; sourceTree = "<group>"; };
+		D8ED506C1E26453B00E77375 /* NSObject+TXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXRuntime.m"; sourceTree = "<group>"; };
+		D8ED506E1E26453B00E77375 /* NSRunLoop+TXPerformBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+TXPerformBlock.h"; sourceTree = "<group>"; };
+		D8ED506F1E26453B00E77375 /* NSRunLoop+TXPerformBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRunLoop+TXPerformBlock.m"; sourceTree = "<group>"; };
+		D8ED50711E26453B00E77375 /* NSSet+TXBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+TXBlock.h"; sourceTree = "<group>"; };
+		D8ED50721E26453B00E77375 /* NSSet+TXBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+TXBlock.m"; sourceTree = "<group>"; };
+		D8ED50741E26453B00E77375 /* NSString+TXBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXBase64.h"; sourceTree = "<group>"; };
+		D8ED50751E26453B00E77375 /* NSString+TXBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXBase64.m"; sourceTree = "<group>"; };
+		D8ED50761E26453B00E77375 /* NSString+TXDictionaryValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXDictionaryValue.h"; sourceTree = "<group>"; };
+		D8ED50771E26453B00E77375 /* NSString+TXDictionaryValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXDictionaryValue.m"; sourceTree = "<group>"; };
+		D8ED50781E26453B00E77375 /* NSString+TXEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXEmoji.h"; sourceTree = "<group>"; };
+		D8ED50791E26453B00E77375 /* NSString+TXEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXEmoji.m"; sourceTree = "<group>"; };
+		D8ED507A1E26453B00E77375 /* NSString+TXEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXEncrypt.h"; sourceTree = "<group>"; };
+		D8ED507B1E26453B00E77375 /* NSString+TXEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXEncrypt.m"; sourceTree = "<group>"; };
+		D8ED507C1E26453B00E77375 /* NSString+TXHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXHash.h"; sourceTree = "<group>"; };
+		D8ED507D1E26453B00E77375 /* NSString+TXHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXHash.m"; sourceTree = "<group>"; };
+		D8ED507E1E26453B00E77375 /* NSString+TXHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXHTML.h"; sourceTree = "<group>"; };
+		D8ED507F1E26453B00E77375 /* NSString+TXHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXHTML.m"; sourceTree = "<group>"; };
+		D8ED50801E26453B00E77375 /* NSString+TXJudge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXJudge.h"; sourceTree = "<group>"; };
+		D8ED50811E26453B00E77375 /* NSString+TXJudge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXJudge.m"; sourceTree = "<group>"; };
+		D8ED50821E26453B00E77375 /* NSString+TXMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXMatcher.h"; sourceTree = "<group>"; };
+		D8ED50831E26453B00E77375 /* NSString+TXMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXMatcher.m"; sourceTree = "<group>"; };
+		D8ED50841E26453B00E77375 /* NSString+TXMIME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXMIME.h"; sourceTree = "<group>"; };
+		D8ED50851E26453B00E77375 /* NSString+TXMIME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXMIME.m"; sourceTree = "<group>"; };
+		D8ED50861E26453B00E77375 /* NSString+TXNormalRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXNormalRegex.h"; sourceTree = "<group>"; };
+		D8ED50871E26453B00E77375 /* NSString+TXNormalRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXNormalRegex.m"; sourceTree = "<group>"; };
+		D8ED50881E26453B00E77375 /* NSString+TXNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXNumber.h"; sourceTree = "<group>"; };
+		D8ED50891E26453B00E77375 /* NSString+TXNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXNumber.m"; sourceTree = "<group>"; };
+		D8ED508A1E26453B00E77375 /* NSString+TXPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXPinyin.h"; sourceTree = "<group>"; };
+		D8ED508B1E26453B00E77375 /* NSString+TXPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXPinyin.m"; sourceTree = "<group>"; };
+		D8ED508C1E26453B00E77375 /* NSString+TXRemoveEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXRemoveEmoji.h"; sourceTree = "<group>"; };
+		D8ED508D1E26453B00E77375 /* NSString+TXRemoveEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXRemoveEmoji.m"; sourceTree = "<group>"; };
+		D8ED508E1E26453B00E77375 /* NSString+TXScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXScore.h"; sourceTree = "<group>"; };
+		D8ED508F1E26453B00E77375 /* NSString+TXScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXScore.m"; sourceTree = "<group>"; };
+		D8ED50901E26453B00E77375 /* NSString+TXSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXSize.h"; sourceTree = "<group>"; };
+		D8ED50911E26453B00E77375 /* NSString+TXSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXSize.m"; sourceTree = "<group>"; };
+		D8ED50921E26453B00E77375 /* NSString+TXStringPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXStringPages.h"; sourceTree = "<group>"; };
+		D8ED50931E26453B00E77375 /* NSString+TXStringPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXStringPages.m"; sourceTree = "<group>"; };
+		D8ED50941E26453B00E77375 /* NSString+TXTrims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXTrims.h"; sourceTree = "<group>"; };
+		D8ED50951E26453B00E77375 /* NSString+TXTrims.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXTrims.m"; sourceTree = "<group>"; };
+		D8ED50961E26453B00E77375 /* NSString+TXURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXURLEncode.h"; sourceTree = "<group>"; };
+		D8ED50971E26453B00E77375 /* NSString+TXURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXURLEncode.m"; sourceTree = "<group>"; };
+		D8ED50981E26453B00E77375 /* NSString+TXUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXUUID.h"; sourceTree = "<group>"; };
+		D8ED50991E26453B00E77375 /* NSString+TXUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXUUID.m"; sourceTree = "<group>"; };
+		D8ED509A1E26453B00E77375 /* NSString+TXXMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXXMLDictionary.h"; sourceTree = "<group>"; };
+		D8ED509B1E26453B00E77375 /* NSString+TXXMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXXMLDictionary.m"; sourceTree = "<group>"; };
+		D8ED509D1E26453B00E77375 /* NSTimer+TXAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TXAddition.h"; sourceTree = "<group>"; };
+		D8ED509E1E26453B00E77375 /* NSTimer+TXAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+TXAddition.m"; sourceTree = "<group>"; };
+		D8ED509F1E26453B00E77375 /* NSTimer+TXBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TXBlocks.h"; sourceTree = "<group>"; };
+		D8ED50A01E26453B00E77375 /* NSTimer+TXBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+TXBlocks.m"; sourceTree = "<group>"; };
+		D8ED50A21E26453B00E77375 /* NSURL+TXParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+TXParam.h"; sourceTree = "<group>"; };
+		D8ED50A31E26453B00E77375 /* NSURL+TXParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+TXParam.m"; sourceTree = "<group>"; };
+		D8ED50A41E26453B00E77375 /* NSURL+TXQueryDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+TXQueryDictionary.h"; sourceTree = "<group>"; };
+		D8ED50A51E26453B00E77375 /* NSURL+TXQueryDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+TXQueryDictionary.m"; sourceTree = "<group>"; };
+		D8ED50A71E26453B00E77375 /* NSURLConnection+TXSelfSigned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+TXSelfSigned.h"; sourceTree = "<group>"; };
+		D8ED50A81E26453B00E77375 /* NSURLConnection+TXSelfSigned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+TXSelfSigned.m"; sourceTree = "<group>"; };
+		D8ED50AA1E26453B00E77375 /* NSMutableURLRequest+TXUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+TXUpload.h"; sourceTree = "<group>"; };
+		D8ED50AB1E26453B00E77375 /* NSMutableURLRequest+TXUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+TXUpload.m"; sourceTree = "<group>"; };
+		D8ED50AC1E26453B00E77375 /* NSURLRequest+TXParamsFromDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+TXParamsFromDictionary.h"; sourceTree = "<group>"; };
+		D8ED50AD1E26453B00E77375 /* NSURLRequest+TXParamsFromDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+TXParamsFromDictionary.m"; sourceTree = "<group>"; };
+		D8ED50AF1E26453B00E77375 /* NSURLSession+TXSynchronousTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+TXSynchronousTask.h"; sourceTree = "<group>"; };
+		D8ED50B01E26453B00E77375 /* NSURLSession+TXSynchronousTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+TXSynchronousTask.m"; sourceTree = "<group>"; };
+		D8ED50B21E26453B00E77375 /* NSUserDefaults+TXiCloudSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+TXiCloudSync.h"; sourceTree = "<group>"; };
+		D8ED50B31E26453B00E77375 /* NSUserDefaults+TXiCloudSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+TXiCloudSync.m"; sourceTree = "<group>"; };
+		D8ED50B41E26453B00E77375 /* NSUserDefaults+TXSafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+TXSafeAccess.h"; sourceTree = "<group>"; };
+		D8ED50B51E26453B00E77375 /* NSUserDefaults+TXSafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+TXSafeAccess.m"; sourceTree = "<group>"; };
+		D8ED50B61E26453B00E77375 /* TXNSCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXNSCategories.h; sourceTree = "<group>"; };
+		D8ED50B81E26453B00E77375 /* TXUICategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXUICategories.h; sourceTree = "<group>"; };
+		D8ED50BA1E26453B00E77375 /* UIAlertView+TXBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+TXBlock.h"; sourceTree = "<group>"; };
+		D8ED50BB1E26453B00E77375 /* UIAlertView+TXBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+TXBlock.m"; sourceTree = "<group>"; };
+		D8ED50BD1E26453B00E77375 /* UIApplication+TXApplicationSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TXApplicationSize.h"; sourceTree = "<group>"; };
+		D8ED50BE1E26453B00E77375 /* UIApplication+TXApplicationSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TXApplicationSize.m"; sourceTree = "<group>"; };
+		D8ED50BF1E26453B00E77375 /* UIApplication+TXKeyboardFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TXKeyboardFrame.h"; sourceTree = "<group>"; };
+		D8ED50C01E26453B00E77375 /* UIApplication+TXKeyboardFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TXKeyboardFrame.m"; sourceTree = "<group>"; };
+		D8ED50C11E26453B00E77375 /* UIApplication+TXNetworkActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TXNetworkActivityIndicator.h"; sourceTree = "<group>"; };
+		D8ED50C21E26453B00E77375 /* UIApplication+TXNetworkActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TXNetworkActivityIndicator.m"; sourceTree = "<group>"; };
+		D8ED50C31E26453B00E77375 /* UIApplication+TXPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TXPermissions.h"; sourceTree = "<group>"; };
+		D8ED50C41E26453B00E77375 /* UIApplication+TXPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TXPermissions.m"; sourceTree = "<group>"; };
+		D8ED50C61E26453B00E77375 /* UIBarButtonItem+TXAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TXAction.h"; sourceTree = "<group>"; };
+		D8ED50C71E26453B00E77375 /* UIBarButtonItem+TXAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TXAction.m"; sourceTree = "<group>"; };
+		D8ED50C81E26453B00E77375 /* UIBarButtonItem+TXBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TXBadge.h"; sourceTree = "<group>"; };
+		D8ED50C91E26453B00E77375 /* UIBarButtonItem+TXBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TXBadge.m"; sourceTree = "<group>"; };
+		D8ED50CB1E26453B00E77375 /* UIBezierPath+TXBasicShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TXBasicShapes.h"; sourceTree = "<group>"; };
+		D8ED50CC1E26453B00E77375 /* UIBezierPath+TXBasicShapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TXBasicShapes.m"; sourceTree = "<group>"; };
+		D8ED50CD1E26453B00E77375 /* UIBezierPath+TXLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TXLength.h"; sourceTree = "<group>"; };
+		D8ED50CE1E26453B00E77375 /* UIBezierPath+TXLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TXLength.m"; sourceTree = "<group>"; };
+		D8ED50CF1E26453B00E77375 /* UIBezierPath+TXSVGString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TXSVGString.h"; sourceTree = "<group>"; };
+		D8ED50D01E26453B00E77375 /* UIBezierPath+TXSVGString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TXSVGString.m"; sourceTree = "<group>"; };
+		D8ED50D11E26453B00E77375 /* UIBezierPath+TXSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TXSymbol.h"; sourceTree = "<group>"; };
+		D8ED50D21E26453B00E77375 /* UIBezierPath+TXSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TXSymbol.m"; sourceTree = "<group>"; };
+		D8ED50D31E26453B00E77375 /* UIBezierPath+TXThroughPointsBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TXThroughPointsBezier.h"; sourceTree = "<group>"; };
+		D8ED50D41E26453B00E77375 /* UIBezierPath+TXThroughPointsBezier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TXThroughPointsBezier.m"; sourceTree = "<group>"; };
+		D8ED50D61E26453B00E77375 /* UIButton+TXBackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXBackgroundColor.h"; sourceTree = "<group>"; };
+		D8ED50D71E26453B00E77375 /* UIButton+TXBackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXBackgroundColor.m"; sourceTree = "<group>"; };
+		D8ED50D81E26453B00E77375 /* UIButton+TXBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXBadge.h"; sourceTree = "<group>"; };
+		D8ED50D91E26453B00E77375 /* UIButton+TXBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXBadge.m"; sourceTree = "<group>"; };
+		D8ED50DA1E26453B00E77375 /* UIButton+TXBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXBlock.h"; sourceTree = "<group>"; };
+		D8ED50DB1E26453B00E77375 /* UIButton+TXBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXBlock.m"; sourceTree = "<group>"; };
+		D8ED50DC1E26453B00E77375 /* UIButton+TXCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXCountDown.h"; sourceTree = "<group>"; };
+		D8ED50DD1E26453B00E77375 /* UIButton+TXCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXCountDown.m"; sourceTree = "<group>"; };
+		D8ED50DE1E26453B00E77375 /* UIButton+TXImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXImagePosition.h"; sourceTree = "<group>"; };
+		D8ED50DF1E26453B00E77375 /* UIButton+TXImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXImagePosition.m"; sourceTree = "<group>"; };
+		D8ED50E01E26453B00E77375 /* UIButton+TXIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXIndicator.h"; sourceTree = "<group>"; };
+		D8ED50E11E26453B00E77375 /* UIButton+TXIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXIndicator.m"; sourceTree = "<group>"; };
+		D8ED50E21E26453B00E77375 /* UIButton+TXMiddleAligning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXMiddleAligning.h"; sourceTree = "<group>"; };
+		D8ED50E31E26453B00E77375 /* UIButton+TXMiddleAligning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXMiddleAligning.m"; sourceTree = "<group>"; };
+		D8ED50E41E26453B00E77375 /* UIButton+TXSubmitting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXSubmitting.h"; sourceTree = "<group>"; };
+		D8ED50E51E26453B00E77375 /* UIButton+TXSubmitting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXSubmitting.m"; sourceTree = "<group>"; };
+		D8ED50E61E26453B00E77375 /* UIButton+TXTouchAreaInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TXTouchAreaInsets.h"; sourceTree = "<group>"; };
+		D8ED50E71E26453B00E77375 /* UIButton+TXTouchAreaInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TXTouchAreaInsets.m"; sourceTree = "<group>"; };
+		D8ED50E91E26453B00E77375 /* UIColor+TXGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TXGradient.h"; sourceTree = "<group>"; };
+		D8ED50EA1E26453B00E77375 /* UIColor+TXGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TXGradient.m"; sourceTree = "<group>"; };
+		D8ED50EB1E26453B00E77375 /* UIColor+TXHEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TXHEX.h"; sourceTree = "<group>"; };
+		D8ED50EC1E26453B00E77375 /* UIColor+TXHEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TXHEX.m"; sourceTree = "<group>"; };
+		D8ED50ED1E26453B00E77375 /* UIColor+TXModify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TXModify.h"; sourceTree = "<group>"; };
+		D8ED50EE1E26453B00E77375 /* UIColor+TXModify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TXModify.m"; sourceTree = "<group>"; };
+		D8ED50EF1E26453B00E77375 /* UIColor+TXRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TXRandom.h"; sourceTree = "<group>"; };
+		D8ED50F01E26453B00E77375 /* UIColor+TXRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TXRandom.m"; sourceTree = "<group>"; };
+		D8ED50F11E26453B00E77375 /* UIColor+TXWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TXWeb.h"; sourceTree = "<group>"; };
+		D8ED50F21E26453B00E77375 /* UIColor+TXWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TXWeb.m"; sourceTree = "<group>"; };
+		D8ED50F41E26453B00E77375 /* UIControl+TXActionBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+TXActionBlocks.h"; sourceTree = "<group>"; };
+		D8ED50F51E26453B00E77375 /* UIControl+TXActionBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+TXActionBlocks.m"; sourceTree = "<group>"; };
+		D8ED50F61E26453B00E77375 /* UIControl+TXBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+TXBlock.h"; sourceTree = "<group>"; };
+		D8ED50F71E26453B00E77375 /* UIControl+TXBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+TXBlock.m"; sourceTree = "<group>"; };
+		D8ED50F81E26453B00E77375 /* UIControl+TXSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+TXSound.h"; sourceTree = "<group>"; };
+		D8ED50F91E26453B00E77375 /* UIControl+TXSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+TXSound.m"; sourceTree = "<group>"; };
+		D8ED50FB1E26453B00E77375 /* UIDevice+TXHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TXHardware.h"; sourceTree = "<group>"; };
+		D8ED50FC1E26453B00E77375 /* UIDevice+TXHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TXHardware.m"; sourceTree = "<group>"; };
+		D8ED50FD1E26453B00E77375 /* UIDevice+TXPasscodeStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TXPasscodeStatus.h"; sourceTree = "<group>"; };
+		D8ED50FE1E26453B00E77375 /* UIDevice+TXPasscodeStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TXPasscodeStatus.m"; sourceTree = "<group>"; };
+		D8ED51001E26453B00E77375 /* UIFont+TXCustomLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+TXCustomLoader.h"; sourceTree = "<group>"; };
+		D8ED51011E26453B00E77375 /* UIFont+TXCustomLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TXCustomLoader.m"; sourceTree = "<group>"; };
+		D8ED51021E26453B00E77375 /* UIFont+TXDynamicFontControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+TXDynamicFontControl.h"; sourceTree = "<group>"; };
+		D8ED51031E26453B00E77375 /* UIFont+TXDynamicFontControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TXDynamicFontControl.m"; sourceTree = "<group>"; };
+		D8ED51041E26453B00E77375 /* UIFont+TXTTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+TXTTF.h"; sourceTree = "<group>"; };
+		D8ED51051E26453B00E77375 /* UIFont+TXTTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+TXTTF.m"; sourceTree = "<group>"; };
+		D8ED51071E26453B00E77375 /* UIImage+TXAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXAlpha.h"; sourceTree = "<group>"; };
+		D8ED51081E26453B00E77375 /* UIImage+TXAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXAlpha.m"; sourceTree = "<group>"; };
+		D8ED51091E26453B00E77375 /* UIImage+TXAnimatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXAnimatedGIF.h"; sourceTree = "<group>"; };
+		D8ED510A1E26453B00E77375 /* UIImage+TXAnimatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXAnimatedGIF.m"; sourceTree = "<group>"; };
+		D8ED510B1E26453B00E77375 /* UIImage+TXApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXApp.h"; sourceTree = "<group>"; };
+		D8ED510C1E26453B00E77375 /* UIImage+TXApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXApp.m"; sourceTree = "<group>"; };
+		D8ED510D1E26453B00E77375 /* UIImage+TXAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXAsset.h"; sourceTree = "<group>"; };
+		D8ED510E1E26453B00E77375 /* UIImage+TXAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXAsset.m"; sourceTree = "<group>"; };
+		D8ED510F1E26453B00E77375 /* UIImage+TXBetterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXBetterFace.h"; sourceTree = "<group>"; };
+		D8ED51101E26453B00E77375 /* UIImage+TXBetterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXBetterFace.m"; sourceTree = "<group>"; };
+		D8ED51111E26453B00E77375 /* UIImage+TXBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXBlur.h"; sourceTree = "<group>"; };
+		D8ED51121E26453B00E77375 /* UIImage+TXBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXBlur.m"; sourceTree = "<group>"; };
+		D8ED51131E26453B00E77375 /* UIImage+TXCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXCapture.h"; sourceTree = "<group>"; };
+		D8ED51141E26453B00E77375 /* UIImage+TXCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXCapture.m"; sourceTree = "<group>"; };
+		D8ED51151E26453B00E77375 /* UIImage+TXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXColor.h"; sourceTree = "<group>"; };
+		D8ED51161E26453B00E77375 /* UIImage+TXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXColor.m"; sourceTree = "<group>"; };
+		D8ED51171E26453B00E77375 /* UIImage+TXFileName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXFileName.h"; sourceTree = "<group>"; };
+		D8ED51181E26453B00E77375 /* UIImage+TXFileName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXFileName.m"; sourceTree = "<group>"; };
+		D8ED51191E26453B00E77375 /* UIImage+TXFXImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXFXImage.h"; sourceTree = "<group>"; };
+		D8ED511A1E26453B00E77375 /* UIImage+TXFXImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXFXImage.m"; sourceTree = "<group>"; };
+		D8ED511B1E26453B00E77375 /* UIImage+TXGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXGIF.h"; sourceTree = "<group>"; };
+		D8ED511C1E26453B00E77375 /* UIImage+TXGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXGIF.m"; sourceTree = "<group>"; };
+		D8ED511D1E26453B00E77375 /* UIImage+TXMerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXMerge.h"; sourceTree = "<group>"; };
+		D8ED511E1E26453B00E77375 /* UIImage+TXMerge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXMerge.m"; sourceTree = "<group>"; };
+		D8ED511F1E26453B00E77375 /* UIImage+TXOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXOrientation.h"; sourceTree = "<group>"; };
+		D8ED51201E26453B00E77375 /* UIImage+TXOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXOrientation.m"; sourceTree = "<group>"; };
+		D8ED51211E26453B00E77375 /* UIImage+TXRemoteSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXRemoteSize.h"; sourceTree = "<group>"; };
+		D8ED51221E26453B00E77375 /* UIImage+TXRemoteSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXRemoteSize.m"; sourceTree = "<group>"; };
+		D8ED51231E26453B00E77375 /* UIImage+TXResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXResize.h"; sourceTree = "<group>"; };
+		D8ED51241E26453B00E77375 /* UIImage+TXResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXResize.m"; sourceTree = "<group>"; };
+		D8ED51251E26453B00E77375 /* UIImage+TXRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXRoundedCorner.h"; sourceTree = "<group>"; };
+		D8ED51261E26453B00E77375 /* UIImage+TXRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXRoundedCorner.m"; sourceTree = "<group>"; };
+		D8ED51271E26453B00E77375 /* UIImage+TXSuperCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXSuperCompress.h"; sourceTree = "<group>"; };
+		D8ED51281E26453B00E77375 /* UIImage+TXSuperCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXSuperCompress.m"; sourceTree = "<group>"; };
+		D8ED51291E26453B00E77375 /* UIImage+TXTempFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXTempFolder.h"; sourceTree = "<group>"; };
+		D8ED512A1E26453B00E77375 /* UIImage+TXTempFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXTempFolder.m"; sourceTree = "<group>"; };
+		D8ED512B1E26453B00E77375 /* UIImage+TXVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXVector.h"; sourceTree = "<group>"; };
+		D8ED512C1E26453B00E77375 /* UIImage+TXVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXVector.m"; sourceTree = "<group>"; };
+		D8ED512E1E26453B00E77375 /* UIImageView+TXAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TXAddition.h"; sourceTree = "<group>"; };
+		D8ED512F1E26453B00E77375 /* UIImageView+TXAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TXAddition.m"; sourceTree = "<group>"; };
+		D8ED51301E26453B00E77375 /* UIImageView+TXBetterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TXBetterFace.h"; sourceTree = "<group>"; };
+		D8ED51311E26453B00E77375 /* UIImageView+TXBetterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TXBetterFace.m"; sourceTree = "<group>"; };
+		D8ED51321E26453B00E77375 /* UIImageView+TXFaceAwareFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TXFaceAwareFill.h"; sourceTree = "<group>"; };
+		D8ED51331E26453B00E77375 /* UIImageView+TXFaceAwareFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TXFaceAwareFill.m"; sourceTree = "<group>"; };
+		D8ED51341E26453B00E77375 /* UIImageView+TXGeometryConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TXGeometryConversion.h"; sourceTree = "<group>"; };
+		D8ED51351E26453B00E77375 /* UIImageView+TXGeometryConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TXGeometryConversion.m"; sourceTree = "<group>"; };
+		D8ED51361E26453B00E77375 /* UIImageView+TXLetters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TXLetters.h"; sourceTree = "<group>"; };
+		D8ED51371E26453B00E77375 /* UIImageView+TXLetters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TXLetters.m"; sourceTree = "<group>"; };
+		D8ED51381E26453B00E77375 /* UIImageView+TXReflect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TXReflect.h"; sourceTree = "<group>"; };
+		D8ED51391E26453B00E77375 /* UIImageView+TXReflect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TXReflect.m"; sourceTree = "<group>"; };
+		D8ED513B1E26453B00E77375 /* UILabel+TXAdjustableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TXAdjustableLabel.h"; sourceTree = "<group>"; };
+		D8ED513C1E26453B00E77375 /* UILabel+TXAdjustableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TXAdjustableLabel.m"; sourceTree = "<group>"; };
+		D8ED513D1E26453B00E77375 /* UILabel+TXAutomaticWriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TXAutomaticWriting.h"; sourceTree = "<group>"; };
+		D8ED513E1E26453B00E77375 /* UILabel+TXAutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TXAutomaticWriting.m"; sourceTree = "<group>"; };
+		D8ED513F1E26453B00E77375 /* UILabel+TXAutoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TXAutoSize.h"; sourceTree = "<group>"; };
+		D8ED51401E26453B00E77375 /* UILabel+TXAutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TXAutoSize.m"; sourceTree = "<group>"; };
+		D8ED51411E26453B00E77375 /* UILabel+TXEstimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TXEstimate.h"; sourceTree = "<group>"; };
+		D8ED51421E26453B00E77375 /* UILabel+TXEstimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TXEstimate.m"; sourceTree = "<group>"; };
+		D8ED51441E26453B00E77375 /* UINavigationBar+TXAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TXAwesome.h"; sourceTree = "<group>"; };
+		D8ED51451E26453B00E77375 /* UINavigationBar+TXAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TXAwesome.m"; sourceTree = "<group>"; };
+		D8ED51471E26453B00E77375 /* UINavigationController+TXKeyboardFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TXKeyboardFix.h"; sourceTree = "<group>"; };
+		D8ED51481E26453B00E77375 /* UINavigationController+TXKeyboardFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TXKeyboardFix.m"; sourceTree = "<group>"; };
+		D8ED51491E26453B00E77375 /* UINavigationController+TXStackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TXStackManager.h"; sourceTree = "<group>"; };
+		D8ED514A1E26453B00E77375 /* UINavigationController+TXStackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TXStackManager.m"; sourceTree = "<group>"; };
+		D8ED514B1E26453B00E77375 /* UINavigationController+TXTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TXTransitions.h"; sourceTree = "<group>"; };
+		D8ED514C1E26453B00E77375 /* UINavigationController+TXTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TXTransitions.m"; sourceTree = "<group>"; };
+		D8ED514E1E26453B00E77375 /* UINavigationItem+TXLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+TXLoading.h"; sourceTree = "<group>"; };
+		D8ED514F1E26453B00E77375 /* UINavigationItem+TXLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+TXLoading.m"; sourceTree = "<group>"; };
+		D8ED51501E26453B00E77375 /* UINavigationItem+TXLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+TXLock.h"; sourceTree = "<group>"; };
+		D8ED51511E26453B00E77375 /* UINavigationItem+TXLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+TXLock.m"; sourceTree = "<group>"; };
+		D8ED51521E26453B00E77375 /* UINavigationItem+TXMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+TXMargin.h"; sourceTree = "<group>"; };
+		D8ED51531E26453B00E77375 /* UINavigationItem+TXMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+TXMargin.m"; sourceTree = "<group>"; };
+		D8ED51551E26453B00E77375 /* UIResponder+TXChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+TXChain.h"; sourceTree = "<group>"; };
+		D8ED51561E26453B00E77375 /* UIResponder+TXChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+TXChain.m"; sourceTree = "<group>"; };
+		D8ED51571E26453B00E77375 /* UIResponder+TXFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+TXFirstResponder.h"; sourceTree = "<group>"; };
+		D8ED51581E26453B00E77375 /* UIResponder+TXFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+TXFirstResponder.m"; sourceTree = "<group>"; };
+		D8ED515A1E26453B00E77375 /* UIScreen+TXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+TXFrame.h"; sourceTree = "<group>"; };
+		D8ED515B1E26453B00E77375 /* UIScreen+TXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+TXFrame.m"; sourceTree = "<group>"; };
+		D8ED515D1E26453B00E77375 /* UIScrollView+TXAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TXAddition.h"; sourceTree = "<group>"; };
+		D8ED515E1E26453B00E77375 /* UIScrollView+TXAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TXAddition.m"; sourceTree = "<group>"; };
+		D8ED515F1E26453B00E77375 /* UIScrollView+TXPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TXPages.h"; sourceTree = "<group>"; };
+		D8ED51601E26453B00E77375 /* UIScrollView+TXPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TXPages.m"; sourceTree = "<group>"; };
+		D8ED51621E26453B00E77375 /* UISearchBar+TXBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+TXBlocks.h"; sourceTree = "<group>"; };
+		D8ED51631E26453B00E77375 /* UISearchBar+TXBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+TXBlocks.m"; sourceTree = "<group>"; };
+		D8ED51651E26453B00E77375 /* UISplitViewController+TXQuickAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+TXQuickAccess.h"; sourceTree = "<group>"; };
+		D8ED51661E26453B00E77375 /* UISplitViewController+TXQuickAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+TXQuickAccess.m"; sourceTree = "<group>"; };
+		D8ED51681E26453B00E77375 /* UITableView+PlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+PlaceHolder.h"; sourceTree = "<group>"; };
+		D8ED51691E26453B00E77375 /* UITableView+PlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PlaceHolder.m"; sourceTree = "<group>"; };
+		D8ED516B1E26453B00E77375 /* UITableViewCell+TXDelaysContentTouches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+TXDelaysContentTouches.h"; sourceTree = "<group>"; };
+		D8ED516C1E26453B00E77375 /* UITableViewCell+TXDelaysContentTouches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+TXDelaysContentTouches.m"; sourceTree = "<group>"; };
+		D8ED516D1E26453B00E77375 /* UITableViewCell+TXNIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+TXNIB.h"; sourceTree = "<group>"; };
+		D8ED516E1E26453B00E77375 /* UITableViewCell+TXNIB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+TXNIB.m"; sourceTree = "<group>"; };
+		D8ED51701E26453B00E77375 /* UITextField+TXBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TXBlocks.h"; sourceTree = "<group>"; };
+		D8ED51711E26453B00E77375 /* UITextField+TXBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TXBlocks.m"; sourceTree = "<group>"; };
+		D8ED51721E26453B00E77375 /* UITextField+TXHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TXHistory.h"; sourceTree = "<group>"; };
+		D8ED51731E26453B00E77375 /* UITextField+TXHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TXHistory.m"; sourceTree = "<group>"; };
+		D8ED51741E26453B00E77375 /* UITextField+TXInputLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TXInputLimit.h"; sourceTree = "<group>"; };
+		D8ED51751E26453B00E77375 /* UITextField+TXInputLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TXInputLimit.m"; sourceTree = "<group>"; };
+		D8ED51761E26453B00E77375 /* UITextField+TXSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TXSelect.h"; sourceTree = "<group>"; };
+		D8ED51771E26453B00E77375 /* UITextField+TXSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TXSelect.m"; sourceTree = "<group>"; };
+		D8ED51781E26453B00E77375 /* UITextField+TXShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TXShake.h"; sourceTree = "<group>"; };
+		D8ED51791E26453B00E77375 /* UITextField+TXShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TXShake.m"; sourceTree = "<group>"; };
+		D8ED517B1E26453B00E77375 /* UITextView+TXInputLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TXInputLimit.h"; sourceTree = "<group>"; };
+		D8ED517C1E26453B00E77375 /* UITextView+TXInputLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TXInputLimit.m"; sourceTree = "<group>"; };
+		D8ED517D1E26453B00E77375 /* UITextView+TXPinchZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TXPinchZoom.h"; sourceTree = "<group>"; };
+		D8ED517E1E26453B00E77375 /* UITextView+TXPinchZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TXPinchZoom.m"; sourceTree = "<group>"; };
+		D8ED517F1E26453B00E77375 /* UITextView+TXPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TXPlaceHolder.h"; sourceTree = "<group>"; };
+		D8ED51801E26453B00E77375 /* UITextView+TXPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TXPlaceHolder.m"; sourceTree = "<group>"; };
+		D8ED51811E26453B00E77375 /* UITextView+TXSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TXSelect.h"; sourceTree = "<group>"; };
+		D8ED51821E26453B00E77375 /* UITextView+TXSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TXSelect.m"; sourceTree = "<group>"; };
+		D8ED51841E26453B00E77375 /* UIView+TXAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXAnimation.h"; sourceTree = "<group>"; };
+		D8ED51851E26453B00E77375 /* UIView+TXAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXAnimation.m"; sourceTree = "<group>"; };
+		D8ED51861E26453B00E77375 /* UIView+TXBlockGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXBlockGesture.h"; sourceTree = "<group>"; };
+		D8ED51871E26453B00E77375 /* UIView+TXBlockGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXBlockGesture.m"; sourceTree = "<group>"; };
+		D8ED51881E26453B00E77375 /* UIView+TXConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXConstraints.h"; sourceTree = "<group>"; };
+		D8ED51891E26453B00E77375 /* UIView+TXConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXConstraints.m"; sourceTree = "<group>"; };
+		D8ED518A1E26453B00E77375 /* UIView+TXCustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXCustomBorder.h"; sourceTree = "<group>"; };
+		D8ED518B1E26453B00E77375 /* UIView+TXCustomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXCustomBorder.m"; sourceTree = "<group>"; };
+		D8ED518C1E26453B00E77375 /* UIView+TXDraggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXDraggable.h"; sourceTree = "<group>"; };
+		D8ED518D1E26453B00E77375 /* UIView+TXDraggable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXDraggable.m"; sourceTree = "<group>"; };
+		D8ED518E1E26453B00E77375 /* UIView+TXFind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXFind.h"; sourceTree = "<group>"; };
+		D8ED518F1E26453B00E77375 /* UIView+TXFind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXFind.m"; sourceTree = "<group>"; };
+		D8ED51901E26453B00E77375 /* UIView+TXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXFrame.h"; sourceTree = "<group>"; };
+		D8ED51911E26453B00E77375 /* UIView+TXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXFrame.m"; sourceTree = "<group>"; };
+		D8ED51921E26453B00E77375 /* UIView+TXLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXLayer.h"; sourceTree = "<group>"; };
+		D8ED51931E26453B00E77375 /* UIView+TXLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXLayer.m"; sourceTree = "<group>"; };
+		D8ED51941E26453B00E77375 /* UIView+TXNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXNib.h"; sourceTree = "<group>"; };
+		D8ED51951E26453B00E77375 /* UIView+TXNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXNib.m"; sourceTree = "<group>"; };
+		D8ED51961E26453B00E77375 /* UIView+TXRecursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXRecursion.h"; sourceTree = "<group>"; };
+		D8ED51971E26453B00E77375 /* UIView+TXRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXRecursion.m"; sourceTree = "<group>"; };
+		D8ED51981E26453B00E77375 /* UIView+TXRemove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXRemove.h"; sourceTree = "<group>"; };
+		D8ED51991E26453B00E77375 /* UIView+TXRemove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXRemove.m"; sourceTree = "<group>"; };
+		D8ED519A1E26453B00E77375 /* UIView+TXScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXScreenshot.h"; sourceTree = "<group>"; };
+		D8ED519B1E26453B00E77375 /* UIView+TXScreenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXScreenshot.m"; sourceTree = "<group>"; };
+		D8ED519C1E26453B00E77375 /* UIView+TXShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXShake.h"; sourceTree = "<group>"; };
+		D8ED519D1E26453B00E77375 /* UIView+TXShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXShake.m"; sourceTree = "<group>"; };
+		D8ED519E1E26453B00E77375 /* UIView+TXToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXToast.h"; sourceTree = "<group>"; };
+		D8ED519F1E26453B00E77375 /* UIView+TXToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXToast.m"; sourceTree = "<group>"; };
+		D8ED51A01E26453B00E77375 /* UIView+TXVisuals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXVisuals.h"; sourceTree = "<group>"; };
+		D8ED51A11E26453B00E77375 /* UIView+TXVisuals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXVisuals.m"; sourceTree = "<group>"; };
+		D8ED51A31E26453B00E77375 /* UIViewController+TXBackButtonItemTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TXBackButtonItemTitle.h"; sourceTree = "<group>"; };
+		D8ED51A41E26453B00E77375 /* UIViewController+TXBackButtonItemTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TXBackButtonItemTitle.m"; sourceTree = "<group>"; };
+		D8ED51A51E26453B00E77375 /* UIViewController+TXBackButtonTouched.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TXBackButtonTouched.h"; sourceTree = "<group>"; };
+		D8ED51A61E26453B00E77375 /* UIViewController+TXBackButtonTouched.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TXBackButtonTouched.m"; sourceTree = "<group>"; };
+		D8ED51A71E26453B00E77375 /* UIViewController+TXBlockSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TXBlockSegue.h"; sourceTree = "<group>"; };
+		D8ED51A81E26453B00E77375 /* UIViewController+TXBlockSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TXBlockSegue.m"; sourceTree = "<group>"; };
+		D8ED51A91E26453B00E77375 /* UIViewController+TXRecursiveDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TXRecursiveDescription.h"; sourceTree = "<group>"; };
+		D8ED51AA1E26453B00E77375 /* UIViewController+TXRecursiveDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TXRecursiveDescription.m"; sourceTree = "<group>"; };
+		D8ED51AB1E26453B00E77375 /* UIViewController+TXStoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TXStoreKit.h"; sourceTree = "<group>"; };
+		D8ED51AC1E26453B00E77375 /* UIViewController+TXStoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TXStoreKit.m"; sourceTree = "<group>"; };
+		D8ED51AD1E26453B00E77375 /* UIViewController+TXVisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TXVisible.h"; sourceTree = "<group>"; };
+		D8ED51AE1E26453B00E77375 /* UIViewController+TXVisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TXVisible.m"; sourceTree = "<group>"; };
+		D8ED51B01E26453B00E77375 /* UIWebView+TXBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TXBlocks.h"; sourceTree = "<group>"; };
+		D8ED51B11E26453B00E77375 /* UIWebView+TXBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TXBlocks.m"; sourceTree = "<group>"; };
+		D8ED51B21E26453B00E77375 /* UIWebView+TXCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TXCanvas.h"; sourceTree = "<group>"; };
+		D8ED51B31E26453B00E77375 /* UIWebView+TXCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TXCanvas.m"; sourceTree = "<group>"; };
+		D8ED51B41E26453B00E77375 /* UIWebView+TXJavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TXJavaScript.h"; sourceTree = "<group>"; };
+		D8ED51B51E26453B00E77375 /* UIWebView+TXJavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TXJavaScript.m"; sourceTree = "<group>"; };
+		D8ED51B61E26453B00E77375 /* UIWebView+TXLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TXLoad.h"; sourceTree = "<group>"; };
+		D8ED51B71E26453B00E77375 /* UIWebView+TXLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TXLoad.m"; sourceTree = "<group>"; };
+		D8ED51B81E26453B00E77375 /* UIWebView+TXLoadInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TXLoadInfo.h"; sourceTree = "<group>"; };
+		D8ED51B91E26453B00E77375 /* UIWebView+TXLoadInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TXLoadInfo.m"; sourceTree = "<group>"; };
+		D8ED51BA1E26453B00E77375 /* UIWebView+TXMetaParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TXMetaParser.h"; sourceTree = "<group>"; };
+		D8ED51BB1E26453B00E77375 /* UIWebView+TXMetaParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TXMetaParser.m"; sourceTree = "<group>"; };
+		D8ED51BC1E26453B00E77375 /* UIWebView+TXStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TXStyle.h"; sourceTree = "<group>"; };
+		D8ED51BD1E26453B00E77375 /* UIWebView+TXStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TXStyle.m"; sourceTree = "<group>"; };
+		D8ED51BE1E26453B00E77375 /* UIWebVIew+TXSwipeGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebVIew+TXSwipeGesture.h"; sourceTree = "<group>"; };
+		D8ED51BF1E26453B00E77375 /* UIWebVIew+TXSwipeGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebVIew+TXSwipeGesture.m"; sourceTree = "<group>"; };
+		D8ED51C01E26453B00E77375 /* UIWebView+TXWebStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TXWebStorage.h"; sourceTree = "<group>"; };
+		D8ED51C11E26453B00E77375 /* UIWebView+TXWebStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TXWebStorage.m"; sourceTree = "<group>"; };
+		D8ED51C31E26453B00E77375 /* UIWindow+TXHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+TXHierarchy.h"; sourceTree = "<group>"; };
+		D8ED51C41E26453B00E77375 /* UIWindow+TXHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+TXHierarchy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8ED43EE1E25D1C000E77375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8ED43E81E25D1C000E77375 = {
+			isa = PBXGroup;
+			children = (
+				D8ED4D1A1E263FD300E77375 /* TXCategories */,
+				D8ED43F31E25D1C000E77375 /* TXCategoriesDemo */,
+				D8ED43F21E25D1C000E77375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8ED43F21E25D1C000E77375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED43F11E25D1C000E77375 /* TXCategoriesDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8ED43F31E25D1C000E77375 /* TXCategoriesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED43F71E25D1C000E77375 /* AppDelegate.h */,
+				D8ED43F81E25D1C000E77375 /* AppDelegate.m */,
+				D8ED43FA1E25D1C000E77375 /* ViewController.h */,
+				D8ED43FB1E25D1C000E77375 /* ViewController.m */,
+				D8ED43FD1E25D1C000E77375 /* Main.storyboard */,
+				D8ED44001E25D1C000E77375 /* Assets.xcassets */,
+				D8ED44021E25D1C000E77375 /* LaunchScreen.storyboard */,
+				D8ED44051E25D1C000E77375 /* Info.plist */,
+				D8ED43F41E25D1C000E77375 /* Supporting Files */,
+			);
+			path = TXCategoriesDemo;
+			sourceTree = "<group>";
+		};
+		D8ED43F41E25D1C000E77375 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED43F51E25D1C000E77375 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8ED4D1A1E263FD300E77375 /* TXCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED4E0D1E263FD400E77375 /* TXCategories.h */,
+				D8ED4FF71E26453B00E77375 /* NSCategories */,
+				D8ED50B71E26453B00E77375 /* UICategories */,
+			);
+			name = TXCategories;
+			path = ../TXCategories;
+			sourceTree = "<group>";
+		};
+		D8ED4FF71E26453B00E77375 /* NSCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50B61E26453B00E77375 /* TXNSCategories.h */,
+				D8ED4FF81E26453B00E77375 /* NSArray */,
+				D8ED4FFD1E26453B00E77375 /* NSBundle */,
+				D8ED50001E26453B00E77375 /* NSData */,
+				D8ED50111E26453B00E77375 /* NSDate */,
+				D8ED50201E26453B00E77375 /* NSDateFormatter */,
+				D8ED50231E26453B00E77375 /* NSDictionary */,
+				D8ED50321E26453B00E77375 /* NSException */,
+				D8ED50351E26453B00E77375 /* NSFileHandle */,
+				D8ED50381E26453B00E77375 /* NSFileManager */,
+				D8ED503B1E26453B00E77375 /* NSHTTPCookieStorage */,
+				D8ED503E1E26453B00E77375 /* NSIndexPath */,
+				D8ED50411E26453B00E77375 /* NSInvocation */,
+				D8ED50461E26453B00E77375 /* NSNotificationCenter */,
+				D8ED50491E26453B00E77375 /* NSNumber */,
+				D8ED50541E26453B00E77375 /* NSObject */,
+				D8ED506D1E26453B00E77375 /* NSRunLoop */,
+				D8ED50701E26453B00E77375 /* NSSet */,
+				D8ED50731E26453B00E77375 /* NSString */,
+				D8ED509C1E26453B00E77375 /* NSTimer */,
+				D8ED50A11E26453B00E77375 /* NSURL */,
+				D8ED50A61E26453B00E77375 /* NSURLConnection */,
+				D8ED50A91E26453B00E77375 /* NSURLRequest */,
+				D8ED50AE1E26453B00E77375 /* NSURLSession */,
+				D8ED50B11E26453B00E77375 /* NSUserDefaults */,
+			);
+			path = NSCategories;
+			sourceTree = "<group>";
+		};
+		D8ED4FF81E26453B00E77375 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED4FF91E26453B00E77375 /* NSArray+TXBlock.h */,
+				D8ED4FFA1E26453B00E77375 /* NSArray+TXBlock.m */,
+				D8ED4FFB1E26453B00E77375 /* NSArray+TXSafeAccess.h */,
+				D8ED4FFC1E26453B00E77375 /* NSArray+TXSafeAccess.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		D8ED4FFD1E26453B00E77375 /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED4FFE1E26453B00E77375 /* NSBundle+TXExtension.h */,
+				D8ED4FFF1E26453B00E77375 /* NSBundle+TXExtension.m */,
+			);
+			path = NSBundle;
+			sourceTree = "<group>";
+		};
+		D8ED50001E26453B00E77375 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50011E26453B00E77375 /* NSData+TXAPNSToken.h */,
+				D8ED50021E26453B00E77375 /* NSData+TXAPNSToken.m */,
+				D8ED50031E26453B00E77375 /* NSData+TXBase64.h */,
+				D8ED50041E26453B00E77375 /* NSData+TXBase64.m */,
+				D8ED50051E26453B00E77375 /* NSData+TXDataCache.h */,
+				D8ED50061E26453B00E77375 /* NSData+TXDataCache.m */,
+				D8ED50071E26453B00E77375 /* NSData+TXEncrypt.h */,
+				D8ED50081E26453B00E77375 /* NSData+TXEncrypt.m */,
+				D8ED50091E26453B00E77375 /* NSData+TXGzip.h */,
+				D8ED500A1E26453B00E77375 /* NSData+TXGzip.m */,
+				D8ED500B1E26453B00E77375 /* NSData+TXHash.h */,
+				D8ED500C1E26453B00E77375 /* NSData+TXHash.m */,
+				D8ED500D1E26453B00E77375 /* NSData+TXPCM.h */,
+				D8ED500E1E26453B00E77375 /* NSData+TXPCM.m */,
+				D8ED500F1E26453B00E77375 /* NSData+TXzlib.h */,
+				D8ED50101E26453B00E77375 /* NSData+TXzlib.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		D8ED50111E26453B00E77375 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50121E26453B00E77375 /* NSDate+TXCupertinoYankee.h */,
+				D8ED50131E26453B00E77375 /* NSDate+TXCupertinoYankee.m */,
+				D8ED50141E26453B00E77375 /* NSDate+TXExtension.h */,
+				D8ED50151E26453B00E77375 /* NSDate+TXExtension.m */,
+				D8ED50161E26453B00E77375 /* NSDate+TXFormatter.h */,
+				D8ED50171E26453B00E77375 /* NSDate+TXFormatter.m */,
+				D8ED50181E26453B00E77375 /* NSDate+TXInternetDateTime.h */,
+				D8ED50191E26453B00E77375 /* NSDate+TXInternetDateTime.m */,
+				D8ED501A1E26453B00E77375 /* NSDate+TXReporting.h */,
+				D8ED501B1E26453B00E77375 /* NSDate+TXReporting.m */,
+				D8ED501C1E26453B00E77375 /* NSDate+TXUtilities.h */,
+				D8ED501D1E26453B00E77375 /* NSDate+TXUtilities.m */,
+				D8ED501E1E26453B00E77375 /* NSDate+TXZeroDate.h */,
+				D8ED501F1E26453B00E77375 /* NSDate+TXZeroDate.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		D8ED50201E26453B00E77375 /* NSDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50211E26453B00E77375 /* NSDateFormatter+TXMake.h */,
+				D8ED50221E26453B00E77375 /* NSDateFormatter+TXMake.m */,
+			);
+			path = NSDateFormatter;
+			sourceTree = "<group>";
+		};
+		D8ED50231E26453B00E77375 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50241E26453B00E77375 /* NSDictionary+TXBlock.h */,
+				D8ED50251E26453B00E77375 /* NSDictionary+TXBlock.m */,
+				D8ED50261E26453B00E77375 /* NSDictionary+TXConversion.h */,
+				D8ED50271E26453B00E77375 /* NSDictionary+TXConversion.m */,
+				D8ED50281E26453B00E77375 /* NSDictionary+TXJSONString.h */,
+				D8ED50291E26453B00E77375 /* NSDictionary+TXJSONString.m */,
+				D8ED502A1E26453B00E77375 /* NSDictionary+TXMerge.h */,
+				D8ED502B1E26453B00E77375 /* NSDictionary+TXMerge.m */,
+				D8ED502C1E26453B00E77375 /* NSDictionary+TXSafeAccess.h */,
+				D8ED502D1E26453B00E77375 /* NSDictionary+TXSafeAccess.m */,
+				D8ED502E1E26453B00E77375 /* NSDictionary+TXURL.h */,
+				D8ED502F1E26453B00E77375 /* NSDictionary+TXURL.m */,
+				D8ED50301E26453B00E77375 /* NSDictionary+TXXML.h */,
+				D8ED50311E26453B00E77375 /* NSDictionary+TXXML.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		D8ED50321E26453B00E77375 /* NSException */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50331E26453B00E77375 /* NSException+TXTrace.h */,
+				D8ED50341E26453B00E77375 /* NSException+TXTrace.m */,
+			);
+			path = NSException;
+			sourceTree = "<group>";
+		};
+		D8ED50351E26453B00E77375 /* NSFileHandle */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50361E26453B00E77375 /* NSFileHandle+TXReadLine.h */,
+				D8ED50371E26453B00E77375 /* NSFileHandle+TXReadLine.m */,
+			);
+			path = NSFileHandle;
+			sourceTree = "<group>";
+		};
+		D8ED50381E26453B00E77375 /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50391E26453B00E77375 /* NSFileManager+TXPaths.h */,
+				D8ED503A1E26453B00E77375 /* NSFileManager+TXPaths.m */,
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		D8ED503B1E26453B00E77375 /* NSHTTPCookieStorage */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED503C1E26453B00E77375 /* NSHTTPCookieStorage+TXFreezeDry.h */,
+				D8ED503D1E26453B00E77375 /* NSHTTPCookieStorage+TXFreezeDry.m */,
+			);
+			path = NSHTTPCookieStorage;
+			sourceTree = "<group>";
+		};
+		D8ED503E1E26453B00E77375 /* NSIndexPath */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED503F1E26453B00E77375 /* NSIndexPath+TXOffset.h */,
+				D8ED50401E26453B00E77375 /* NSIndexPath+TXOffset.m */,
+			);
+			path = NSIndexPath;
+			sourceTree = "<group>";
+		};
+		D8ED50411E26453B00E77375 /* NSInvocation */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50421E26453B00E77375 /* NSInvocation+TXBb.h */,
+				D8ED50431E26453B00E77375 /* NSInvocation+TXBb.m */,
+				D8ED50441E26453B00E77375 /* NSInvocation+TXBlock.h */,
+				D8ED50451E26453B00E77375 /* NSInvocation+TXBlock.m */,
+			);
+			path = NSInvocation;
+			sourceTree = "<group>";
+		};
+		D8ED50461E26453B00E77375 /* NSNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50471E26453B00E77375 /* NSNotificationCenter+TXMainThread.h */,
+				D8ED50481E26453B00E77375 /* NSNotificationCenter+TXMainThread.m */,
+			);
+			path = NSNotificationCenter;
+			sourceTree = "<group>";
+		};
+		D8ED50491E26453B00E77375 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED504A1E26453B00E77375 /* NSDecimalNumber+TXCalculatingByString.h */,
+				D8ED504B1E26453B00E77375 /* NSDecimalNumber+TXCalculatingByString.m */,
+				D8ED504C1E26453B00E77375 /* NSDecimalNumber+TXExtensions.h */,
+				D8ED504D1E26453B00E77375 /* NSDecimalNumber+TXExtensions.m */,
+				D8ED504E1E26453B00E77375 /* NSNumber+TXCGFloat.h */,
+				D8ED504F1E26453B00E77375 /* NSNumber+TXCGFloat.m */,
+				D8ED50501E26453B00E77375 /* NSNumber+TXRomanNumerals.h */,
+				D8ED50511E26453B00E77375 /* NSNumber+TXRomanNumerals.m */,
+				D8ED50521E26453B00E77375 /* NSNumber+TXRound.h */,
+				D8ED50531E26453B00E77375 /* NSNumber+TXRound.m */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		D8ED50541E26453B00E77375 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50551E26453B00E77375 /* NSObject+TXAddProperty.h */,
+				D8ED50561E26453B00E77375 /* NSObject+TXAddProperty.m */,
+				D8ED50571E26453B00E77375 /* NSObject+TXAppInfo.h */,
+				D8ED50581E26453B00E77375 /* NSObject+TXAppInfo.m */,
+				D8ED50591E26453B00E77375 /* NSObject+TXAssociatedObject.h */,
+				D8ED505A1E26453B00E77375 /* NSObject+TXAssociatedObject.m */,
+				D8ED505B1E26453B00E77375 /* NSObject+TXAutoCoding.h */,
+				D8ED505C1E26453B00E77375 /* NSObject+TXAutoCoding.m */,
+				D8ED505D1E26453B00E77375 /* NSObject+TXBlocks.h */,
+				D8ED505E1E26453B00E77375 /* NSObject+TXBlocks.m */,
+				D8ED505F1E26453B00E77375 /* NSObject+TXBlockTimer.h */,
+				D8ED50601E26453B00E77375 /* NSObject+TXBlockTimer.m */,
+				D8ED50611E26453B00E77375 /* NSObject+TXConversion.h */,
+				D8ED50621E26453B00E77375 /* NSObject+TXConversion.m */,
+				D8ED50631E26453B00E77375 /* NSObject+TXEasyCopy.h */,
+				D8ED50641E26453B00E77375 /* NSObject+TXEasyCopy.m */,
+				D8ED50651E26453B00E77375 /* NSObject+TXGCD.h */,
+				D8ED50661E26453B00E77375 /* NSObject+TXGCD.m */,
+				D8ED50671E26453B00E77375 /* NSObject+TXKVOBlocks.h */,
+				D8ED50681E26453B00E77375 /* NSObject+TXKVOBlocks.m */,
+				D8ED50691E26453B00E77375 /* NSObject+TXReflection.h */,
+				D8ED506A1E26453B00E77375 /* NSObject+TXReflection.m */,
+				D8ED506B1E26453B00E77375 /* NSObject+TXRuntime.h */,
+				D8ED506C1E26453B00E77375 /* NSObject+TXRuntime.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		D8ED506D1E26453B00E77375 /* NSRunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED506E1E26453B00E77375 /* NSRunLoop+TXPerformBlock.h */,
+				D8ED506F1E26453B00E77375 /* NSRunLoop+TXPerformBlock.m */,
+			);
+			path = NSRunLoop;
+			sourceTree = "<group>";
+		};
+		D8ED50701E26453B00E77375 /* NSSet */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50711E26453B00E77375 /* NSSet+TXBlock.h */,
+				D8ED50721E26453B00E77375 /* NSSet+TXBlock.m */,
+			);
+			path = NSSet;
+			sourceTree = "<group>";
+		};
+		D8ED50731E26453B00E77375 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50741E26453B00E77375 /* NSString+TXBase64.h */,
+				D8ED50751E26453B00E77375 /* NSString+TXBase64.m */,
+				D8ED50761E26453B00E77375 /* NSString+TXDictionaryValue.h */,
+				D8ED50771E26453B00E77375 /* NSString+TXDictionaryValue.m */,
+				D8ED50781E26453B00E77375 /* NSString+TXEmoji.h */,
+				D8ED50791E26453B00E77375 /* NSString+TXEmoji.m */,
+				D8ED507A1E26453B00E77375 /* NSString+TXEncrypt.h */,
+				D8ED507B1E26453B00E77375 /* NSString+TXEncrypt.m */,
+				D8ED507C1E26453B00E77375 /* NSString+TXHash.h */,
+				D8ED507D1E26453B00E77375 /* NSString+TXHash.m */,
+				D8ED507E1E26453B00E77375 /* NSString+TXHTML.h */,
+				D8ED507F1E26453B00E77375 /* NSString+TXHTML.m */,
+				D8ED50801E26453B00E77375 /* NSString+TXJudge.h */,
+				D8ED50811E26453B00E77375 /* NSString+TXJudge.m */,
+				D8ED50821E26453B00E77375 /* NSString+TXMatcher.h */,
+				D8ED50831E26453B00E77375 /* NSString+TXMatcher.m */,
+				D8ED50841E26453B00E77375 /* NSString+TXMIME.h */,
+				D8ED50851E26453B00E77375 /* NSString+TXMIME.m */,
+				D8ED50861E26453B00E77375 /* NSString+TXNormalRegex.h */,
+				D8ED50871E26453B00E77375 /* NSString+TXNormalRegex.m */,
+				D8ED50881E26453B00E77375 /* NSString+TXNumber.h */,
+				D8ED50891E26453B00E77375 /* NSString+TXNumber.m */,
+				D8ED508A1E26453B00E77375 /* NSString+TXPinyin.h */,
+				D8ED508B1E26453B00E77375 /* NSString+TXPinyin.m */,
+				D8ED508C1E26453B00E77375 /* NSString+TXRemoveEmoji.h */,
+				D8ED508D1E26453B00E77375 /* NSString+TXRemoveEmoji.m */,
+				D8ED508E1E26453B00E77375 /* NSString+TXScore.h */,
+				D8ED508F1E26453B00E77375 /* NSString+TXScore.m */,
+				D8ED50901E26453B00E77375 /* NSString+TXSize.h */,
+				D8ED50911E26453B00E77375 /* NSString+TXSize.m */,
+				D8ED50921E26453B00E77375 /* NSString+TXStringPages.h */,
+				D8ED50931E26453B00E77375 /* NSString+TXStringPages.m */,
+				D8ED50941E26453B00E77375 /* NSString+TXTrims.h */,
+				D8ED50951E26453B00E77375 /* NSString+TXTrims.m */,
+				D8ED50961E26453B00E77375 /* NSString+TXURLEncode.h */,
+				D8ED50971E26453B00E77375 /* NSString+TXURLEncode.m */,
+				D8ED50981E26453B00E77375 /* NSString+TXUUID.h */,
+				D8ED50991E26453B00E77375 /* NSString+TXUUID.m */,
+				D8ED509A1E26453B00E77375 /* NSString+TXXMLDictionary.h */,
+				D8ED509B1E26453B00E77375 /* NSString+TXXMLDictionary.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		D8ED509C1E26453B00E77375 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED509D1E26453B00E77375 /* NSTimer+TXAddition.h */,
+				D8ED509E1E26453B00E77375 /* NSTimer+TXAddition.m */,
+				D8ED509F1E26453B00E77375 /* NSTimer+TXBlocks.h */,
+				D8ED50A01E26453B00E77375 /* NSTimer+TXBlocks.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		D8ED50A11E26453B00E77375 /* NSURL */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50A21E26453B00E77375 /* NSURL+TXParam.h */,
+				D8ED50A31E26453B00E77375 /* NSURL+TXParam.m */,
+				D8ED50A41E26453B00E77375 /* NSURL+TXQueryDictionary.h */,
+				D8ED50A51E26453B00E77375 /* NSURL+TXQueryDictionary.m */,
+			);
+			path = NSURL;
+			sourceTree = "<group>";
+		};
+		D8ED50A61E26453B00E77375 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50A71E26453B00E77375 /* NSURLConnection+TXSelfSigned.h */,
+				D8ED50A81E26453B00E77375 /* NSURLConnection+TXSelfSigned.m */,
+			);
+			path = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		D8ED50A91E26453B00E77375 /* NSURLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50AA1E26453B00E77375 /* NSMutableURLRequest+TXUpload.h */,
+				D8ED50AB1E26453B00E77375 /* NSMutableURLRequest+TXUpload.m */,
+				D8ED50AC1E26453B00E77375 /* NSURLRequest+TXParamsFromDictionary.h */,
+				D8ED50AD1E26453B00E77375 /* NSURLRequest+TXParamsFromDictionary.m */,
+			);
+			path = NSURLRequest;
+			sourceTree = "<group>";
+		};
+		D8ED50AE1E26453B00E77375 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50AF1E26453B00E77375 /* NSURLSession+TXSynchronousTask.h */,
+				D8ED50B01E26453B00E77375 /* NSURLSession+TXSynchronousTask.m */,
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
+		D8ED50B11E26453B00E77375 /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50B21E26453B00E77375 /* NSUserDefaults+TXiCloudSync.h */,
+				D8ED50B31E26453B00E77375 /* NSUserDefaults+TXiCloudSync.m */,
+				D8ED50B41E26453B00E77375 /* NSUserDefaults+TXSafeAccess.h */,
+				D8ED50B51E26453B00E77375 /* NSUserDefaults+TXSafeAccess.m */,
+			);
+			path = NSUserDefaults;
+			sourceTree = "<group>";
+		};
+		D8ED50B71E26453B00E77375 /* UICategories */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50B81E26453B00E77375 /* TXUICategories.h */,
+				D8ED50B91E26453B00E77375 /* UIAlertView */,
+				D8ED50BC1E26453B00E77375 /* UIApplication */,
+				D8ED50C51E26453B00E77375 /* UIBarButtonItem */,
+				D8ED50CA1E26453B00E77375 /* UIBezierPath */,
+				D8ED50D51E26453B00E77375 /* UIButton */,
+				D8ED50E81E26453B00E77375 /* UIColor */,
+				D8ED50F31E26453B00E77375 /* UIControl */,
+				D8ED50FA1E26453B00E77375 /* UIDevice */,
+				D8ED50FF1E26453B00E77375 /* UIFont */,
+				D8ED51061E26453B00E77375 /* UIImage */,
+				D8ED512D1E26453B00E77375 /* UIImageView */,
+				D8ED513A1E26453B00E77375 /* UILable */,
+				D8ED51431E26453B00E77375 /* UINavigationBar */,
+				D8ED51461E26453B00E77375 /* UINavigationController */,
+				D8ED514D1E26453B00E77375 /* UINavigationItem */,
+				D8ED51541E26453B00E77375 /* UIResponder */,
+				D8ED51591E26453B00E77375 /* UIScreen */,
+				D8ED515C1E26453B00E77375 /* UIScrollView */,
+				D8ED51611E26453B00E77375 /* UISearchBar */,
+				D8ED51641E26453B00E77375 /* UISplitViewController */,
+				D8ED51671E26453B00E77375 /* UITableView */,
+				D8ED516A1E26453B00E77375 /* UITableViewCell */,
+				D8ED516F1E26453B00E77375 /* UITextField */,
+				D8ED517A1E26453B00E77375 /* UITextView */,
+				D8ED51831E26453B00E77375 /* UIView */,
+				D8ED51A21E26453B00E77375 /* UIViewController */,
+				D8ED51AF1E26453B00E77375 /* UIWebView */,
+				D8ED51C21E26453B00E77375 /* UIWindow */,
+			);
+			path = UICategories;
+			sourceTree = "<group>";
+		};
+		D8ED50B91E26453B00E77375 /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50BA1E26453B00E77375 /* UIAlertView+TXBlock.h */,
+				D8ED50BB1E26453B00E77375 /* UIAlertView+TXBlock.m */,
+			);
+			path = UIAlertView;
+			sourceTree = "<group>";
+		};
+		D8ED50BC1E26453B00E77375 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50BD1E26453B00E77375 /* UIApplication+TXApplicationSize.h */,
+				D8ED50BE1E26453B00E77375 /* UIApplication+TXApplicationSize.m */,
+				D8ED50BF1E26453B00E77375 /* UIApplication+TXKeyboardFrame.h */,
+				D8ED50C01E26453B00E77375 /* UIApplication+TXKeyboardFrame.m */,
+				D8ED50C11E26453B00E77375 /* UIApplication+TXNetworkActivityIndicator.h */,
+				D8ED50C21E26453B00E77375 /* UIApplication+TXNetworkActivityIndicator.m */,
+				D8ED50C31E26453B00E77375 /* UIApplication+TXPermissions.h */,
+				D8ED50C41E26453B00E77375 /* UIApplication+TXPermissions.m */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		D8ED50C51E26453B00E77375 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50C61E26453B00E77375 /* UIBarButtonItem+TXAction.h */,
+				D8ED50C71E26453B00E77375 /* UIBarButtonItem+TXAction.m */,
+				D8ED50C81E26453B00E77375 /* UIBarButtonItem+TXBadge.h */,
+				D8ED50C91E26453B00E77375 /* UIBarButtonItem+TXBadge.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		D8ED50CA1E26453B00E77375 /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50CB1E26453B00E77375 /* UIBezierPath+TXBasicShapes.h */,
+				D8ED50CC1E26453B00E77375 /* UIBezierPath+TXBasicShapes.m */,
+				D8ED50CD1E26453B00E77375 /* UIBezierPath+TXLength.h */,
+				D8ED50CE1E26453B00E77375 /* UIBezierPath+TXLength.m */,
+				D8ED50CF1E26453B00E77375 /* UIBezierPath+TXSVGString.h */,
+				D8ED50D01E26453B00E77375 /* UIBezierPath+TXSVGString.m */,
+				D8ED50D11E26453B00E77375 /* UIBezierPath+TXSymbol.h */,
+				D8ED50D21E26453B00E77375 /* UIBezierPath+TXSymbol.m */,
+				D8ED50D31E26453B00E77375 /* UIBezierPath+TXThroughPointsBezier.h */,
+				D8ED50D41E26453B00E77375 /* UIBezierPath+TXThroughPointsBezier.m */,
+			);
+			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
+		D8ED50D51E26453B00E77375 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50D61E26453B00E77375 /* UIButton+TXBackgroundColor.h */,
+				D8ED50D71E26453B00E77375 /* UIButton+TXBackgroundColor.m */,
+				D8ED50D81E26453B00E77375 /* UIButton+TXBadge.h */,
+				D8ED50D91E26453B00E77375 /* UIButton+TXBadge.m */,
+				D8ED50DA1E26453B00E77375 /* UIButton+TXBlock.h */,
+				D8ED50DB1E26453B00E77375 /* UIButton+TXBlock.m */,
+				D8ED50DC1E26453B00E77375 /* UIButton+TXCountDown.h */,
+				D8ED50DD1E26453B00E77375 /* UIButton+TXCountDown.m */,
+				D8ED50DE1E26453B00E77375 /* UIButton+TXImagePosition.h */,
+				D8ED50DF1E26453B00E77375 /* UIButton+TXImagePosition.m */,
+				D8ED50E01E26453B00E77375 /* UIButton+TXIndicator.h */,
+				D8ED50E11E26453B00E77375 /* UIButton+TXIndicator.m */,
+				D8ED50E21E26453B00E77375 /* UIButton+TXMiddleAligning.h */,
+				D8ED50E31E26453B00E77375 /* UIButton+TXMiddleAligning.m */,
+				D8ED50E41E26453B00E77375 /* UIButton+TXSubmitting.h */,
+				D8ED50E51E26453B00E77375 /* UIButton+TXSubmitting.m */,
+				D8ED50E61E26453B00E77375 /* UIButton+TXTouchAreaInsets.h */,
+				D8ED50E71E26453B00E77375 /* UIButton+TXTouchAreaInsets.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		D8ED50E81E26453B00E77375 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50E91E26453B00E77375 /* UIColor+TXGradient.h */,
+				D8ED50EA1E26453B00E77375 /* UIColor+TXGradient.m */,
+				D8ED50EB1E26453B00E77375 /* UIColor+TXHEX.h */,
+				D8ED50EC1E26453B00E77375 /* UIColor+TXHEX.m */,
+				D8ED50ED1E26453B00E77375 /* UIColor+TXModify.h */,
+				D8ED50EE1E26453B00E77375 /* UIColor+TXModify.m */,
+				D8ED50EF1E26453B00E77375 /* UIColor+TXRandom.h */,
+				D8ED50F01E26453B00E77375 /* UIColor+TXRandom.m */,
+				D8ED50F11E26453B00E77375 /* UIColor+TXWeb.h */,
+				D8ED50F21E26453B00E77375 /* UIColor+TXWeb.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		D8ED50F31E26453B00E77375 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50F41E26453B00E77375 /* UIControl+TXActionBlocks.h */,
+				D8ED50F51E26453B00E77375 /* UIControl+TXActionBlocks.m */,
+				D8ED50F61E26453B00E77375 /* UIControl+TXBlock.h */,
+				D8ED50F71E26453B00E77375 /* UIControl+TXBlock.m */,
+				D8ED50F81E26453B00E77375 /* UIControl+TXSound.h */,
+				D8ED50F91E26453B00E77375 /* UIControl+TXSound.m */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+		D8ED50FA1E26453B00E77375 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED50FB1E26453B00E77375 /* UIDevice+TXHardware.h */,
+				D8ED50FC1E26453B00E77375 /* UIDevice+TXHardware.m */,
+				D8ED50FD1E26453B00E77375 /* UIDevice+TXPasscodeStatus.h */,
+				D8ED50FE1E26453B00E77375 /* UIDevice+TXPasscodeStatus.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		D8ED50FF1E26453B00E77375 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51001E26453B00E77375 /* UIFont+TXCustomLoader.h */,
+				D8ED51011E26453B00E77375 /* UIFont+TXCustomLoader.m */,
+				D8ED51021E26453B00E77375 /* UIFont+TXDynamicFontControl.h */,
+				D8ED51031E26453B00E77375 /* UIFont+TXDynamicFontControl.m */,
+				D8ED51041E26453B00E77375 /* UIFont+TXTTF.h */,
+				D8ED51051E26453B00E77375 /* UIFont+TXTTF.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		D8ED51061E26453B00E77375 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51071E26453B00E77375 /* UIImage+TXAlpha.h */,
+				D8ED51081E26453B00E77375 /* UIImage+TXAlpha.m */,
+				D8ED51091E26453B00E77375 /* UIImage+TXAnimatedGIF.h */,
+				D8ED510A1E26453B00E77375 /* UIImage+TXAnimatedGIF.m */,
+				D8ED510B1E26453B00E77375 /* UIImage+TXApp.h */,
+				D8ED510C1E26453B00E77375 /* UIImage+TXApp.m */,
+				D8ED510D1E26453B00E77375 /* UIImage+TXAsset.h */,
+				D8ED510E1E26453B00E77375 /* UIImage+TXAsset.m */,
+				D8ED510F1E26453B00E77375 /* UIImage+TXBetterFace.h */,
+				D8ED51101E26453B00E77375 /* UIImage+TXBetterFace.m */,
+				D8ED51111E26453B00E77375 /* UIImage+TXBlur.h */,
+				D8ED51121E26453B00E77375 /* UIImage+TXBlur.m */,
+				D8ED51131E26453B00E77375 /* UIImage+TXCapture.h */,
+				D8ED51141E26453B00E77375 /* UIImage+TXCapture.m */,
+				D8ED51151E26453B00E77375 /* UIImage+TXColor.h */,
+				D8ED51161E26453B00E77375 /* UIImage+TXColor.m */,
+				D8ED51171E26453B00E77375 /* UIImage+TXFileName.h */,
+				D8ED51181E26453B00E77375 /* UIImage+TXFileName.m */,
+				D8ED51191E26453B00E77375 /* UIImage+TXFXImage.h */,
+				D8ED511A1E26453B00E77375 /* UIImage+TXFXImage.m */,
+				D8ED511B1E26453B00E77375 /* UIImage+TXGIF.h */,
+				D8ED511C1E26453B00E77375 /* UIImage+TXGIF.m */,
+				D8ED511D1E26453B00E77375 /* UIImage+TXMerge.h */,
+				D8ED511E1E26453B00E77375 /* UIImage+TXMerge.m */,
+				D8ED511F1E26453B00E77375 /* UIImage+TXOrientation.h */,
+				D8ED51201E26453B00E77375 /* UIImage+TXOrientation.m */,
+				D8ED51211E26453B00E77375 /* UIImage+TXRemoteSize.h */,
+				D8ED51221E26453B00E77375 /* UIImage+TXRemoteSize.m */,
+				D8ED51231E26453B00E77375 /* UIImage+TXResize.h */,
+				D8ED51241E26453B00E77375 /* UIImage+TXResize.m */,
+				D8ED51251E26453B00E77375 /* UIImage+TXRoundedCorner.h */,
+				D8ED51261E26453B00E77375 /* UIImage+TXRoundedCorner.m */,
+				D8ED51271E26453B00E77375 /* UIImage+TXSuperCompress.h */,
+				D8ED51281E26453B00E77375 /* UIImage+TXSuperCompress.m */,
+				D8ED51291E26453B00E77375 /* UIImage+TXTempFolder.h */,
+				D8ED512A1E26453B00E77375 /* UIImage+TXTempFolder.m */,
+				D8ED512B1E26453B00E77375 /* UIImage+TXVector.h */,
+				D8ED512C1E26453B00E77375 /* UIImage+TXVector.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		D8ED512D1E26453B00E77375 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED512E1E26453B00E77375 /* UIImageView+TXAddition.h */,
+				D8ED512F1E26453B00E77375 /* UIImageView+TXAddition.m */,
+				D8ED51301E26453B00E77375 /* UIImageView+TXBetterFace.h */,
+				D8ED51311E26453B00E77375 /* UIImageView+TXBetterFace.m */,
+				D8ED51321E26453B00E77375 /* UIImageView+TXFaceAwareFill.h */,
+				D8ED51331E26453B00E77375 /* UIImageView+TXFaceAwareFill.m */,
+				D8ED51341E26453B00E77375 /* UIImageView+TXGeometryConversion.h */,
+				D8ED51351E26453B00E77375 /* UIImageView+TXGeometryConversion.m */,
+				D8ED51361E26453B00E77375 /* UIImageView+TXLetters.h */,
+				D8ED51371E26453B00E77375 /* UIImageView+TXLetters.m */,
+				D8ED51381E26453B00E77375 /* UIImageView+TXReflect.h */,
+				D8ED51391E26453B00E77375 /* UIImageView+TXReflect.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		D8ED513A1E26453B00E77375 /* UILable */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED513B1E26453B00E77375 /* UILabel+TXAdjustableLabel.h */,
+				D8ED513C1E26453B00E77375 /* UILabel+TXAdjustableLabel.m */,
+				D8ED513D1E26453B00E77375 /* UILabel+TXAutomaticWriting.h */,
+				D8ED513E1E26453B00E77375 /* UILabel+TXAutomaticWriting.m */,
+				D8ED513F1E26453B00E77375 /* UILabel+TXAutoSize.h */,
+				D8ED51401E26453B00E77375 /* UILabel+TXAutoSize.m */,
+				D8ED51411E26453B00E77375 /* UILabel+TXEstimate.h */,
+				D8ED51421E26453B00E77375 /* UILabel+TXEstimate.m */,
+			);
+			path = UILable;
+			sourceTree = "<group>";
+		};
+		D8ED51431E26453B00E77375 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51441E26453B00E77375 /* UINavigationBar+TXAwesome.h */,
+				D8ED51451E26453B00E77375 /* UINavigationBar+TXAwesome.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
+		D8ED51461E26453B00E77375 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51471E26453B00E77375 /* UINavigationController+TXKeyboardFix.h */,
+				D8ED51481E26453B00E77375 /* UINavigationController+TXKeyboardFix.m */,
+				D8ED51491E26453B00E77375 /* UINavigationController+TXStackManager.h */,
+				D8ED514A1E26453B00E77375 /* UINavigationController+TXStackManager.m */,
+				D8ED514B1E26453B00E77375 /* UINavigationController+TXTransitions.h */,
+				D8ED514C1E26453B00E77375 /* UINavigationController+TXTransitions.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		D8ED514D1E26453B00E77375 /* UINavigationItem */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED514E1E26453B00E77375 /* UINavigationItem+TXLoading.h */,
+				D8ED514F1E26453B00E77375 /* UINavigationItem+TXLoading.m */,
+				D8ED51501E26453B00E77375 /* UINavigationItem+TXLock.h */,
+				D8ED51511E26453B00E77375 /* UINavigationItem+TXLock.m */,
+				D8ED51521E26453B00E77375 /* UINavigationItem+TXMargin.h */,
+				D8ED51531E26453B00E77375 /* UINavigationItem+TXMargin.m */,
+			);
+			path = UINavigationItem;
+			sourceTree = "<group>";
+		};
+		D8ED51541E26453B00E77375 /* UIResponder */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51551E26453B00E77375 /* UIResponder+TXChain.h */,
+				D8ED51561E26453B00E77375 /* UIResponder+TXChain.m */,
+				D8ED51571E26453B00E77375 /* UIResponder+TXFirstResponder.h */,
+				D8ED51581E26453B00E77375 /* UIResponder+TXFirstResponder.m */,
+			);
+			path = UIResponder;
+			sourceTree = "<group>";
+		};
+		D8ED51591E26453B00E77375 /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED515A1E26453B00E77375 /* UIScreen+TXFrame.h */,
+				D8ED515B1E26453B00E77375 /* UIScreen+TXFrame.m */,
+			);
+			path = UIScreen;
+			sourceTree = "<group>";
+		};
+		D8ED515C1E26453B00E77375 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED515D1E26453B00E77375 /* UIScrollView+TXAddition.h */,
+				D8ED515E1E26453B00E77375 /* UIScrollView+TXAddition.m */,
+				D8ED515F1E26453B00E77375 /* UIScrollView+TXPages.h */,
+				D8ED51601E26453B00E77375 /* UIScrollView+TXPages.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		D8ED51611E26453B00E77375 /* UISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51621E26453B00E77375 /* UISearchBar+TXBlocks.h */,
+				D8ED51631E26453B00E77375 /* UISearchBar+TXBlocks.m */,
+			);
+			path = UISearchBar;
+			sourceTree = "<group>";
+		};
+		D8ED51641E26453B00E77375 /* UISplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51651E26453B00E77375 /* UISplitViewController+TXQuickAccess.h */,
+				D8ED51661E26453B00E77375 /* UISplitViewController+TXQuickAccess.m */,
+			);
+			path = UISplitViewController;
+			sourceTree = "<group>";
+		};
+		D8ED51671E26453B00E77375 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51681E26453B00E77375 /* UITableView+PlaceHolder.h */,
+				D8ED51691E26453B00E77375 /* UITableView+PlaceHolder.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		D8ED516A1E26453B00E77375 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED516B1E26453B00E77375 /* UITableViewCell+TXDelaysContentTouches.h */,
+				D8ED516C1E26453B00E77375 /* UITableViewCell+TXDelaysContentTouches.m */,
+				D8ED516D1E26453B00E77375 /* UITableViewCell+TXNIB.h */,
+				D8ED516E1E26453B00E77375 /* UITableViewCell+TXNIB.m */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		D8ED516F1E26453B00E77375 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51701E26453B00E77375 /* UITextField+TXBlocks.h */,
+				D8ED51711E26453B00E77375 /* UITextField+TXBlocks.m */,
+				D8ED51721E26453B00E77375 /* UITextField+TXHistory.h */,
+				D8ED51731E26453B00E77375 /* UITextField+TXHistory.m */,
+				D8ED51741E26453B00E77375 /* UITextField+TXInputLimit.h */,
+				D8ED51751E26453B00E77375 /* UITextField+TXInputLimit.m */,
+				D8ED51761E26453B00E77375 /* UITextField+TXSelect.h */,
+				D8ED51771E26453B00E77375 /* UITextField+TXSelect.m */,
+				D8ED51781E26453B00E77375 /* UITextField+TXShake.h */,
+				D8ED51791E26453B00E77375 /* UITextField+TXShake.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		D8ED517A1E26453B00E77375 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED517B1E26453B00E77375 /* UITextView+TXInputLimit.h */,
+				D8ED517C1E26453B00E77375 /* UITextView+TXInputLimit.m */,
+				D8ED517D1E26453B00E77375 /* UITextView+TXPinchZoom.h */,
+				D8ED517E1E26453B00E77375 /* UITextView+TXPinchZoom.m */,
+				D8ED517F1E26453B00E77375 /* UITextView+TXPlaceHolder.h */,
+				D8ED51801E26453B00E77375 /* UITextView+TXPlaceHolder.m */,
+				D8ED51811E26453B00E77375 /* UITextView+TXSelect.h */,
+				D8ED51821E26453B00E77375 /* UITextView+TXSelect.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		D8ED51831E26453B00E77375 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51841E26453B00E77375 /* UIView+TXAnimation.h */,
+				D8ED51851E26453B00E77375 /* UIView+TXAnimation.m */,
+				D8ED51861E26453B00E77375 /* UIView+TXBlockGesture.h */,
+				D8ED51871E26453B00E77375 /* UIView+TXBlockGesture.m */,
+				D8ED51881E26453B00E77375 /* UIView+TXConstraints.h */,
+				D8ED51891E26453B00E77375 /* UIView+TXConstraints.m */,
+				D8ED518A1E26453B00E77375 /* UIView+TXCustomBorder.h */,
+				D8ED518B1E26453B00E77375 /* UIView+TXCustomBorder.m */,
+				D8ED518C1E26453B00E77375 /* UIView+TXDraggable.h */,
+				D8ED518D1E26453B00E77375 /* UIView+TXDraggable.m */,
+				D8ED518E1E26453B00E77375 /* UIView+TXFind.h */,
+				D8ED518F1E26453B00E77375 /* UIView+TXFind.m */,
+				D8ED51901E26453B00E77375 /* UIView+TXFrame.h */,
+				D8ED51911E26453B00E77375 /* UIView+TXFrame.m */,
+				D8ED51921E26453B00E77375 /* UIView+TXLayer.h */,
+				D8ED51931E26453B00E77375 /* UIView+TXLayer.m */,
+				D8ED51941E26453B00E77375 /* UIView+TXNib.h */,
+				D8ED51951E26453B00E77375 /* UIView+TXNib.m */,
+				D8ED51961E26453B00E77375 /* UIView+TXRecursion.h */,
+				D8ED51971E26453B00E77375 /* UIView+TXRecursion.m */,
+				D8ED51981E26453B00E77375 /* UIView+TXRemove.h */,
+				D8ED51991E26453B00E77375 /* UIView+TXRemove.m */,
+				D8ED519A1E26453B00E77375 /* UIView+TXScreenshot.h */,
+				D8ED519B1E26453B00E77375 /* UIView+TXScreenshot.m */,
+				D8ED519C1E26453B00E77375 /* UIView+TXShake.h */,
+				D8ED519D1E26453B00E77375 /* UIView+TXShake.m */,
+				D8ED519E1E26453B00E77375 /* UIView+TXToast.h */,
+				D8ED519F1E26453B00E77375 /* UIView+TXToast.m */,
+				D8ED51A01E26453B00E77375 /* UIView+TXVisuals.h */,
+				D8ED51A11E26453B00E77375 /* UIView+TXVisuals.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		D8ED51A21E26453B00E77375 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51A31E26453B00E77375 /* UIViewController+TXBackButtonItemTitle.h */,
+				D8ED51A41E26453B00E77375 /* UIViewController+TXBackButtonItemTitle.m */,
+				D8ED51A51E26453B00E77375 /* UIViewController+TXBackButtonTouched.h */,
+				D8ED51A61E26453B00E77375 /* UIViewController+TXBackButtonTouched.m */,
+				D8ED51A71E26453B00E77375 /* UIViewController+TXBlockSegue.h */,
+				D8ED51A81E26453B00E77375 /* UIViewController+TXBlockSegue.m */,
+				D8ED51A91E26453B00E77375 /* UIViewController+TXRecursiveDescription.h */,
+				D8ED51AA1E26453B00E77375 /* UIViewController+TXRecursiveDescription.m */,
+				D8ED51AB1E26453B00E77375 /* UIViewController+TXStoreKit.h */,
+				D8ED51AC1E26453B00E77375 /* UIViewController+TXStoreKit.m */,
+				D8ED51AD1E26453B00E77375 /* UIViewController+TXVisible.h */,
+				D8ED51AE1E26453B00E77375 /* UIViewController+TXVisible.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		D8ED51AF1E26453B00E77375 /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51B01E26453B00E77375 /* UIWebView+TXBlocks.h */,
+				D8ED51B11E26453B00E77375 /* UIWebView+TXBlocks.m */,
+				D8ED51B21E26453B00E77375 /* UIWebView+TXCanvas.h */,
+				D8ED51B31E26453B00E77375 /* UIWebView+TXCanvas.m */,
+				D8ED51B41E26453B00E77375 /* UIWebView+TXJavaScript.h */,
+				D8ED51B51E26453B00E77375 /* UIWebView+TXJavaScript.m */,
+				D8ED51B61E26453B00E77375 /* UIWebView+TXLoad.h */,
+				D8ED51B71E26453B00E77375 /* UIWebView+TXLoad.m */,
+				D8ED51B81E26453B00E77375 /* UIWebView+TXLoadInfo.h */,
+				D8ED51B91E26453B00E77375 /* UIWebView+TXLoadInfo.m */,
+				D8ED51BA1E26453B00E77375 /* UIWebView+TXMetaParser.h */,
+				D8ED51BB1E26453B00E77375 /* UIWebView+TXMetaParser.m */,
+				D8ED51BC1E26453B00E77375 /* UIWebView+TXStyle.h */,
+				D8ED51BD1E26453B00E77375 /* UIWebView+TXStyle.m */,
+				D8ED51BE1E26453B00E77375 /* UIWebVIew+TXSwipeGesture.h */,
+				D8ED51BF1E26453B00E77375 /* UIWebVIew+TXSwipeGesture.m */,
+				D8ED51C01E26453B00E77375 /* UIWebView+TXWebStorage.h */,
+				D8ED51C11E26453B00E77375 /* UIWebView+TXWebStorage.m */,
+			);
+			path = UIWebView;
+			sourceTree = "<group>";
+		};
+		D8ED51C21E26453B00E77375 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED51C31E26453B00E77375 /* UIWindow+TXHierarchy.h */,
+				D8ED51C41E26453B00E77375 /* UIWindow+TXHierarchy.m */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8ED43F01E25D1C000E77375 /* TXCategoriesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8ED44081E25D1C000E77375 /* Build configuration list for PBXNativeTarget "TXCategoriesDemo" */;
+			buildPhases = (
+				D8ED43ED1E25D1C000E77375 /* Sources */,
+				D8ED43EE1E25D1C000E77375 /* Frameworks */,
+				D8ED43EF1E25D1C000E77375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TXCategoriesDemo;
+			productName = TXCategoriesDemo;
+			productReference = D8ED43F11E25D1C000E77375 /* TXCategoriesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8ED43E91E25D1C000E77375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "王-庭协";
+				TargetAttributes = {
+					D8ED43F01E25D1C000E77375 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D8ED43EC1E25D1C000E77375 /* Build configuration list for PBXProject "TXCategoriesDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8ED43E81E25D1C000E77375;
+			productRefGroup = D8ED43F21E25D1C000E77375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8ED43F01E25D1C000E77375 /* TXCategoriesDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8ED43EF1E25D1C000E77375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ED44041E25D1C000E77375 /* LaunchScreen.storyboard in Resources */,
+				D8ED44011E25D1C000E77375 /* Assets.xcassets in Resources */,
+				D8ED43FF1E25D1C000E77375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8ED43ED1E25D1C000E77375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ED52081E26453C00E77375 /* NSString+TXSize.m in Sources */,
+				D8ED527A1E26453C00E77375 /* UIView+TXRecursion.m in Sources */,
+				D8ED52251E26453C00E77375 /* UIButton+TXBadge.m in Sources */,
+				D8ED524D1E26453C00E77375 /* UIImageView+TXAddition.m in Sources */,
+				D8ED523E1E26453C00E77375 /* UIImage+TXBetterFace.m in Sources */,
+				D8ED52411E26453C00E77375 /* UIImage+TXColor.m in Sources */,
+				D8ED51FC1E26453C00E77375 /* NSString+TXEmoji.m in Sources */,
+				D8ED52391E26453C00E77375 /* UIFont+TXTTF.m in Sources */,
+				D8ED520F1E26453C00E77375 /* NSTimer+TXBlocks.m in Sources */,
+				D8ED525F1E26453C00E77375 /* UIResponder+TXFirstResponder.m in Sources */,
+				D8ED52831E26453C00E77375 /* UIViewController+TXRecursiveDescription.m in Sources */,
+				D8ED52511E26453C00E77375 /* UIImageView+TXLetters.m in Sources */,
+				D8ED51E41E26453C00E77375 /* NSInvocation+TXBb.m in Sources */,
+				D8ED52731E26453C00E77375 /* UIView+TXConstraints.m in Sources */,
+				D8ED52671E26453C00E77375 /* UITableViewCell+TXNIB.m in Sources */,
+				D8ED527C1E26453C00E77375 /* UIView+TXScreenshot.m in Sources */,
+				D8ED51C81E26453C00E77375 /* NSData+TXAPNSToken.m in Sources */,
+				D8ED51EF1E26453C00E77375 /* NSObject+TXAutoCoding.m in Sources */,
+				D8ED525D1E26453C00E77375 /* UINavigationItem+TXMargin.m in Sources */,
+				D8ED51CA1E26453C00E77375 /* NSData+TXDataCache.m in Sources */,
+				D8ED52101E26453C00E77375 /* NSURL+TXParam.m in Sources */,
+				D8ED51E01E26453C00E77375 /* NSFileHandle+TXReadLine.m in Sources */,
+				D8ED527E1E26453C00E77375 /* UIView+TXToast.m in Sources */,
+				D8ED52231E26453C00E77375 /* UIBezierPath+TXThroughPointsBezier.m in Sources */,
+				D8ED51E31E26453C00E77375 /* NSIndexPath+TXOffset.m in Sources */,
+				D8ED51F71E26453C00E77375 /* NSObject+TXRuntime.m in Sources */,
+				D8ED51F61E26453C00E77375 /* NSObject+TXReflection.m in Sources */,
+				D8ED52181E26453C00E77375 /* UIAlertView+TXBlock.m in Sources */,
+				D8ED51D21E26453C00E77375 /* NSDate+TXFormatter.m in Sources */,
+				D8ED52201E26453C00E77375 /* UIBezierPath+TXLength.m in Sources */,
+				D8ED52701E26453C00E77375 /* UITextView+TXSelect.m in Sources */,
+				D8ED526F1E26453C00E77375 /* UITextView+TXPlaceHolder.m in Sources */,
+				D8ED51DC1E26453C00E77375 /* NSDictionary+TXSafeAccess.m in Sources */,
+				D8ED52581E26453C00E77375 /* UINavigationController+TXKeyboardFix.m in Sources */,
+				D8ED51F31E26453C00E77375 /* NSObject+TXEasyCopy.m in Sources */,
+				D8ED52491E26453C00E77375 /* UIImage+TXRoundedCorner.m in Sources */,
+				D8ED52711E26453C00E77375 /* UIView+TXAnimation.m in Sources */,
+				D8ED52851E26453C00E77375 /* UIViewController+TXVisible.m in Sources */,
+				D8ED521B1E26453C00E77375 /* UIApplication+TXNetworkActivityIndicator.m in Sources */,
+				D8ED51E11E26453C00E77375 /* NSFileManager+TXPaths.m in Sources */,
+				D8ED52341E26453C00E77375 /* UIControl+TXSound.m in Sources */,
+				D8ED52871E26453C00E77375 /* UIWebView+TXCanvas.m in Sources */,
+				D8ED528E1E26453C00E77375 /* UIWebView+TXWebStorage.m in Sources */,
+				D8ED528F1E26453C00E77375 /* UIWindow+TXHierarchy.m in Sources */,
+				D8ED52611E26453C00E77375 /* UIScrollView+TXAddition.m in Sources */,
+				D8ED51DE1E26453C00E77375 /* NSDictionary+TXXML.m in Sources */,
+				D8ED52061E26453C00E77375 /* NSString+TXRemoveEmoji.m in Sources */,
+				D8ED52841E26453C00E77375 /* UIViewController+TXStoreKit.m in Sources */,
+				D8ED52371E26453C00E77375 /* UIFont+TXCustomLoader.m in Sources */,
+				D8ED52881E26453C00E77375 /* UIWebView+TXJavaScript.m in Sources */,
+				D8ED51D11E26453C00E77375 /* NSDate+TXExtension.m in Sources */,
+				D8ED52141E26453C00E77375 /* NSURLRequest+TXParamsFromDictionary.m in Sources */,
+				D8ED52791E26453C00E77375 /* UIView+TXNib.m in Sources */,
+				D8ED52811E26453C00E77375 /* UIViewController+TXBackButtonTouched.m in Sources */,
+				D8ED51E81E26453C00E77375 /* NSDecimalNumber+TXExtensions.m in Sources */,
+				D8ED52241E26453C00E77375 /* UIButton+TXBackgroundColor.m in Sources */,
+				D8ED51CC1E26453C00E77375 /* NSData+TXGzip.m in Sources */,
+				D8ED51D51E26453C00E77375 /* NSDate+TXUtilities.m in Sources */,
+				D8ED52801E26453C00E77375 /* UIViewController+TXBackButtonItemTitle.m in Sources */,
+				D8ED43FC1E25D1C000E77375 /* ViewController.m in Sources */,
+				D8ED525B1E26453C00E77375 /* UINavigationItem+TXLoading.m in Sources */,
+				D8ED52561E26453C00E77375 /* UILabel+TXEstimate.m in Sources */,
+				D8ED526B1E26453C00E77375 /* UITextField+TXSelect.m in Sources */,
+				D8ED51E71E26453C00E77375 /* NSDecimalNumber+TXCalculatingByString.m in Sources */,
+				D8ED51D31E26453C00E77375 /* NSDate+TXInternetDateTime.m in Sources */,
+				D8ED52501E26453C00E77375 /* UIImageView+TXGeometryConversion.m in Sources */,
+				D8ED524C1E26453C00E77375 /* UIImage+TXVector.m in Sources */,
+				D8ED51F51E26453C00E77375 /* NSObject+TXKVOBlocks.m in Sources */,
+				D8ED524E1E26453C00E77375 /* UIImageView+TXBetterFace.m in Sources */,
+				D8ED52571E26453C00E77375 /* UINavigationBar+TXAwesome.m in Sources */,
+				D8ED522F1E26453C00E77375 /* UIColor+TXModify.m in Sources */,
+				D8ED52431E26453C00E77375 /* UIImage+TXFXImage.m in Sources */,
+				D8ED51CD1E26453C00E77375 /* NSData+TXHash.m in Sources */,
+				D8ED52171E26453C00E77375 /* NSUserDefaults+TXSafeAccess.m in Sources */,
+				D8ED52111E26453C00E77375 /* NSURL+TXQueryDictionary.m in Sources */,
+				D8ED52321E26453C00E77375 /* UIControl+TXActionBlocks.m in Sources */,
+				D8ED52721E26453C00E77375 /* UIView+TXBlockGesture.m in Sources */,
+				D8ED520E1E26453C00E77375 /* NSTimer+TXAddition.m in Sources */,
+				D8ED52271E26453C00E77375 /* UIButton+TXCountDown.m in Sources */,
+				D8ED51FE1E26453C00E77375 /* NSString+TXHash.m in Sources */,
+				D8ED522E1E26453C00E77375 /* UIColor+TXHEX.m in Sources */,
+				D8ED43F91E25D1C000E77375 /* AppDelegate.m in Sources */,
+				D8ED521C1E26453C00E77375 /* UIApplication+TXPermissions.m in Sources */,
+				D8ED526C1E26453C00E77375 /* UITextField+TXShake.m in Sources */,
+				D8ED522D1E26453C00E77375 /* UIColor+TXGradient.m in Sources */,
+				D8ED52311E26453C00E77375 /* UIColor+TXWeb.m in Sources */,
+				D8ED52451E26453C00E77375 /* UIImage+TXMerge.m in Sources */,
+				D8ED51D91E26453C00E77375 /* NSDictionary+TXConversion.m in Sources */,
+				D8ED51ED1E26453C00E77375 /* NSObject+TXAppInfo.m in Sources */,
+				D8ED51C91E26453C00E77375 /* NSData+TXBase64.m in Sources */,
+				D8ED52681E26453C00E77375 /* UITextField+TXBlocks.m in Sources */,
+				D8ED52761E26453C00E77375 /* UIView+TXFind.m in Sources */,
+				D8ED524B1E26453C00E77375 /* UIImage+TXTempFolder.m in Sources */,
+				D8ED52161E26453C00E77375 /* NSUserDefaults+TXiCloudSync.m in Sources */,
+				D8ED52421E26453C00E77375 /* UIImage+TXFileName.m in Sources */,
+				D8ED51CF1E26453C00E77375 /* NSData+TXzlib.m in Sources */,
+				D8ED51DB1E26453C00E77375 /* NSDictionary+TXMerge.m in Sources */,
+				D8ED522C1E26453C00E77375 /* UIButton+TXTouchAreaInsets.m in Sources */,
+				D8ED52531E26453C00E77375 /* UILabel+TXAdjustableLabel.m in Sources */,
+				D8ED52661E26453C00E77375 /* UITableViewCell+TXDelaysContentTouches.m in Sources */,
+				D8ED52461E26453C00E77375 /* UIImage+TXOrientation.m in Sources */,
+				D8ED52291E26453C00E77375 /* UIButton+TXIndicator.m in Sources */,
+				D8ED51FA1E26453C00E77375 /* NSString+TXBase64.m in Sources */,
+				D8ED52741E26453C00E77375 /* UIView+TXCustomBorder.m in Sources */,
+				D8ED51CE1E26453C00E77375 /* NSData+TXPCM.m in Sources */,
+				D8ED51E21E26453C00E77375 /* NSHTTPCookieStorage+TXFreezeDry.m in Sources */,
+				D8ED520D1E26453C00E77375 /* NSString+TXXMLDictionary.m in Sources */,
+				D8ED51E61E26453C00E77375 /* NSNotificationCenter+TXMainThread.m in Sources */,
+				D8ED526D1E26453C00E77375 /* UITextView+TXInputLimit.m in Sources */,
+				D8ED52551E26453C00E77375 /* UILabel+TXAutoSize.m in Sources */,
+				D8ED52011E26453C00E77375 /* NSString+TXMatcher.m in Sources */,
+				D8ED51EA1E26453C00E77375 /* NSNumber+TXRomanNumerals.m in Sources */,
+				D8ED524F1E26453C00E77375 /* UIImageView+TXFaceAwareFill.m in Sources */,
+				D8ED521A1E26453C00E77375 /* UIApplication+TXKeyboardFrame.m in Sources */,
+				D8ED52001E26453C00E77375 /* NSString+TXJudge.m in Sources */,
+				D8ED51FB1E26453C00E77375 /* NSString+TXDictionaryValue.m in Sources */,
+				D8ED52361E26453C00E77375 /* UIDevice+TXPasscodeStatus.m in Sources */,
+				D8ED526E1E26453C00E77375 /* UITextView+TXPinchZoom.m in Sources */,
+				D8ED52041E26453C00E77375 /* NSString+TXNumber.m in Sources */,
+				D8ED520B1E26453C00E77375 /* NSString+TXURLEncode.m in Sources */,
+				D8ED51EB1E26453C00E77375 /* NSNumber+TXRound.m in Sources */,
+				D8ED528B1E26453C00E77375 /* UIWebView+TXMetaParser.m in Sources */,
+				D8ED52221E26453C00E77375 /* UIBezierPath+TXSymbol.m in Sources */,
+				D8ED52521E26453C00E77375 /* UIImageView+TXReflect.m in Sources */,
+				D8ED51F91E26453C00E77375 /* NSSet+TXBlock.m in Sources */,
+				D8ED52031E26453C00E77375 /* NSString+TXNormalRegex.m in Sources */,
+				D8ED52771E26453C00E77375 /* UIView+TXFrame.m in Sources */,
+				D8ED52351E26453C00E77375 /* UIDevice+TXHardware.m in Sources */,
+				D8ED51E51E26453C00E77375 /* NSInvocation+TXBlock.m in Sources */,
+				D8ED51C51E26453C00E77375 /* NSArray+TXBlock.m in Sources */,
+				D8ED51FD1E26453C00E77375 /* NSString+TXEncrypt.m in Sources */,
+				D8ED52471E26453C00E77375 /* UIImage+TXRemoteSize.m in Sources */,
+				D8ED52541E26453C00E77375 /* UILabel+TXAutomaticWriting.m in Sources */,
+				D8ED52861E26453C00E77375 /* UIWebView+TXBlocks.m in Sources */,
+				D8ED521F1E26453C00E77375 /* UIBezierPath+TXBasicShapes.m in Sources */,
+				D8ED527D1E26453C00E77375 /* UIView+TXShake.m in Sources */,
+				D8ED523C1E26453C00E77375 /* UIImage+TXApp.m in Sources */,
+				D8ED523D1E26453C00E77375 /* UIImage+TXAsset.m in Sources */,
+				D8ED52651E26453C00E77375 /* UITableView+PlaceHolder.m in Sources */,
+				D8ED52441E26453C00E77375 /* UIImage+TXGIF.m in Sources */,
+				D8ED52641E26453C00E77375 /* UISplitViewController+TXQuickAccess.m in Sources */,
+				D8ED51F21E26453C00E77375 /* NSObject+TXConversion.m in Sources */,
+				D8ED522B1E26453C00E77375 /* UIButton+TXSubmitting.m in Sources */,
+				D8ED51FF1E26453C00E77375 /* NSString+TXHTML.m in Sources */,
+				D8ED528D1E26453C00E77375 /* UIWebVIew+TXSwipeGesture.m in Sources */,
+				D8ED525C1E26453C00E77375 /* UINavigationItem+TXLock.m in Sources */,
+				D8ED52091E26453C00E77375 /* NSString+TXStringPages.m in Sources */,
+				D8ED52301E26453C00E77375 /* UIColor+TXRandom.m in Sources */,
+				D8ED52191E26453C00E77375 /* UIApplication+TXApplicationSize.m in Sources */,
+				D8ED51C61E26453C00E77375 /* NSArray+TXSafeAccess.m in Sources */,
+				D8ED525A1E26453C00E77375 /* UINavigationController+TXTransitions.m in Sources */,
+				D8ED52751E26453C00E77375 /* UIView+TXDraggable.m in Sources */,
+				D8ED528C1E26453C00E77375 /* UIWebView+TXStyle.m in Sources */,
+				D8ED52691E26453C00E77375 /* UITextField+TXHistory.m in Sources */,
+				D8ED520A1E26453C00E77375 /* NSString+TXTrims.m in Sources */,
+				D8ED51D71E26453C00E77375 /* NSDateFormatter+TXMake.m in Sources */,
+				D8ED527B1E26453C00E77375 /* UIView+TXRemove.m in Sources */,
+				D8ED52071E26453C00E77375 /* NSString+TXScore.m in Sources */,
+				D8ED521D1E26453C00E77375 /* UIBarButtonItem+TXAction.m in Sources */,
+				D8ED51F81E26453C00E77375 /* NSRunLoop+TXPerformBlock.m in Sources */,
+				D8ED52591E26453C00E77375 /* UINavigationController+TXStackManager.m in Sources */,
+				D8ED51C71E26453C00E77375 /* NSBundle+TXExtension.m in Sources */,
+				D8ED51D81E26453C00E77375 /* NSDictionary+TXBlock.m in Sources */,
+				D8ED523F1E26453C00E77375 /* UIImage+TXBlur.m in Sources */,
+				D8ED525E1E26453C00E77375 /* UIResponder+TXChain.m in Sources */,
+				D8ED527F1E26453C00E77375 /* UIView+TXVisuals.m in Sources */,
+				D8ED51CB1E26453C00E77375 /* NSData+TXEncrypt.m in Sources */,
+				D8ED52621E26453C00E77375 /* UIScrollView+TXPages.m in Sources */,
+				D8ED52891E26453C00E77375 /* UIWebView+TXLoad.m in Sources */,
+				D8ED51E91E26453C00E77375 /* NSNumber+TXCGFloat.m in Sources */,
+				D8ED51F41E26453C00E77375 /* NSObject+TXGCD.m in Sources */,
+				D8ED52631E26453C00E77375 /* UISearchBar+TXBlocks.m in Sources */,
+				D8ED52281E26453C00E77375 /* UIButton+TXImagePosition.m in Sources */,
+				D8ED52401E26453C00E77375 /* UIImage+TXCapture.m in Sources */,
+				D8ED52381E26453C00E77375 /* UIFont+TXDynamicFontControl.m in Sources */,
+				D8ED51EC1E26453C00E77375 /* NSObject+TXAddProperty.m in Sources */,
+				D8ED523B1E26453C00E77375 /* UIImage+TXAnimatedGIF.m in Sources */,
+				D8ED52121E26453C00E77375 /* NSURLConnection+TXSelfSigned.m in Sources */,
+				D8ED43F61E25D1C000E77375 /* main.m in Sources */,
+				D8ED52331E26453C00E77375 /* UIControl+TXBlock.m in Sources */,
+				D8ED526A1E26453C00E77375 /* UITextField+TXInputLimit.m in Sources */,
+				D8ED52821E26453C00E77375 /* UIViewController+TXBlockSegue.m in Sources */,
+				D8ED51D41E26453C00E77375 /* NSDate+TXReporting.m in Sources */,
+				D8ED51DD1E26453C00E77375 /* NSDictionary+TXURL.m in Sources */,
+				D8ED522A1E26453C00E77375 /* UIButton+TXMiddleAligning.m in Sources */,
+				D8ED52151E26453C00E77375 /* NSURLSession+TXSynchronousTask.m in Sources */,
+				D8ED523A1E26453C00E77375 /* UIImage+TXAlpha.m in Sources */,
+				D8ED51D61E26453C00E77375 /* NSDate+TXZeroDate.m in Sources */,
+				D8ED52261E26453C00E77375 /* UIButton+TXBlock.m in Sources */,
+				D8ED52481E26453C00E77375 /* UIImage+TXResize.m in Sources */,
+				D8ED52131E26453C00E77375 /* NSMutableURLRequest+TXUpload.m in Sources */,
+				D8ED52601E26453C00E77375 /* UIScreen+TXFrame.m in Sources */,
+				D8ED51DA1E26453C00E77375 /* NSDictionary+TXJSONString.m in Sources */,
+				D8ED524A1E26453C00E77375 /* UIImage+TXSuperCompress.m in Sources */,
+				D8ED51F01E26453C00E77375 /* NSObject+TXBlocks.m in Sources */,
+				D8ED52021E26453C00E77375 /* NSString+TXMIME.m in Sources */,
+				D8ED521E1E26453C00E77375 /* UIBarButtonItem+TXBadge.m in Sources */,
+				D8ED528A1E26453C00E77375 /* UIWebView+TXLoadInfo.m in Sources */,
+				D8ED51EE1E26453C00E77375 /* NSObject+TXAssociatedObject.m in Sources */,
+				D8ED52051E26453C00E77375 /* NSString+TXPinyin.m in Sources */,
+				D8ED51F11E26453C00E77375 /* NSObject+TXBlockTimer.m in Sources */,
+				D8ED51DF1E26453C00E77375 /* NSException+TXTrace.m in Sources */,
+				D8ED520C1E26453C00E77375 /* NSString+TXUUID.m in Sources */,
+				D8ED52781E26453C00E77375 /* UIView+TXLayer.m in Sources */,
+				D8ED51D01E26453C00E77375 /* NSDate+TXCupertinoYankee.m in Sources */,
+				D8ED52211E26453C00E77375 /* UIBezierPath+TXSVGString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8ED43FD1E25D1C000E77375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8ED43FE1E25D1C000E77375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8ED44021E25D1C000E77375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8ED44031E25D1C000E77375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8ED44061E25D1C000E77375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8ED44071E25D1C000E77375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8ED44091E25D1C000E77375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TXCategoriesDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.TXCategoriesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8ED440A1E25D1C000E77375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TXCategoriesDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.TXCategoriesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8ED43EC1E25D1C000E77375 /* Build configuration list for PBXProject "TXCategoriesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ED44061E25D1C000E77375 /* Debug */,
+				D8ED44071E25D1C000E77375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8ED44081E25D1C000E77375 /* Build configuration list for PBXNativeTarget "TXCategoriesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ED44091E25D1C000E77375 /* Debug */,
+				D8ED440A1E25D1C000E77375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8ED43E91E25D1C000E77375 /* Project object */;
+}
