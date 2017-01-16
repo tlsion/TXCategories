@@ -13,7 +13,6 @@
 		D86931431E2CC2B2005C2D28 /* NSData+TXAPNSToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692F7A1E2CC2B1005C2D28 /* NSData+TXAPNSToken.m */; };
 		D86931441E2CC2B2005C2D28 /* NSData+TXBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692F7C1E2CC2B1005C2D28 /* NSData+TXBase64.m */; };
 		D86931451E2CC2B2005C2D28 /* NSData+TXDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692F7E1E2CC2B1005C2D28 /* NSData+TXDataCache.m */; };
-		D86931461E2CC2B2005C2D28 /* NSData+TXEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692F801E2CC2B1005C2D28 /* NSData+TXEncrypt.m */; };
 		D86931471E2CC2B2005C2D28 /* NSData+TXGzip.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692F821E2CC2B1005C2D28 /* NSData+TXGzip.m */; };
 		D86931481E2CC2B2005C2D28 /* NSData+TXHash.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692F841E2CC2B1005C2D28 /* NSData+TXHash.m */; };
 		D86931491E2CC2B2005C2D28 /* NSData+TXPCM.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692F861E2CC2B1005C2D28 /* NSData+TXPCM.m */; };
@@ -64,7 +63,6 @@
 		D86931761E2CC2B2005C2D28 /* NSString+TXBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692FEF1E2CC2B2005C2D28 /* NSString+TXBase64.m */; };
 		D86931771E2CC2B2005C2D28 /* NSString+TXDictionaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692FF11E2CC2B2005C2D28 /* NSString+TXDictionaryValue.m */; };
 		D86931781E2CC2B2005C2D28 /* NSString+TXEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692FF31E2CC2B2005C2D28 /* NSString+TXEmoji.m */; };
-		D86931791E2CC2B2005C2D28 /* NSString+TXEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692FF51E2CC2B2005C2D28 /* NSString+TXEncrypt.m */; };
 		D869317A1E2CC2B2005C2D28 /* NSString+TXHash.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692FF71E2CC2B2005C2D28 /* NSString+TXHash.m */; };
 		D869317B1E2CC2B2005C2D28 /* NSString+TXHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692FF91E2CC2B2005C2D28 /* NSString+TXHTML.m */; };
 		D869317C1E2CC2B2005C2D28 /* NSString+TXMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692FFB1E2CC2B2005C2D28 /* NSString+TXMatcher.m */; };
@@ -232,8 +230,6 @@
 		D8692F7C1E2CC2B1005C2D28 /* NSData+TXBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXBase64.m"; sourceTree = "<group>"; };
 		D8692F7D1E2CC2B1005C2D28 /* NSData+TXDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXDataCache.h"; sourceTree = "<group>"; };
 		D8692F7E1E2CC2B1005C2D28 /* NSData+TXDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXDataCache.m"; sourceTree = "<group>"; };
-		D8692F7F1E2CC2B1005C2D28 /* NSData+TXEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXEncrypt.h"; sourceTree = "<group>"; };
-		D8692F801E2CC2B1005C2D28 /* NSData+TXEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXEncrypt.m"; sourceTree = "<group>"; };
 		D8692F811E2CC2B1005C2D28 /* NSData+TXGzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXGzip.h"; sourceTree = "<group>"; };
 		D8692F821E2CC2B1005C2D28 /* NSData+TXGzip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TXGzip.m"; sourceTree = "<group>"; };
 		D8692F831E2CC2B1005C2D28 /* NSData+TXHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TXHash.h"; sourceTree = "<group>"; };
@@ -334,8 +330,6 @@
 		D8692FF11E2CC2B2005C2D28 /* NSString+TXDictionaryValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXDictionaryValue.m"; sourceTree = "<group>"; };
 		D8692FF21E2CC2B2005C2D28 /* NSString+TXEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXEmoji.h"; sourceTree = "<group>"; };
 		D8692FF31E2CC2B2005C2D28 /* NSString+TXEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXEmoji.m"; sourceTree = "<group>"; };
-		D8692FF41E2CC2B2005C2D28 /* NSString+TXEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXEncrypt.h"; sourceTree = "<group>"; };
-		D8692FF51E2CC2B2005C2D28 /* NSString+TXEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXEncrypt.m"; sourceTree = "<group>"; };
 		D8692FF61E2CC2B2005C2D28 /* NSString+TXHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXHash.h"; sourceTree = "<group>"; };
 		D8692FF71E2CC2B2005C2D28 /* NSString+TXHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXHash.m"; sourceTree = "<group>"; };
 		D8692FF81E2CC2B2005C2D28 /* NSString+TXHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXHTML.h"; sourceTree = "<group>"; };
@@ -726,8 +720,6 @@
 				D8692F7C1E2CC2B1005C2D28 /* NSData+TXBase64.m */,
 				D8692F7D1E2CC2B1005C2D28 /* NSData+TXDataCache.h */,
 				D8692F7E1E2CC2B1005C2D28 /* NSData+TXDataCache.m */,
-				D8692F7F1E2CC2B1005C2D28 /* NSData+TXEncrypt.h */,
-				D8692F801E2CC2B1005C2D28 /* NSData+TXEncrypt.m */,
 				D8692F811E2CC2B1005C2D28 /* NSData+TXGzip.h */,
 				D8692F821E2CC2B1005C2D28 /* NSData+TXGzip.m */,
 				D8692F831E2CC2B1005C2D28 /* NSData+TXHash.h */,
@@ -933,8 +925,6 @@
 				D8692FF11E2CC2B2005C2D28 /* NSString+TXDictionaryValue.m */,
 				D8692FF21E2CC2B2005C2D28 /* NSString+TXEmoji.h */,
 				D8692FF31E2CC2B2005C2D28 /* NSString+TXEmoji.m */,
-				D8692FF41E2CC2B2005C2D28 /* NSString+TXEncrypt.h */,
-				D8692FF51E2CC2B2005C2D28 /* NSString+TXEncrypt.m */,
 				D8692FF61E2CC2B2005C2D28 /* NSString+TXHash.h */,
 				D8692FF71E2CC2B2005C2D28 /* NSString+TXHash.m */,
 				D8692FF81E2CC2B2005C2D28 /* NSString+TXHTML.h */,
@@ -1652,7 +1642,6 @@
 				D86932091E2CC2B3005C2D28 /* UIWebVIew+TXSwipeGesture.m in Sources */,
 				D86931FE1E2CC2B3005C2D28 /* UIViewController+TXBlockSegue.m in Sources */,
 				D869318A1E2CC2B2005C2D28 /* NSTimer+TXAddition.m in Sources */,
-				D86931791E2CC2B2005C2D28 /* NSString+TXEncrypt.m in Sources */,
 				D86932011E2CC2B3005C2D28 /* UIViewController+TXVisible.m in Sources */,
 				D86931F41E2CC2B2005C2D28 /* UIView+TXLayer.m in Sources */,
 				D86931A41E2CC2B2005C2D28 /* UIButton+TXImagePosition.m in Sources */,
@@ -1763,7 +1752,6 @@
 				D86931531E2CC2B2005C2D28 /* NSDictionary+TXBlock.m in Sources */,
 				D86931BC1E2CC2B2005C2D28 /* UIImage+TXCapture.m in Sources */,
 				D86931EA1E2CC2B2005C2D28 /* UITextView+TXPinchZoom.m in Sources */,
-				D86931461E2CC2B2005C2D28 /* NSData+TXEncrypt.m in Sources */,
 				D86931AA1E2CC2B2005C2D28 /* UIColor+TXHEX.m in Sources */,
 				D86931F21E2CC2B2005C2D28 /* UIView+TXFind.m in Sources */,
 				D86931641E2CC2B2005C2D28 /* NSNumber+TXCGFloat.m in Sources */,
