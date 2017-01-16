@@ -94,7 +94,7 @@ static char TXPermissionsLocationBlockFailurePropertyKey;
 
 -(TXPermissionAccess)hasAccessToLocation {
     switch ([CLLocationManager authorizationStatus]) {
-        case kCLAuthorizationStatusAuthorized:
+        case kCLAuthorizationStatusAuthorizedAlways:
             return TXPermissionAccessGranted;
             break;
             
@@ -274,7 +274,7 @@ static char TXPermissionsLocationBlockFailurePropertyKey;
 
 #pragma mark - Location manager delegate
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
-    if (status == kCLAuthorizationStatusAuthorized) {
+    if (status == kCLAuthorizationStatusAuthorizedAlways) {
         self.locationSuccessCallbackProperty();
     } else if (status != kCLAuthorizationStatusNotDetermined) {
         self.locationFailureCallbackProperty();

@@ -1,21 +1,13 @@
 //
-//  UILabel+ESAdjustableLabel.h
-//  ===========================
-//  This category adds a few helper methods to adjust
-//  a UIlabel to fit its text. 
-//  
-//  You can specify the minimum and maximum label size,
-//  minimum font size, or none at all.
-//                      ----
+//  UILabel+TXAdjustableLabel.h
+//  TXCategories (https://github.com/tlsion/TXCategories)
 //
-//  Created by Edgar Schmidt (@edgarschmidt) on 4/14/12.
-//  Copyright (c) 2012 Edgar Schmidt. All rights reserved.
-//
-//  This code is provided without any warranties.
-//  Hack around and enjoy ;)
+//  Created by 王-庭协 on 15/1/4.
+//  Copyright (c) 2015年 www.skyfox.org. All rights reserved.
 //
 
 #import "UILabel+TXAdjustableLabel.h"
+#import "NSString+TXSize.h"
 
 @implementation UILabel (TXAdjustableLabel)
 
@@ -43,9 +35,7 @@
   }
   
   // Now, calculate the size of the label constrained to maxSize
-  CGSize tempSize = [[self text] sizeWithFont:[self font] 
-                            constrainedToSize:maxSize 
-                                lineBreakMode:[self lineBreakMode]];
+    CGSize tempSize = [[self text] tx_sizeWithFont:[self font] constrainedToSize:maxSize];
   
   // If minSize is specified (not CGSizeZero) then 
   // check if the new calculated size is smaller than
@@ -77,10 +67,7 @@
     labelFont = [UIFont fontWithName:[labelFont fontName]
                                 size:fSize];
     // Calculate the frame size
-    calculatedSizeWithCurrentFontSize = 
-    [[self text] sizeWithFont:labelFont 
-            constrainedToSize:unconstrainedSize 
-                lineBreakMode:NSLineBreakByWordWrapping];
+      calculatedSizeWithCurrentFontSize =  [[self text] tx_sizeWithFont:labelFont constrainedToSize:unconstrainedSize];;
     // Reduce the temporary font size value
     fSize--;
   } while (calculatedSizeWithCurrentFontSize.height > maxSize.height);
