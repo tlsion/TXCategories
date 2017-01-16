@@ -10,41 +10,26 @@
 #import <UIKit/UIKit.h>
 @interface NSString (TXSize)
 /**
+ *  @brief 计算文字的宽度
+ *
+ *  @param font   字体(默认为系统字体)
+ */
+- (CGFloat)tx_widthWithFont:(UIFont *)font;
+
+/**
  *  @brief 计算文字的高度
  *
  *  @param font  字体(默认为系统字体)
  *  @param width 约束宽度
  */
-- (CGFloat)tx_heightWithFont:(UIFont *)font constrainedToWidth:(CGFloat)width;
-/**
- *  @brief 计算文字的宽度
- *
- *  @param font   字体(默认为系统字体)
- *  @param height 约束高度
- */
-- (CGFloat)tx_widthWithFont:(UIFont *)font constrainedToHeight:(CGFloat)height;
+- (CGFloat)tx_heightWithFont:(UIFont *)font width:(CGFloat)width;
 
 /**
  *  @brief 计算文字的大小
  *
- *  @param font  字体(默认为系统字体)
- *  @param width 约束宽度
- */
-- (CGSize)tx_sizeWithFont:(UIFont *)font constrainedToWidth:(CGFloat)width;
-/**
- *  @brief 计算文字的大小
- *
  *  @param font   字体(默认为系统字体)
- *  @param height 约束高度
+ *  @param size   约束宽高
  */
-- (CGSize)tx_sizeWithFont:(UIFont *)font constrainedToHeight:(CGFloat)height;
+- (CGSize)tx_sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size;
 
-/**
- *  @brief  反转字符串
- *
- *  @param strSrc 被反转字符串
- *
- *  @return 反转后字符串
- */
-+ (NSString *)tx_reverseString:(NSString *)strSrc;
 @end

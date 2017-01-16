@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (TXURLEncode)
-@property (nonatomic, readonly) NSURL *   URL;
+@property (nonatomic, readonly) NSURL *   tx_URL;
 
 /**
  *  @brief  urlEncode

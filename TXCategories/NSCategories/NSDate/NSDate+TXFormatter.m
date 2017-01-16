@@ -135,7 +135,7 @@
     [components setDay:day];
     return [calendar dateFromComponents:components];
 }
-- (NSString *)tx_dateWithFormat:(NSString *)format
+- (NSString *)tx_stringWithDateFormat:(NSString *)format
 {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:format];

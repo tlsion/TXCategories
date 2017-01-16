@@ -33,5 +33,8 @@
 + (NSString *)tx_currentDateStringWithFormat:(NSString *)format;
 + (NSDate *)tx_dateWithSecondsFromNow:(NSInteger)seconds;
 + (NSDate *)tx_dateWithYear:(NSInteger)year month:(NSUInteger)month day:(NSUInteger)day;
-- (NSString *)tx_dateWithFormat:(NSString *)format;
++ (NSDate *)tx_dateFromString:(NSString *)dateString andDateWithFormat:(NSString *)format;
+
+- (NSString *)tx_stringWithDateFormat:(NSString *)format;
+
 @end

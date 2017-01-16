@@ -9,7 +9,7 @@
 #ifndef TXCategories_h
 #define TXCategories_h
 
-#import "TXUIKit.h"
-#import "TXFoundation.h"
+#import "TXNSCategories.h"
+#import "TXUICategories.h"
 
 #endif /* TXCategories_h */

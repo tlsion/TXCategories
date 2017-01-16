@@ -83,6 +83,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (TXNormalRegex)
+
 /**
  *  手机号码的有效性:分电信、联通、移动和小灵通
  */
@@ -141,6 +142,21 @@
 - (BOOL)tx_isValidChinese;
 
 /**
+ *  纯数字
+ */
+- (BOOL)tx_isValidNumber;
+
+/**
+ *  纯字母
+ */
+- (BOOL) tx_isValidAlpha;
+
+/**
+ *  字母 或 数字
+ */
+- (BOOL) tx_isValidAlphaNum;
+
+/**
  *  邮政编码
  */
 - (BOOL)tx_isValidPostalcode;
@@ -150,6 +166,10 @@
  */
 - (BOOL)tx_isValidTaxNo;
 
+/**
+ *  是否包含字符串
+ */
+- (BOOL)tx_containsString:(NSString *)string;
 /**
  @brief     是否符合最小长度、最长长度，是否包含中文,首字母是否可以为数字
  @param     minLenth 账号最小长度

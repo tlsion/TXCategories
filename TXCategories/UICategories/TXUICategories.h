@@ -111,6 +111,8 @@
 #import "UIView+TXShake.h"
 #import "UIView+TXToast.h"
 #import "UIView+TXVisuals.h"
+#import "UIView+TXLayer.h"
+#import "UIView+TXRemove.h"
 #import "UIViewController+TXBackButtonItemTitle.h"
 #import "UIViewController+TXBackButtonTouched.h"
 #import "UIViewController+TXBlockSegue.h"

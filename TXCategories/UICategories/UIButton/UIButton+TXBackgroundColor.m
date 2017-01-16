@@ -13,6 +13,15 @@
  *  @brief  使用颜色设置按钮背景
  *
  *  @param backgroundColor 背景颜色
+ */
+- (void)tx_setBackgroundColor:(UIColor *)backgroundColor{
+    [self tx_setBackgroundColor:backgroundColor forState:UIControlStateNormal];
+}
+
+/**
+ *  @brief  使用颜色设置按钮背景
+ *
+ *  @param backgroundColor 背景颜色
  *  @param state           按钮状态
  */
 - (void)tx_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state

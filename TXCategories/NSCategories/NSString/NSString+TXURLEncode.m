@@ -10,7 +10,7 @@
 #import "NSString+TXURLEncode.h"
 
 @implementation NSString (TXURLEncode)
-- (NSURL *)URL{
+- (NSURL *)tx_URL{
     if (self.length > 0) {
         return [NSURL URLWithString:self];
     }

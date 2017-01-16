@@ -11,11 +11,11 @@
 
 @implementation UIImage (TXTempFolder)
 
-- (NSString *)saveImageToTempFolderWithFileName:(NSString *)fileName{
-    return [self saveImageToTempFolderWithFileName:fileName maxLength:0];
+- (NSString *)tx_saveImageToTempFolderWithFileName:(NSString *)fileName{
+    return [self tx_saveImageToTempFolderWithFileName:fileName maxLength:0];
 }
 
-- (NSString *)saveImageToTempFolderWithFileName:(NSString *)fileName maxLength:(CGFloat )maxLength{
+- (NSString *)tx_saveImageToTempFolderWithFileName:(NSString *)fileName maxLength:(CGFloat )maxLength{
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *filePath = [[paths objectAtIndex:0] stringByAppendingPathComponent:fileName];
 //  Save image.

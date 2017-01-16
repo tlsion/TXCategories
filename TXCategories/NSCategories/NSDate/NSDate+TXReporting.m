@@ -92,6 +92,15 @@
     return [gregorianCalendar dateFromComponents:components];
 }
 
++ (NSDate *)tx_dateFromString:(NSString *)dateString andDateWithFormat:(NSString *)format{
+    if (!format) {
+        format = @"yyyy-MM-dd HH:mm:ss";
+    };
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:format];
+    NSDate * destDate = [dateFormatter dateFromString:dateString];
+    return destDate;
+}
 
 + (NSDate *)tx_midnightOfDate:(NSDate *)date {
     NSCalendar *gregorianCalendar = [[self class] tx_gregorianCalendar_factory];

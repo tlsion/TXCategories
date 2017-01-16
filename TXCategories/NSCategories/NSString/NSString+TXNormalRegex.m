@@ -40,9 +40,9 @@
     NSString * CU = @"^1((3[0-2]|5[256]|8[56])\\d|709)\\d{7}$";
     /**
      20         * 中国电信：China Telecom
-     21         * 133,1349,153,180,189,1700
+     21         * 133,1349,153,180,189,1700,177
      22         */
-    NSString * CT = @"^1((33|53|8[09])\\d|349|700)\\d{7}$";
+    NSString * CT = @"^1((33|53|77|8[09])\\d|349|700)\\d{7}$";
     
     
     /**
@@ -112,6 +112,35 @@
     return [self tx_isValidateByRegex:chineseRegex];
 }
 
+- (BOOL) tx_isValidNumber
+{
+    NSString *regex =@"[0-9]*";
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
+    if (![pred evaluateWithObject:self]) {
+        return YES;
+    }
+    return NO;
+}
+
+- (BOOL) tx_isValidAlpha
+{
+    NSString *regex =@"[a-zA-Z]*";
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
+    if (![pred evaluateWithObject:self]) {
+        return YES;
+    }
+    return NO;
+}
+
+- (BOOL) tx_isValidAlphaNum{
+    NSString *regex =@"[a-zA-Z0-9]*";
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
+    if (![pred evaluateWithObject:self]) {
+        return YES;
+    }
+    return NO;
+}
+
 - (BOOL)tx_isValidPostalcode {
     NSString *postalRegex = @"^[0-8]\\d{5}(?!\\d)$";
     return [self tx_isValidateByRegex:postalRegex];
@@ -121,6 +150,15 @@
 {
     NSString *taxNoRegex = @"[0-9]\\d{13}([0-9]|X)$";
     return [self tx_isValidateByRegex:taxNoRegex];
+}
+
+- (BOOL)tx_containsString:(NSString *)string{
+    NSRange rang = [self rangeOfString:string];
+    if (rang.location == NSNotFound) {
+        return NO;
+    } else {
+        return YES;
+    }
 }
 
 - (BOOL)tx_isValidWithMinLenth:(NSInteger)minLenth

@@ -18,7 +18,7 @@
  *
  *  @return 返回图片路径
  */
-- (NSString *)saveImageToTempFolderWithFileName:(NSString *)fileName maxLength:(CGFloat )maxLength;
-- (NSString *)saveImageToTempFolderWithFileName:(NSString *)fileName;
+- (NSString *)tx_saveImageToTempFolderWithFileName:(NSString *)fileName maxLength:(CGFloat )maxLength;
+- (NSString *)tx_saveImageToTempFolderWithFileName:(NSString *)fileName;
 
 @end

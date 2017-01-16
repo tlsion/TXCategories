@@ -13,8 +13,6 @@
 - (CGFloat )tx_estimateWidth;
 - (CGFloat )tx_estimateHeightByWidth:(CGFloat )width;
 
-- (CGSize)tx_estimateSizeForWidth:(CGFloat)width;
-- (CGSize)tx_estimateSizeForAttributedString:(NSAttributedString *)string width:(CGFloat)width;
-- (CGSize)tx_estimateSizeForString:(NSString *)string width:(CGFloat)width;
+- (CGSize)tx_estimateSizeByWidth:(CGFloat)width;
 
 @end

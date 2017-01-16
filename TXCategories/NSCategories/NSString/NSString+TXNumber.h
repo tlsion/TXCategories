@@ -35,4 +35,5 @@
  *  价格型 例：￥9.80
  */
 + (NSString *)tx_valueOfPrice:(double)value;
+
 @end
