@@ -7,6 +7,7 @@
 //
 
 #import "UILabel+TXEstimate.h"
+#import "NSString+TXSize.h"
 
 @implementation UILabel (TXEstimate)
 

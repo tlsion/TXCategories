@@ -7,7 +7,7 @@
 //
 
 #import "NSString+TXSafeAccess.h"
-
+#import "NSString+TXNumber.h"
 @implementation NSString (TXSafeAccess)
 
 - (NSRange)tx_rangeOfString:(NSString *)searchString{
