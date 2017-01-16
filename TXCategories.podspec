@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "TXCategories"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "a collection of useful Objective-C Categories extending iOS Frameworks as Foundation and UIKit."
 s.homepage     = "https://github.com/tlsion/TXCategories"
 s.license      = "MIT"
