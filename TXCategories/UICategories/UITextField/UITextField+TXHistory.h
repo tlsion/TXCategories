@@ -20,8 +20,6 @@
 /**
  *  load textfiled input history
  *
- *  @param identify identity of this textfield
- *
  *  @return the history of it's input
  */
 - (NSArray*)tx_loadHistroy;

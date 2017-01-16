@@ -135,6 +135,17 @@
     [components setDay:day];
     return [calendar dateFromComponents:components];
 }
+
++ (NSDate *)tx_dateFromString:(NSString *)dateString andDateWithFormat:(NSString *)format{
+    if (!format) {
+        format = @"yyyy-MM-dd HH:mm:ss";
+    };
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:format];
+    NSDate * destDate = [dateFormatter dateFromString:dateString];
+    return destDate;
+}
+
 - (NSString *)tx_stringWithDateFormat:(NSString *)format
 {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];

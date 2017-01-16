@@ -75,7 +75,6 @@ typedef NS_ENUM(NSInteger, TXShakedDirection) {
  * @param times The number of shakes
  * @param delta The width of the shake
  * @param interval The duration of one shake
- * @param direction of the shake
  */
 - (void)tx_shake:(int)times withDelta:(CGFloat)delta speed:(NSTimeInterval)interval shakeDirection:(TXShakedDirection)shakeDirection;
 
@@ -86,7 +85,6 @@ typedef NS_ENUM(NSInteger, TXShakedDirection) {
  * @param times The number of shakes
  * @param delta The width of the shake
  * @param interval The duration of one shake
- * @param direction of the shake
  * @param handler A block object to be executed when the shake sequence ends
  */
 - (void)tx_shake:(int)times withDelta:(CGFloat)delta speed:(NSTimeInterval)interval shakeDirection:(TXShakedDirection)shakeDirection completion:(void((^)()))handler;
