@@ -54,4 +54,12 @@
  *  @return Unicode编码的字符串转成NSString
  */
 - (NSString *)tx_makeUnicodeToString;
+
+/**
+ *  @brief  params URL带的参数
+ *
+ *  @return NSString
+ */
+- (NSString *)tx_appendingParameters:(NSDictionary *)params;
+
 @end

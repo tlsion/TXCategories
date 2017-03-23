@@ -116,29 +116,20 @@
 {
     NSString *regex =@"[0-9]*";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
-    if (![pred evaluateWithObject:self]) {
-        return YES;
-    }
-    return NO;
+    return [pred evaluateWithObject:self];
 }
 
 - (BOOL) tx_isValidAlpha
 {
     NSString *regex =@"[a-zA-Z]*";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
-    if (![pred evaluateWithObject:self]) {
-        return YES;
-    }
-    return NO;
+    return [pred evaluateWithObject:self];
 }
 
 - (BOOL) tx_isValidAlphaNum{
     NSString *regex =@"[a-zA-Z0-9]*";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
-    if (![pred evaluateWithObject:self]) {
-        return YES;
-    }
-    return NO;
+    return [pred evaluateWithObject:self];
 }
 
 - (BOOL)tx_isValidPostalcode {

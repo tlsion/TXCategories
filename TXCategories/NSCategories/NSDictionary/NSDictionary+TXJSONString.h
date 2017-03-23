@@ -15,4 +15,7 @@
  *  @return  JSON字符串
  */
 -(NSString *)tx_JSONString;
+
++ (NSDictionary *)dictionaryWithJsonString:(NSString *)JSONString;
+
 @end

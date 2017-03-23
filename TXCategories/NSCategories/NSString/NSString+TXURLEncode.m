@@ -8,6 +8,7 @@
 
 
 #import "NSString+TXURLEncode.h"
+#import "NSURLRequest+TXParamsFromDictionary.h"
 
 @implementation NSString (TXURLEncode)
 - (NSURL *)tx_URL{
@@ -85,6 +86,21 @@
     NSString *returnStr = [NSPropertyListSerialization propertyListWithData:tempData options:NSPropertyListMutableContainersAndLeaves format:NULL error:NULL];
     
     return [returnStr stringByReplacingOccurrencesOfString:@"\\r\\n"withString:@"\n"];
+}
+
+
+
+- (NSString *)tx_appendingParameters:(NSDictionary *)params {
+    if (params) {
+        NSArray *queryStringComponents = [NSURLRequest tx_queryStringComponentsFromKey:nil value:params];
+        NSString *parameterString = [queryStringComponents componentsJoinedByString:@"&"];
+        if ([self rangeOfString:@"?"].location == NSNotFound) {
+            return [self stringByAppendingFormat:@"?%@",parameterString];
+        } else {
+            return [self stringByAppendingFormat:@"&%@",parameterString];
+        }
+    }
+    return self;
 }
 
 @end

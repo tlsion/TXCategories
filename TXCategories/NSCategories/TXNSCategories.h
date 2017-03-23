@@ -9,6 +9,7 @@
 #ifndef TXNSCategories_h
 #define TXNSCategories_h
 
+#import "NSMutableAttributedString+TXExtensions.h"
 #import "NSArray+TXBlock.h"
 #import "NSArray+TXSafeAccess.h"
 #import "NSBundle+TXExtension.h"
@@ -82,6 +83,7 @@
 #import "NSString+TXHTML.h"
 #import "NSString+TXNumber.h"
 #import "NSString+TXSafeAccess.h"
+#import "NSString+TXTranslation.h"
 #import "NSTimer+TXAddition.h"
 #import "NSTimer+TXBlocks.h"
 #import "NSURL+TXParam.h"
