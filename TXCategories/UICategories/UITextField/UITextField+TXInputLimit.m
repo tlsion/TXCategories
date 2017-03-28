@@ -16,7 +16,7 @@ static const void *TXTextFieldInputLimitMaxLength = &TXTextFieldInputLimitMaxLen
     return [objc_getAssociatedObject(self, TXTextFieldInputLimitMaxLength) integerValue];
 }
 - (void)setTx_maxLength:(NSInteger)maxLength {
-    objc_setAssociatedObject(self, TXTextFieldInputLimitMaxLength, @(maxLength), OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, TXTextFieldInputLimitMaxLength, @(maxLength), OBJC_ASSOCIATION_RETAIN);
     [self addTarget:self action:@selector(tx_textFieldTextDidChange) forControlEvents:UIControlEventEditingChanged];
 }
 - (void)tx_textFieldTextDidChange {

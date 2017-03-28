@@ -16,7 +16,7 @@ static const void *TXTextViewInputLimitMaxLength = &TXTextViewInputLimitMaxLengt
     return [objc_getAssociatedObject(self, TXTextViewInputLimitMaxLength) integerValue];
 }
 - (void)setTx_maxLength:(NSInteger)maxLength {
-    objc_setAssociatedObject(self, TXTextViewInputLimitMaxLength, @(maxLength), OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, TXTextViewInputLimitMaxLength, @(maxLength), OBJC_ASSOCIATION_RETAIN);
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(tx_textViewTextDidChange:)
                                                 name:@"UITextViewTextDidChangeNotification" object:self];
 
