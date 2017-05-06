@@ -17,7 +17,7 @@
 }
 
 - (void)addColor:(UIColor *)color range:(NSRange )range{
-    [self addAttribute:(NSString *)kCTForegroundColorAttributeName value:(id)[color CGColor] range:range];
+    [self addAttribute:NSForegroundColorAttributeName value:color range:range];
 }
 
 - (void)addImage:(UIImage *)image{

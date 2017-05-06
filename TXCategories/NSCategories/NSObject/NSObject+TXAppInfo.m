@@ -10,26 +10,37 @@
 #import <sys/utsname.h>
 @implementation NSObject (TXAppInfo)
 
--(NSString *)tx_version{
+-(NSDictionary *)tx_infoDictionary{
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-    NSString *app_Version = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
+    return infoDictionary;
+}
+
+-(NSString *)tx_version{
+    NSString *app_Version = [[self tx_infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     return app_Version;
 }
+
 -(NSInteger)tx_build{
-    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-    NSString *app_build = [infoDictionary objectForKey:@"CFBundleVersion"];
+    NSString *app_build = [[self tx_infoDictionary] objectForKey:@"CFBundleVersion"];
     return [app_build integerValue];
 }
+
 -(NSString *)tx_identifier{
-    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-    NSString * bundleIdentifier = [infoDictionary objectForKey:@"CFBundleIdentifier"];
+    NSString * bundleIdentifier = [[self tx_infoDictionary] objectForKey:@"CFBundleIdentifier"];
     return bundleIdentifier;
 }
+
+-(NSString *)tx_appName{
+    NSString *appName = [[self tx_infoDictionary] objectForKey:@"CFBundleDisplayName"];
+    return appName;
+}
+
 -(NSString *)tx_currentLanguage{
     NSArray *languages = [NSLocale preferredLanguages];
     NSString *currentLanguage = [languages firstObject];
     return [NSString stringWithString:currentLanguage];
 }
+
 -(NSString *)tx_deviceModel{
     struct utsname systemInfo;
     uname(&systemInfo);

@@ -62,4 +62,12 @@
     
     return str;
 }
+
+
++ (NSString *)tx_valueOfPriceZero:(double)value
+{
+    NSString *str = [NSString stringWithFormat:@"￥%@",[NSString tx_valueOfFloatZero:value]];
+    
+    return str;
+}
 @end

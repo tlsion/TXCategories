@@ -36,4 +36,9 @@
  */
 + (NSString *)tx_valueOfPrice:(double)value;
 
+/**
+ *  价格型：去掉小数点后多余的0
+ */
++ (NSString *)tx_valueOfPriceZero:(double)value;
+
 @end

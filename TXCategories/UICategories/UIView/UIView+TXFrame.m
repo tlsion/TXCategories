@@ -34,11 +34,11 @@
 }
 
 - (CGFloat) selfCenterX {
-    return CGRectGetMidX(self.frame);
+    return self.width / 2;
 }
 
 - (CGFloat) selfCenterY {
-    return CGRectGetMidY(self.frame);
+    return self.height / 2;
 }
 
 - (CGFloat) centerX {
