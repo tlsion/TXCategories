@@ -45,6 +45,9 @@ static NSString *UIAlertViewKey = @"UIAlertViewKey";
     alert.tx_alertViewCallBackBlock = alertViewCallBackBlock;
 }
 
++ (void)tx_alertWithTitle:(NSString *)title message:(NSString *)message  cancelButtonName:(NSString *)cancelButtonName{
+    [self tx_alertWithCallBackBlock:nil title:title message:message cancelButtonName:cancelButtonName otherButtonTitles:nil, nil];
+}
 
 - (void)setTx_alertViewCallBackBlock:(UIAlertViewTXCallBackBlock)alertViewCallBackBlock {
     

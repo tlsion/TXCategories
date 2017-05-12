@@ -211,6 +211,10 @@
 		D86932091E2CC2B3005C2D28 /* UIWebVIew+TXSwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D869313A1E2CC2B2005C2D28 /* UIWebVIew+TXSwipeGesture.m */; };
 		D869320A1E2CC2B3005C2D28 /* UIWebView+TXWebStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D869313C1E2CC2B2005C2D28 /* UIWebView+TXWebStorage.m */; };
 		D869320B1E2CC2B3005C2D28 /* UIWindow+TXHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = D869313F1E2CC2B2005C2D28 /* UIWindow+TXHierarchy.m */; };
+		D8C0F0021EC5910E00009714 /* UIApplication+TXOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C0F0011EC5910E00009714 /* UIApplication+TXOpen.m */; };
+		D8C0F0051EC599E100009714 /* UIAlertView+TXAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C0F0041EC599E100009714 /* UIAlertView+TXAccess.m */; };
+		D8C0F0081EC5A23D00009714 /* UIApplication+TXAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C0F0071EC5A23D00009714 /* UIApplication+TXAccess.m */; };
+		D8C0F00B1EC5A54200009714 /* UIImage+TXQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C0F00A1EC5A54200009714 /* UIImage+TXQRCode.m */; };
 		D8ED43F61E25D1C000E77375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED43F51E25D1C000E77375 /* main.m */; };
 		D8ED43F91E25D1C000E77375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED43F81E25D1C000E77375 /* AppDelegate.m */; };
 		D8ED43FC1E25D1C000E77375 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED43FB1E25D1C000E77375 /* ViewController.m */; };
@@ -631,6 +635,14 @@
 		D869313C1E2CC2B2005C2D28 /* UIWebView+TXWebStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TXWebStorage.m"; sourceTree = "<group>"; };
 		D869313E1E2CC2B2005C2D28 /* UIWindow+TXHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+TXHierarchy.h"; sourceTree = "<group>"; };
 		D869313F1E2CC2B2005C2D28 /* UIWindow+TXHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+TXHierarchy.m"; sourceTree = "<group>"; };
+		D8C0F0001EC5910E00009714 /* UIApplication+TXOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TXOpen.h"; sourceTree = "<group>"; };
+		D8C0F0011EC5910E00009714 /* UIApplication+TXOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TXOpen.m"; sourceTree = "<group>"; };
+		D8C0F0031EC599E100009714 /* UIAlertView+TXAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+TXAccess.h"; sourceTree = "<group>"; };
+		D8C0F0041EC599E100009714 /* UIAlertView+TXAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+TXAccess.m"; sourceTree = "<group>"; };
+		D8C0F0061EC5A23C00009714 /* UIApplication+TXAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TXAccess.h"; sourceTree = "<group>"; };
+		D8C0F0071EC5A23D00009714 /* UIApplication+TXAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TXAccess.m"; sourceTree = "<group>"; };
+		D8C0F0091EC5A54200009714 /* UIImage+TXQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TXQRCode.h"; sourceTree = "<group>"; };
+		D8C0F00A1EC5A54200009714 /* UIImage+TXQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TXQRCode.m"; sourceTree = "<group>"; };
 		D8ED43F11E25D1C000E77375 /* TXCategoriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXCategoriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8ED43F51E25D1C000E77375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8ED43F71E25D1C000E77375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1082,6 +1094,8 @@
 			children = (
 				D86930351E2CC2B2005C2D28 /* UIAlertView+TXBlock.h */,
 				D86930361E2CC2B2005C2D28 /* UIAlertView+TXBlock.m */,
+				D8C0F0031EC599E100009714 /* UIAlertView+TXAccess.h */,
+				D8C0F0041EC599E100009714 /* UIAlertView+TXAccess.m */,
 			);
 			path = UIAlertView;
 			sourceTree = "<group>";
@@ -1097,6 +1111,10 @@
 				D869303D1E2CC2B2005C2D28 /* UIApplication+TXNetworkActivityIndicator.m */,
 				D869303E1E2CC2B2005C2D28 /* UIApplication+TXPermissions.h */,
 				D869303F1E2CC2B2005C2D28 /* UIApplication+TXPermissions.m */,
+				D8C0F0001EC5910E00009714 /* UIApplication+TXOpen.h */,
+				D8C0F0011EC5910E00009714 /* UIApplication+TXOpen.m */,
+				D8C0F0061EC5A23C00009714 /* UIApplication+TXAccess.h */,
+				D8C0F0071EC5A23D00009714 /* UIApplication+TXAccess.m */,
 			);
 			path = UIApplication;
 			sourceTree = "<group>";
@@ -1249,6 +1267,8 @@
 				D86930A51E2CC2B2005C2D28 /* UIImage+TXTempFolder.m */,
 				D86930A61E2CC2B2005C2D28 /* UIImage+TXVector.h */,
 				D86930A71E2CC2B2005C2D28 /* UIImage+TXVector.m */,
+				D8C0F0091EC5A54200009714 /* UIImage+TXQRCode.h */,
+				D8C0F00A1EC5A54200009714 /* UIImage+TXQRCode.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -1585,7 +1605,7 @@
 				TargetAttributes = {
 					D8ED43F01E25D1C000E77375 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -1717,18 +1737,22 @@
 				D86931D91E2CC2B2005C2D28 /* UINavigationItem+TXMargin.m in Sources */,
 				D86931681E2CC2B2005C2D28 /* NSObject+TXAppInfo.m in Sources */,
 				D86932071E2CC2B3005C2D28 /* UIWebView+TXMetaParser.m in Sources */,
+				D8C0F0021EC5910E00009714 /* UIApplication+TXOpen.m in Sources */,
 				D86931441E2CC2B2005C2D28 /* NSData+TXBase64.m in Sources */,
 				D86931E41E2CC2B2005C2D28 /* UITextField+TXBlocks.m in Sources */,
+				D8C0F00B1EC5A54200009714 /* UIImage+TXQRCode.m in Sources */,
 				D86931FB1E2CC2B3005C2D28 /* UIView+TXVisuals.m in Sources */,
 				D869320B1E2CC2B3005C2D28 /* UIWindow+TXHierarchy.m in Sources */,
 				D86931E61E2CC2B2005C2D28 /* UITextField+TXInputLimit.m in Sources */,
 				D86931B31E2CC2B2005C2D28 /* UIFont+TXCustomLoader.m in Sources */,
+				D8C0F0051EC599E100009714 /* UIAlertView+TXAccess.m in Sources */,
 				D86931DE1E2CC2B2005C2D28 /* UIScrollView+TXPages.m in Sources */,
 				D869314A1E2CC2B2005C2D28 /* NSData+TXzlib.m in Sources */,
 				D86931DC1E2CC2B2005C2D28 /* UIScreen+TXFrame.m in Sources */,
 				D86931A81E2CC2B2005C2D28 /* UIButton+TXTouchAreaInsets.m in Sources */,
 				D86931561E2CC2B2005C2D28 /* NSDictionary+TXMerge.m in Sources */,
 				D86931C81E2CC2B2005C2D28 /* UIImage+TXVector.m in Sources */,
+				D8C0F0081EC5A23D00009714 /* UIApplication+TXAccess.m in Sources */,
 				D86931911E2CC2B2005C2D28 /* NSURLSession+TXSynchronousTask.m in Sources */,
 				D86931B51E2CC2B2005C2D28 /* UIFont+TXTTF.m in Sources */,
 				D86931A71E2CC2B2005C2D28 /* UIButton+TXSubmitting.m in Sources */,
@@ -1949,11 +1973,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TXCategoriesDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wang.TXCategoriesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1961,11 +1987,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TXCategoriesDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wang.TXCategoriesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

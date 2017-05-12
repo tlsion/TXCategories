@@ -11,10 +11,13 @@
 
 
 #import "UIAlertView+TXBlock.h"
+#import "UIAlertView+TXAccess.h"
 #import "UIApplication+TXApplicationSize.h"
 #import "UIApplication+TXKeyboardFrame.h"
 #import "UIApplication+TXNetworkActivityIndicator.h"
 #import "UIApplication+TXPermissions.h"
+#import "UIApplication+TXOpen.h"
+#import "UIApplication+TXAccess.h"
 #import "UIBarButtonItem+TXAction.h"
 #import "UIBarButtonItem+TXBadge.h"
 #import "UIBezierPath+TXBasicShapes.h"
@@ -68,6 +71,7 @@
 #import "UIImageView+TXGeometryConversion.h"
 #import "UIImageView+TXLetters.h"
 #import "UIImageView+TXReflect.h"
+#import "UIImage+TXQRCode.h"
 #import "UILabel+TXAdjustableLabel.h"
 #import "UILabel+TXAutomaticWriting.h"
 #import "UILabel+TXAutoSize.h"
