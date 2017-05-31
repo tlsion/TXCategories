@@ -70,7 +70,7 @@
 
 //手机号有效性
 - (BOOL)tx_isMobileNumber{
-     NSString *mobileRegex = @"^(0|86|17951)?(13[0-9]|15[012356789]|17[0678]|18[0-9]|14[57])[0-9]{8}$";
+    NSString *mobileRegex = @"^1[0-9]\\d{9}$";
     BOOL ret1 = [self tx_isValidateByRegex:mobileRegex];
     return ret1;
 }
