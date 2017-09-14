@@ -441,7 +441,7 @@
         retTime = time / 3600;
         retTime = retTime <= 0.0 ? 1.0 : retTime;
         return [NSString stringWithFormat:@"%.0f小时前", retTime];
-    } else if (time < 3600 * 24 * 2) {
+    } else if (time < 3600 * 24 * 2 && [date tx_isYesterday]) {
         return @"昨天";
     }
     // 第一个条件是同年，且相隔时间在一个月内

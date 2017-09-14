@@ -33,7 +33,7 @@
     CGSize newSize = [self tx_scaleImage:image withLength:maxWidth];
     UIImage *newImage = [self tx_resizeImage:image withNewSize:newSize];
     
-    CGFloat compress = 0.9f;
+    CGFloat compress = 0.99f;
     NSData *data = UIImageJPEGRepresentation(newImage, compress);
     
     while (data.length > maxLength && compress > 0.01) {

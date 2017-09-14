@@ -18,7 +18,7 @@
 - (CGFloat)tx_widthWithFont:(UIFont *)font
 {
     CGSize size = [self tx_sizeWithFont:font constrainedToSize:CGSizeMake(CGFLOAT_MAX, 0)];
-    return size.height;
+    return size.width;
 }
 
 /**

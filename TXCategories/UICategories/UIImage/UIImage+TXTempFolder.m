@@ -18,7 +18,7 @@
 - (NSString *)tx_saveImageToTempFolderWithFileName:(NSString *)fileName maxLength:(CGFloat )maxLength{
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *filePath = [[paths objectAtIndex:0] stringByAppendingPathComponent:fileName];
-//  Save image.
+    //  Save image.
     NSData *imageData = nil;
     if (maxLength == 0) {
         imageData = UIImageJPEGRepresentation(self, 1.0f);

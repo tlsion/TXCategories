@@ -12,7 +12,11 @@
 @implementation UILabel (TXEstimate)
 
 - (CGFloat )tx_estimateWidth{
-    CGSize size = [self tx_estimateSizeByWidth:CGFLOAT_MAX];
+    NSString * string = [self text];
+    if (!string) {
+        return 0;
+    }
+    CGSize size = [string tx_sizeWithFont:[self font] constrainedToSize:CGSizeMake(CGFLOAT_MAX, self.frame.size.height)];
     return ceil(size.width);
 }
 
@@ -26,7 +30,7 @@
     if (!string) {
         return CGSizeZero;
     }
-    return [string tx_sizeWithFont:[self font] constrainedToSize:CGSizeMake(CGFLOAT_MAX, width)];
+    return [string tx_sizeWithFont:[self font] constrainedToSize:CGSizeMake(width, CGFLOAT_MAX)];
 }
 
 @end
