@@ -1,16 +1,17 @@
 //
-//  UITableView+PlaceHolder.m
-//  Apestar
+//  UIScrollView+PlaceHolder.m
+//  TXCategoriesDemo
 //
-//  Created by 王-庭协 on 2016/12/27.
-//  Copyright © 2016年 ApeStar. All rights reserved.
+//  Created by Eton on 2017/10/12.
+//  Copyright © 2017年 王-庭协. All rights reserved.
 //
 
-#import "UITableView+PlaceHolder.h"
+#import "UIScrollView+PlaceHolder.h"
+
 
 #import <objc/runtime.h>
 
-@interface UITableView ()
+@interface UIScrollView ()
 
 @property (nonatomic, assign) BOOL scrollWasEnabled;
 @property (nonatomic, strong) UIView *placeHolderView;
@@ -18,7 +19,7 @@
 @end
 
 
-@implementation UITableView (PlaceHolder)
+@implementation UIScrollView (PlaceHolder)
 
 - (BOOL)scrollWasEnabled {
     NSNumber *scrollWasEnabledObject = objc_getAssociatedObject(self, @selector(scrollWasEnabled));
@@ -44,32 +45,56 @@
         [self performSelector:@selector(endRefreshing)];
     }
     
-    [self reloadData];
+    if ([self isKindOfClass:[UITableView class]]) {
+        [(UITableView *)self reloadData];
+    }else if ([self isKindOfClass:[UICollectionView class]]) {
+        [(UICollectionView *)self reloadData];
+    }
+    
     [self tx_checkEmpty];
 }
 
 - (void)tx_checkEmpty {
     BOOL isEmpty = YES;
     
-    id<UITableViewDataSource> src = self.dataSource;
-//    id<UITableViewDelegate> srcDele = self.delegate;
-    NSInteger sections = 1;
-    if ([src respondsToSelector: @selector(numberOfSectionsInTableView:)]) {
-        sections = [src numberOfSectionsInTableView:self];
-    }
-    for (NSInteger i = 0; i<sections; ++i) {
-        NSInteger rows = [src tableView:self numberOfRowsInSection:i];
-        if (rows) {
-            isEmpty = NO;
+    UIView * headerView = nil;
+    UIView * footerView = nil;
+    if ([self isKindOfClass:[UITableView class]]) {
+        
+        UITableView * tableView = (UITableView *)self;
+        
+        headerView = tableView.tableHeaderView;
+        footerView = tableView.tableFooterView;
+        
+        id<UITableViewDataSource> src = tableView.dataSource;
+        NSInteger sections = 1;
+        if ([src respondsToSelector: @selector(numberOfSectionsInTableView:)]) {
+            sections = [src numberOfSectionsInTableView:tableView];
+        }
+        for (NSInteger i = 0; i<sections; ++i) {
+            NSInteger rows = [src tableView:tableView numberOfRowsInSection:i];
+            if (rows) {
+                isEmpty = NO;
+            }
+        }
+        
+    }else if ([self isKindOfClass:[UICollectionView class]]) {
+        
+        UICollectionView * collectionView = (UICollectionView *)self;
+        
+        id<UICollectionViewDataSource> src = collectionView.dataSource;
+        NSInteger sections = 1;
+        if ([src respondsToSelector: @selector(numberOfSectionsInTableView:)]) {
+            sections = [src numberOfSectionsInCollectionView:collectionView];
+        }
+        for (NSInteger i = 0; i<sections; ++i) {
+            NSInteger rows = [src collectionView:collectionView numberOfItemsInSection:i];
+            if (rows) {
+                isEmpty = NO;
+            }
         }
         
     }
-    
-//    CGFloat headerViewHeight = 0.0f;
-//    //特殊处理，
-//    if ([src respondsToSelector: @selector(tableView:heightForHeaderInSection:)]) {
-//        headerViewHeight = [srcDele tableView:self heightForHeaderInSection:0];
-//    }
     
     if (!isEmpty != !self.placeHolderView) {
         if (isEmpty) {
@@ -104,7 +129,7 @@
                 //                                               reason:reason
                 //                                             userInfo:nil];
             }
-            self.placeHolderView.frame = CGRectMake(0, CGRectGetHeight(self.tableHeaderView.frame), CGRectGetWidth(self.frame), CGRectGetHeight(self.frame) - CGRectGetHeight(self.tableHeaderView.frame) - CGRectGetHeight(self.tableFooterView.frame));
+            self.placeHolderView.frame = CGRectMake(0, CGRectGetHeight(headerView.frame), CGRectGetWidth(self.frame), CGRectGetHeight(self.frame) - CGRectGetHeight(headerView.frame) - CGRectGetHeight(footerView.frame));
             [self addSubview:self.placeHolderView];
         } else {
             self.scrollEnabled = self.scrollWasEnabled;

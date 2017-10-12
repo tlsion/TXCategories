@@ -168,7 +168,6 @@
 		D86931DE1E2CC2B2005C2D28 /* UIScrollView+TXPages.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930DB1E2CC2B2005C2D28 /* UIScrollView+TXPages.m */; };
 		D86931DF1E2CC2B2005C2D28 /* UISearchBar+TXBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930DE1E2CC2B2005C2D28 /* UISearchBar+TXBlocks.m */; };
 		D86931E01E2CC2B2005C2D28 /* UISplitViewController+TXQuickAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930E11E2CC2B2005C2D28 /* UISplitViewController+TXQuickAccess.m */; };
-		D86931E11E2CC2B2005C2D28 /* UITableView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930E41E2CC2B2005C2D28 /* UITableView+PlaceHolder.m */; };
 		D86931E21E2CC2B2005C2D28 /* UITableViewCell+TXDelaysContentTouches.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930E71E2CC2B2005C2D28 /* UITableViewCell+TXDelaysContentTouches.m */; };
 		D86931E31E2CC2B2005C2D28 /* UITableViewCell+TXNIB.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930E91E2CC2B2005C2D28 /* UITableViewCell+TXNIB.m */; };
 		D86931E41E2CC2B2005C2D28 /* UITextField+TXBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930EC1E2CC2B2005C2D28 /* UITextField+TXBlocks.m */; };
@@ -221,6 +220,7 @@
 		D8ED43FF1E25D1C000E77375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ED43FD1E25D1C000E77375 /* Main.storyboard */; };
 		D8ED44011E25D1C000E77375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8ED44001E25D1C000E77375 /* Assets.xcassets */; };
 		D8ED44041E25D1C000E77375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ED44021E25D1C000E77375 /* LaunchScreen.storyboard */; };
+		D8F97E811F8F465000C55D81 /* UIScrollView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F97E801F8F465000C55D81 /* UIScrollView+PlaceHolder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -549,8 +549,6 @@
 		D86930DE1E2CC2B2005C2D28 /* UISearchBar+TXBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+TXBlocks.m"; sourceTree = "<group>"; };
 		D86930E01E2CC2B2005C2D28 /* UISplitViewController+TXQuickAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+TXQuickAccess.h"; sourceTree = "<group>"; };
 		D86930E11E2CC2B2005C2D28 /* UISplitViewController+TXQuickAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+TXQuickAccess.m"; sourceTree = "<group>"; };
-		D86930E31E2CC2B2005C2D28 /* UITableView+PlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+PlaceHolder.h"; sourceTree = "<group>"; };
-		D86930E41E2CC2B2005C2D28 /* UITableView+PlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PlaceHolder.m"; sourceTree = "<group>"; };
 		D86930E61E2CC2B2005C2D28 /* UITableViewCell+TXDelaysContentTouches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+TXDelaysContentTouches.h"; sourceTree = "<group>"; };
 		D86930E71E2CC2B2005C2D28 /* UITableViewCell+TXDelaysContentTouches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+TXDelaysContentTouches.m"; sourceTree = "<group>"; };
 		D86930E81E2CC2B2005C2D28 /* UITableViewCell+TXNIB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+TXNIB.h"; sourceTree = "<group>"; };
@@ -653,6 +651,8 @@
 		D8ED44001E25D1C000E77375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8ED44031E25D1C000E77375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8ED44051E25D1C000E77375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F97E7F1F8F465000C55D81 /* UIScrollView+PlaceHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PlaceHolder.h"; sourceTree = "<group>"; };
+		D8F97E801F8F465000C55D81 /* UIScrollView+PlaceHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PlaceHolder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1077,7 +1077,6 @@
 				D86930D71E2CC2B2005C2D28 /* UIScrollView */,
 				D86930DC1E2CC2B2005C2D28 /* UISearchBar */,
 				D86930DF1E2CC2B2005C2D28 /* UISplitViewController */,
-				D86930E21E2CC2B2005C2D28 /* UITableView */,
 				D86930E51E2CC2B2005C2D28 /* UITableViewCell */,
 				D86930EA1E2CC2B2005C2D28 /* UITextField */,
 				D86930F51E2CC2B2005C2D28 /* UITextView */,
@@ -1369,6 +1368,8 @@
 				D86930D91E2CC2B2005C2D28 /* UIScrollView+TXAddition.m */,
 				D86930DA1E2CC2B2005C2D28 /* UIScrollView+TXPages.h */,
 				D86930DB1E2CC2B2005C2D28 /* UIScrollView+TXPages.m */,
+				D8F97E7F1F8F465000C55D81 /* UIScrollView+PlaceHolder.h */,
+				D8F97E801F8F465000C55D81 /* UIScrollView+PlaceHolder.m */,
 			);
 			path = UIScrollView;
 			sourceTree = "<group>";
@@ -1389,15 +1390,6 @@
 				D86930E11E2CC2B2005C2D28 /* UISplitViewController+TXQuickAccess.m */,
 			);
 			path = UISplitViewController;
-			sourceTree = "<group>";
-		};
-		D86930E21E2CC2B2005C2D28 /* UITableView */ = {
-			isa = PBXGroup;
-			children = (
-				D86930E31E2CC2B2005C2D28 /* UITableView+PlaceHolder.h */,
-				D86930E41E2CC2B2005C2D28 /* UITableView+PlaceHolder.m */,
-			);
-			path = UITableView;
 			sourceTree = "<group>";
 		};
 		D86930E51E2CC2B2005C2D28 /* UITableViewCell */ = {
@@ -1702,7 +1694,6 @@
 				D86931C91E2CC2B2005C2D28 /* UIImageView+TXAddition.m in Sources */,
 				D86931B21E2CC2B2005C2D28 /* UIDevice+TXPasscodeStatus.m in Sources */,
 				D8ED43FC1E25D1C000E77375 /* ViewController.m in Sources */,
-				D86931E11E2CC2B2005C2D28 /* UITableView+PlaceHolder.m in Sources */,
 				D86931841E2CC2B2005C2D28 /* NSString+TXSize.m in Sources */,
 				D86931621E2CC2B2005C2D28 /* NSDecimalNumber+TXCalculatingByString.m in Sources */,
 				D869314E1E2CC2B2005C2D28 /* NSDate+TXInternetDateTime.m in Sources */,
@@ -1716,6 +1707,7 @@
 				D86931481E2CC2B2005C2D28 /* NSData+TXHash.m in Sources */,
 				D86931F91E2CC2B3005C2D28 /* UIView+TXShake.m in Sources */,
 				D86931831E2CC2B2005C2D28 /* NSString+TXScore.m in Sources */,
+				D8F97E811F8F465000C55D81 /* UIScrollView+PlaceHolder.m in Sources */,
 				D86931921E2CC2B2005C2D28 /* NSUserDefaults+TXiCloudSync.m in Sources */,
 				D86931821E2CC2B2005C2D28 /* NSString+TXSafeAccess.m in Sources */,
 				D86931931E2CC2B2005C2D28 /* NSUserDefaults+TXSafeAccess.m in Sources */,

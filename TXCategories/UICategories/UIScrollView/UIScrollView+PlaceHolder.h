@@ -1,14 +1,14 @@
 //
-//  UITableView+PlaceHolder.h
-//  Apestar
+//  UIScrollView+PlaceHolder.h
+//  TXCategoriesDemo
 //
-//  Created by 王-庭协 on 2016/12/27.
-//  Copyright © 2016年 ApeStar. All rights reserved.
+//  Created by Eton on 2017/10/12.
+//  Copyright © 2017年 王-庭协. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@protocol UITableViewPlaceHolderDelegate <NSObject>
+@protocol UIScrollViewPlaceHolderDelegate <NSObject>
 
 @required
 /*!
@@ -27,12 +27,7 @@
 
 @end
 
-@interface UITableView (PlaceHolder)
-//
-///**
-// *  设置无效的Section
-// */
-//- (void)tx_invalidSections:(NSArray *)invalidSections;
+@interface UIScrollView (PlaceHolder)
 
 /**
  *  刷新列表、自动加载空界面、结束上下拉刷新
