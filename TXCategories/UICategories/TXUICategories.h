@@ -90,7 +90,7 @@
 #import "UIScrollView+TXPages.h"
 #import "UISearchBar+TXBlocks.h"
 #import "UISplitViewController+TXQuickAccess.h"
-#import "UITableView+PlaceHolder.h"
+#import "UIScrollView+PlaceHolder.h"
 #import "UITableViewCell+TXDelaysContentTouches.h"
 #import "UITableViewCell+TXNIB.h"
 #import "UITextField+TXBlocks.h"
