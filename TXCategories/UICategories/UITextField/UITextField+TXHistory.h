@@ -17,12 +17,25 @@
  */
 @property (retain, nonatomic) NSString *tx_identify;
 
+
+/**
+ max history length, default is 30
+ */
+@property (nonatomic, assign) NSUInteger tx_maxHistoryLength;
+
 /**
  *  load textfiled input history
  *
  *  @return the history of it's input
  */
 - (NSArray*)tx_loadHistroy;
+
+/**
+ delete history, if history not found, do nothing
+
+ @param history history string content
+ */
+- (void)tx_deleteHistory:(NSString *)history;
 
 /**
  *  save current input text

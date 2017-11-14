@@ -15,6 +15,8 @@
 #define tx_history_H(view) (view.frame.size.height)
 
 static char kTextFieldIdentifyKey;
+static char kTextFieldMaxHistoryLenthKey;
+
 static char kTextFieldHistoryviewIdentifyKey;
 
 #define tx_ANIMATION_DURATION 0.3f
@@ -38,6 +40,17 @@ static char kTextFieldHistoryviewIdentifyKey;
 
 - (void)setTx_identify:(NSString *)identify {
     objc_setAssociatedObject(self, &kTextFieldIdentifyKey, identify, OBJC_ASSOCIATION_RETAIN);
+}
+
+- (NSUInteger)tx_maxHistoryLength{
+    NSUInteger maxLengthNumber = [objc_getAssociatedObject(self, &kTextFieldMaxHistoryLenthKey) unsignedIntegerValue];
+    maxLengthNumber = maxLengthNumber != 0 ? maxLengthNumber : 30;
+    return maxLengthNumber;
+}
+
+- (void)setTx_maxHistoryLength:(NSUInteger)tx_maxHistoryLength{
+    NSNumber *maxLength = @(tx_maxHistoryLength);
+    objc_setAssociatedObject(self, &kTextFieldMaxHistoryLenthKey, maxLength, OBJC_ASSOCIATION_RETAIN);
 }
 
 - (UITableView*)tx_historyTableView {
@@ -71,6 +84,28 @@ static char kTextFieldHistoryviewIdentifyKey;
     return nil;
 }
 
+- (void)tx_deleteHistory:(NSString *)history{
+    NSMutableArray *newHistory = [NSMutableArray arrayWithArray:self.tx_loadHistroy];
+    
+    __block NSUInteger index = NSNotFound;
+    [newHistory enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if ([(NSString*)obj isEqualToString:history]) {
+            *stop = true;
+            index = idx;
+        }
+    }];
+    if (index != NSNotFound) {
+        [newHistory removeObjectAtIndex:index];
+    }
+    
+    NSUserDefaults* def = [NSUserDefaults standardUserDefaults];
+    NSDictionary* dic = [def objectForKey:@"UITextField+TXHistory"];
+    NSMutableDictionary* dic2 = [NSMutableDictionary dictionaryWithDictionary:dic];
+    [dic2 setObject:newHistory forKey:self.tx_identify];
+    [def setObject:dic2 forKey:@"UITextField+TXHistory"];
+    [def synchronize];
+}
+
 - (void)tx_synchronize {
     if (self.tx_identify == nil || [self.text length] == 0) {
         return;
@@ -84,19 +119,26 @@ static char kTextFieldHistoryviewIdentifyKey;
     
     __block BOOL haveSameRecord = false;
     __weak typeof(self) weakSelf = self;
-    
+    __block NSUInteger index = NSNotFound;
     [newHistory enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         if ([(NSString*)obj isEqualToString:weakSelf.text]) {
             *stop = true;
             haveSameRecord = true;
+            index = idx;
         }
     }];
     
     if (haveSameRecord) {
-        return;
+        NSString *obj = [history objectAtIndex:index];
+        [newHistory removeObject:obj];
+        [newHistory insertObject:obj atIndex:0];
     }
-    
-    [newHistory addObject:self.text];
+    else{
+        [newHistory insertObject:self.text atIndex:0];
+    }
+    if (newHistory.count > self.tx_maxHistoryLength) {
+        [newHistory removeLastObject];
+    }
     
     NSMutableDictionary* dic2 = [NSMutableDictionary dictionaryWithDictionary:dic];
     [dic2 setObject:newHistory forKey:self.tx_identify];
