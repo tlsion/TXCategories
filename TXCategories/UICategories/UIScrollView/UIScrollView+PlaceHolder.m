@@ -130,6 +130,7 @@
                 //                                             userInfo:nil];
             }
             self.placeHolderView.frame = CGRectMake(0, CGRectGetHeight(headerView.frame), CGRectGetWidth(self.frame), CGRectGetHeight(self.frame) - CGRectGetHeight(headerView.frame) - CGRectGetHeight(footerView.frame));
+            self.placeHolderView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
             [self addSubview:self.placeHolderView];
         } else {
             self.scrollEnabled = self.scrollWasEnabled;

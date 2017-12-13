@@ -19,9 +19,13 @@
     NSMutableDictionary * parametersDictionary = [NSMutableDictionary dictionary];
     NSArray * queryComponents = [self.query componentsSeparatedByString:@"&"];
     for (NSString * queryComponent in queryComponents) {
-        NSString * key = [queryComponent componentsSeparatedByString:@"="].firstObject;
-        NSString * value = [queryComponent substringFromIndex:(key.length + 1)];
-        [parametersDictionary setObject:value forKey:key];
+        if ([queryComponent rangeOfString:@"="].length > 0) {
+            NSString * key = [queryComponent componentsSeparatedByString:@"="].firstObject;
+            if (queryComponent.length != key.length) {
+                NSString * value = [queryComponent substringFromIndex:(key.length + 1)];
+                [parametersDictionary setObject:value forKey:key];
+            }
+        }
     }
     return parametersDictionary;
 }
