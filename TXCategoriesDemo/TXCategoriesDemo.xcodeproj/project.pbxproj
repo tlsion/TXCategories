@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80A91BD1FFF7DB800E2DB47 /* UIDevice+TXPush.m in Sources */ = {isa = PBXBuildFile; fileRef = D80A91BB1FFF7DB700E2DB47 /* UIDevice+TXPush.m */; };
 		D83B9C641E839FCA00817DF9 /* NSMutableAttributedString+TXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D83B9C631E839FCA00817DF9 /* NSMutableAttributedString+TXExtensions.m */; };
 		D83B9C671E83A0E900817DF9 /* NSString+TXTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = D83B9C661E83A0E900817DF9 /* NSString+TXTranslation.m */; };
 		D86931401E2CC2B2005C2D28 /* NSArray+TXBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692F721E2CC2B1005C2D28 /* NSArray+TXBlock.m */; };
@@ -151,7 +152,6 @@
 		D86931CD1E2CC2B2005C2D28 /* UIImageView+TXLetters.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930B21E2CC2B2005C2D28 /* UIImageView+TXLetters.m */; };
 		D86931CE1E2CC2B2005C2D28 /* UIImageView+TXReflect.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930B41E2CC2B2005C2D28 /* UIImageView+TXReflect.m */; };
 		D86931CF1E2CC2B2005C2D28 /* UILabel+TXAdjustableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930B71E2CC2B2005C2D28 /* UILabel+TXAdjustableLabel.m */; };
-		D86931D01E2CC2B2005C2D28 /* UILabel+TXAutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930B91E2CC2B2005C2D28 /* UILabel+TXAutomaticWriting.m */; };
 		D86931D11E2CC2B2005C2D28 /* UILabel+TXAutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930BB1E2CC2B2005C2D28 /* UILabel+TXAutoSize.m */; };
 		D86931D21E2CC2B2005C2D28 /* UILabel+TXEstimate.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930BD1E2CC2B2005C2D28 /* UILabel+TXEstimate.m */; };
 		D86931D31E2CC2B2005C2D28 /* UINavigationBar+TXAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = D86930C01E2CC2B2005C2D28 /* UINavigationBar+TXAwesome.m */; };
@@ -224,6 +224,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D80A91BB1FFF7DB700E2DB47 /* UIDevice+TXPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TXPush.m"; sourceTree = "<group>"; };
+		D80A91BC1FFF7DB800E2DB47 /* UIDevice+TXPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TXPush.h"; sourceTree = "<group>"; };
 		D83B9C621E839FCA00817DF9 /* NSMutableAttributedString+TXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TXExtensions.h"; sourceTree = "<group>"; };
 		D83B9C631E839FCA00817DF9 /* NSMutableAttributedString+TXExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TXExtensions.m"; sourceTree = "<group>"; };
 		D83B9C651E83A0E900817DF9 /* NSString+TXTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXTranslation.h"; sourceTree = "<group>"; };
@@ -515,8 +517,6 @@
 		D86930B41E2CC2B2005C2D28 /* UIImageView+TXReflect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TXReflect.m"; sourceTree = "<group>"; };
 		D86930B61E2CC2B2005C2D28 /* UILabel+TXAdjustableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TXAdjustableLabel.h"; sourceTree = "<group>"; };
 		D86930B71E2CC2B2005C2D28 /* UILabel+TXAdjustableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TXAdjustableLabel.m"; sourceTree = "<group>"; };
-		D86930B81E2CC2B2005C2D28 /* UILabel+TXAutomaticWriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TXAutomaticWriting.h"; sourceTree = "<group>"; };
-		D86930B91E2CC2B2005C2D28 /* UILabel+TXAutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TXAutomaticWriting.m"; sourceTree = "<group>"; };
 		D86930BA1E2CC2B2005C2D28 /* UILabel+TXAutoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TXAutoSize.h"; sourceTree = "<group>"; };
 		D86930BB1E2CC2B2005C2D28 /* UILabel+TXAutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TXAutoSize.m"; sourceTree = "<group>"; };
 		D86930BC1E2CC2B2005C2D28 /* UILabel+TXEstimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TXEstimate.h"; sourceTree = "<group>"; };
@@ -1208,6 +1208,8 @@
 				D86930771E2CC2B2005C2D28 /* UIDevice+TXHardware.m */,
 				D86930781E2CC2B2005C2D28 /* UIDevice+TXPasscodeStatus.h */,
 				D86930791E2CC2B2005C2D28 /* UIDevice+TXPasscodeStatus.m */,
+				D80A91BC1FFF7DB800E2DB47 /* UIDevice+TXPush.h */,
+				D80A91BB1FFF7DB700E2DB47 /* UIDevice+TXPush.m */,
 			);
 			path = UIDevice;
 			sourceTree = "<group>";
@@ -1296,8 +1298,6 @@
 			children = (
 				D86930B61E2CC2B2005C2D28 /* UILabel+TXAdjustableLabel.h */,
 				D86930B71E2CC2B2005C2D28 /* UILabel+TXAdjustableLabel.m */,
-				D86930B81E2CC2B2005C2D28 /* UILabel+TXAutomaticWriting.h */,
-				D86930B91E2CC2B2005C2D28 /* UILabel+TXAutomaticWriting.m */,
 				D86930BA1E2CC2B2005C2D28 /* UILabel+TXAutoSize.h */,
 				D86930BB1E2CC2B2005C2D28 /* UILabel+TXAutoSize.m */,
 				D86930BC1E2CC2B2005C2D28 /* UILabel+TXEstimate.h */,
@@ -1666,6 +1666,7 @@
 				D869314C1E2CC2B2005C2D28 /* NSDate+TXExtension.m in Sources */,
 				D86931811E2CC2B2005C2D28 /* NSString+TXRemoveEmoji.m in Sources */,
 				D86931631E2CC2B2005C2D28 /* NSDecimalNumber+TXExtensions.m in Sources */,
+				D80A91BD1FFF7DB800E2DB47 /* UIDevice+TXPush.m in Sources */,
 				D869318D1E2CC2B2005C2D28 /* NSURL+TXQueryDictionary.m in Sources */,
 				D86931A11E2CC2B2005C2D28 /* UIButton+TXBadge.m in Sources */,
 				D86931B11E2CC2B2005C2D28 /* UIDevice+TXHardware.m in Sources */,
@@ -1795,7 +1796,6 @@
 				D86931901E2CC2B2005C2D28 /* NSURLRequest+TXParamsFromDictionary.m in Sources */,
 				D86931C01E2CC2B2005C2D28 /* UIImage+TXGIF.m in Sources */,
 				D86931761E2CC2B2005C2D28 /* NSString+TXBase64.m in Sources */,
-				D86931D01E2CC2B2005C2D28 /* UILabel+TXAutomaticWriting.m in Sources */,
 				D86931D71E2CC2B2005C2D28 /* UINavigationItem+TXLoading.m in Sources */,
 				D86931951E2CC2B2005C2D28 /* UIApplication+TXApplicationSize.m in Sources */,
 				D86931851E2CC2B2005C2D28 /* NSString+TXStringPages.m in Sources */,

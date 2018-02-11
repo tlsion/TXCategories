@@ -75,6 +75,7 @@
             NSInteger rows = [src tableView:tableView numberOfRowsInSection:i];
             if (rows) {
                 isEmpty = NO;
+                break;
             }
         }
         
@@ -91,6 +92,7 @@
             NSInteger rows = [src collectionView:collectionView numberOfItemsInSection:i];
             if (rows) {
                 isEmpty = NO;
+                break;
             }
         }
         

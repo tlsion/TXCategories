@@ -73,7 +73,6 @@
 #import "UIImageView+TXReflect.h"
 #import "UIImage+TXQRCode.h"
 #import "UILabel+TXAdjustableLabel.h"
-#import "UILabel+TXAutomaticWriting.h"
 #import "UILabel+TXAutoSize.h"
 #import "UILabel+TXEstimate.h"
 #import "UINavigationBar+TXAwesome.h"
