@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D80A91BD1FFF7DB800E2DB47 /* UIDevice+TXPush.m in Sources */ = {isa = PBXBuildFile; fileRef = D80A91BB1FFF7DB700E2DB47 /* UIDevice+TXPush.m */; };
+		D8256E0A2030216500602D50 /* UILabel+TXAutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = D8256E082030216500602D50 /* UILabel+TXAutomaticWriting.m */; };
 		D83B9C641E839FCA00817DF9 /* NSMutableAttributedString+TXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D83B9C631E839FCA00817DF9 /* NSMutableAttributedString+TXExtensions.m */; };
 		D83B9C671E83A0E900817DF9 /* NSString+TXTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = D83B9C661E83A0E900817DF9 /* NSString+TXTranslation.m */; };
 		D86931401E2CC2B2005C2D28 /* NSArray+TXBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D8692F721E2CC2B1005C2D28 /* NSArray+TXBlock.m */; };
@@ -226,6 +227,8 @@
 /* Begin PBXFileReference section */
 		D80A91BB1FFF7DB700E2DB47 /* UIDevice+TXPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TXPush.m"; sourceTree = "<group>"; };
 		D80A91BC1FFF7DB800E2DB47 /* UIDevice+TXPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TXPush.h"; sourceTree = "<group>"; };
+		D8256E082030216500602D50 /* UILabel+TXAutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TXAutomaticWriting.m"; sourceTree = "<group>"; };
+		D8256E092030216500602D50 /* UILabel+TXAutomaticWriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TXAutomaticWriting.h"; sourceTree = "<group>"; };
 		D83B9C621E839FCA00817DF9 /* NSMutableAttributedString+TXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TXExtensions.h"; sourceTree = "<group>"; };
 		D83B9C631E839FCA00817DF9 /* NSMutableAttributedString+TXExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TXExtensions.m"; sourceTree = "<group>"; };
 		D83B9C651E83A0E900817DF9 /* NSString+TXTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXTranslation.h"; sourceTree = "<group>"; };
@@ -1298,6 +1301,8 @@
 			children = (
 				D86930B61E2CC2B2005C2D28 /* UILabel+TXAdjustableLabel.h */,
 				D86930B71E2CC2B2005C2D28 /* UILabel+TXAdjustableLabel.m */,
+				D8256E092030216500602D50 /* UILabel+TXAutomaticWriting.h */,
+				D8256E082030216500602D50 /* UILabel+TXAutomaticWriting.m */,
 				D86930BA1E2CC2B2005C2D28 /* UILabel+TXAutoSize.h */,
 				D86930BB1E2CC2B2005C2D28 /* UILabel+TXAutoSize.m */,
 				D86930BC1E2CC2B2005C2D28 /* UILabel+TXEstimate.h */,
@@ -1820,6 +1825,7 @@
 				D869314F1E2CC2B2005C2D28 /* NSDate+TXReporting.m in Sources */,
 				D86931581E2CC2B2005C2D28 /* NSDictionary+TXURL.m in Sources */,
 				D86931BB1E2CC2B2005C2D28 /* UIImage+TXBlur.m in Sources */,
+				D8256E0A2030216500602D50 /* UILabel+TXAutomaticWriting.m in Sources */,
 				D86931511E2CC2B2005C2D28 /* NSDate+TXZeroDate.m in Sources */,
 				D86931551E2CC2B2005C2D28 /* NSDictionary+TXJSONString.m in Sources */,
 				D86931741E2CC2B2005C2D28 /* NSRunLoop+TXPerformBlock.m in Sources */,
